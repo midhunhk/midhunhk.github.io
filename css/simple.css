@@ -1,1 +1,23 @@
-asd
+/* A Simple Css file*/
+
+body {
+font: 300 21px Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+color: #ddd;
+background-color: #333;
+border-top: 5px solid #ff9900;
+-webkit-box-shadow: inset 0 3px 30px rgba(0,0,0,.3);
+-moz-box-shadow: inset 0 3px 30px rgba(0,0,0,.3);
+box-shadow: inset 0 3px 30px rgba(0,0,0,.3);
+text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+body {
+margin: 0;
+}
+
+footer {
+background-color: #222;
+font-size: 16px;
+padding-bottom: 5px;
+color: #888;
+margin-top: 40px;
+}
