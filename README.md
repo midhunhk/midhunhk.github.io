@@ -1,3 +1,5 @@
 midhunhk.github.io
 ==================
-Personal page for midhunhk
+This is the personal page for midhunhk. 
+
+Live at http://midhunhk.github.io/
