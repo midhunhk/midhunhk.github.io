@@ -6,7 +6,7 @@ relative_permalinks: true
 
 # Setup
 title:               Midhun Harikumar
-tagline:             Personal Webspace
+tagline:             Code while Sleeping
 url:                 http://midhunhk.github.io/
 paginate:            4
 baseurl:             ""
