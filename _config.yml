@@ -8,7 +8,7 @@ relative_permalinks: true
 title:               Midhun Harikumar
 tagline:             Personal Webspace
 url:                 http://midhunhk.github.io/
-paginate:            1
+paginate:            4
 baseurl:             ""
 
 # Assets
@@ -25,6 +25,6 @@ author:
   email:             markdotto@gmail.com
 
 # Custom vars
-version:             2.0.0
+version:             1.0.1
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/midhunhk/midhunhk.github.io
