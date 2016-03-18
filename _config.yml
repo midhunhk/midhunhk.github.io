@@ -5,9 +5,9 @@ permalink:           pretty
 # Setup
 title:               Midhun Harikumar
 tagline:             Code into the night
-url:                 http://midhunhk.github.io/
-paginate:            4
-baseurl:             http://midhunhk.github.io/
+url:                 http://midhunhk.github.io
+paginate:            10
+baseurl:             ""
 
 # Assets
 #
@@ -23,6 +23,11 @@ author:
   email:             markdotto@gmail.com
 
 # Custom vars
-version:             1.0.2
+version:             1.0.3
 github:
   repo:              https://github.com/midhunhk/midhunhk.github.io
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
