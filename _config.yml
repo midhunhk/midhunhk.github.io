@@ -4,7 +4,7 @@ permalink:           pretty
 
 # Setup
 title:               Midhun Harikumar
-tagline:             Code into the night
+tagline:             Random Thoughts!
 url:                 http://midhunhk.github.io
 paginate:            4
 baseurl:             http://midhunhk.github.io
@@ -23,7 +23,7 @@ author:
   email:             markdotto@gmail.com
 
 # Custom vars
-version:             1.0.3
+version:             1.0.4
 github:
   repo:              https://github.com/midhunhk/midhunhk.github.io
 
