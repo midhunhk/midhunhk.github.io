@@ -3,7 +3,7 @@ layout: post
 title: Java 8 Functional Interfaces
 ---
 I did further research into Lambda expressions in Java 8 after my <a href="http://midhunhk.github.io/2016/07/30/java-8-lambdas-thread/">last article</a>.
-It was then that I came to know about "Functional Interfaces". Undrstanding the basics is key to learning Lambda expressions in Java 8. 
+It was then that I came to know about "Functional Interfaces". Understanding the basics is the key to learning Lambda expressions in Java 8. 
 
 ## Functional Interface
 
@@ -13,7 +13,13 @@ See below for examples with a custom interface and see how code with and without
 
 <script src="https://gist.github.com/midhunhk/8096ef74828732d5c9ab0a05453fcc63.js"></script>
 
-There is a steep learning curve when it comes to lambda expressions for experienced Java developers, especially if they are not familiar with this concept in javascript of any other languages. Once the basic princples are clear, it is easy to follow.
+Lets see the how this lambda expression really works.
+
+`(name, age) -> System.out.println("Hello " + name + ", you are " + age + " old");`
+
+Here, `UserInfo` has only one method `printInfo(String name, Integer age)`. This is all information for the compiler to create an anonymous inner class. This expression has two parts separated by a `->` operator. The first part, `(name, age)` represents the parameter list for the method and the code after `-> ` is the body for the method.
+
+There is a steep learning curve when it comes to lambda expressions for experienced Java developers, especially if they are not familiar with this concept in javascript or any other languages. Once the basic princples are clear, it is easy to follow.
 
 ## Closures in JavaScript
 The below code is the above example written in javascript. Here the object `userInfo` is a function that can be invoked by passing parameters
