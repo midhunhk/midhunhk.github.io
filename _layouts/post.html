@@ -8,6 +8,8 @@ layout: default
   {{ content }}
 </article>
 
+{% include advertisements.html %}
+
 {% if site.related_posts != empty %}
 <aside class="related">
   <h2>Related Posts</h2>
@@ -25,5 +27,3 @@ layout: default
   </ul>
 </aside>
 {% endif %}
-
-{% include advertisements.html %}
