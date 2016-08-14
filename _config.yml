@@ -27,6 +27,9 @@ version:             1.0.4
 github:
   repo:              https://github.com/midhunhk/midhunhk.github.io
 
+# Google services
+google_analytics: UA-54193565-1
+
 # Gems
 gems:
   - jekyll-paginate
