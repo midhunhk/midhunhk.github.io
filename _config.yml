@@ -7,7 +7,7 @@ title:               Midhun Harikumar
 tagline:             Random Thoughts!
 url:                 http://midhunhk.github.io
 paginate:            4
-baseurl:             /
+baseurl:             
 
 # Assets
 #
@@ -23,7 +23,7 @@ author:
   email:             markdotto@gmail.com
 
 # Custom vars
-version:             1.0.4
+version:             1.0.5
 github:
   repo:              https://github.com/midhunhk/midhunhk.github.io
 
