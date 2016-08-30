@@ -34,3 +34,4 @@ google_analytics: UA-54193565-1
 gems:
   - jekyll-paginate
   - jekyll-gist
+  - jekyll-sitemap
