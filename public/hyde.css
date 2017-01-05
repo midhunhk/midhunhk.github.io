@@ -252,3 +252,9 @@ a.sidebar-nav-item:focus {
 }
 
 .post-tag { display: inline-block; background: rgba(255, 153, 0, 0.15); padding: 0 .5rem; margin-right: .5rem; border-radius: 4px; color: #6a9fb5; font-size: 90%; }
+
+/*animate link underlines*/
+.hover-link-underline a { position: relative; color: #000; text-decoration: none; }
+.hover-link-underline a:hover { color: #000; }
+.hover-link-underline a:before { content: ""; position: absolute; width: 100%; height: 2px; bottom: 0; left: 0;background-color: #000;visibility: hidden;-webkit-transform: scaleX(0);transform: scaleX(0);-webkit-transition: all 0.3s ease-in-out 0s;transition: all 0.3s ease-in-out 0s; }
+.hover-link-underline a:hover:before { visibility: visible; -webkit-transform: scaleX(1); transform: scaleX(1);}
