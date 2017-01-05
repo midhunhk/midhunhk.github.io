@@ -1,6 +1,8 @@
 ---
 layout: post
 title: First DSLR
+category: Photography
+tags: [personal, photography, dslr]
 ---
 ![randomcontact](/public/images/canon_lens.jpg)
 I finally made transition from a Point & Shoot camera to a DSLR. It was made possible with the Canon 700D and 18-55 and 55-250 lenses. I had been researching to purchase a DSLR back when Canon 550D was in the market. It took me so many years to finally buy one and the 550D has stopped production so long ago.
