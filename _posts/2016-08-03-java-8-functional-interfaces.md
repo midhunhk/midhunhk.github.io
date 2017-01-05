@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Java 8 Functional Interfaces
+category: Dev
+tags: [java, java8, lambda]
 ---
 I did further research into Lambda expressions in Java 8 after my <a href="http://midhunhk.github.io/2016/07/30/java-8-lambdas-thread/">last article</a>.
 It was then that I came to know about "Functional Interfaces". Understanding the basics is the key to learning Lambda expressions in Java 8. 
