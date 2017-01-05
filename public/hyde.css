@@ -58,7 +58,7 @@ html {
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
-  border-left: 6px solid #ff9900;
+  border-right: 8px solid #ff9900;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -81,7 +81,7 @@ html {
   color: #fff;
   margin-top: 0;
   /*font-family: "Abril Fatface", serif;*/
-  font-family: 'Bree Serif', serif;
+  font-family: 'Merriweather', serif;
   font-size: 3.25rem;
 }
 
