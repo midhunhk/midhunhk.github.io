@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Random Contact Update
+category: Project
+tags: [app, android]
 ---
 ![randomcontact](/public/images/random_contact_2_3_feature.png)
 
