@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Project codenamed MoonShine
+category: Project
+tags: [app, html]
 ---
 ![randomcontact](/public/images/moonshine_sample.png)
 
