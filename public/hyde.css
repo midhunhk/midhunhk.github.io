@@ -58,7 +58,8 @@ html {
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
-  border-right: 4px solid #ff9900;
+  /* border-right: 4px solid #ff9900; */
+  box-shadow: 10px 10px 5px #888;
 }
 @media (min-width: 48em) {
   .sidebar {
