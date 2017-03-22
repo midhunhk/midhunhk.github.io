@@ -24,3 +24,7 @@ Once the Activity is loaded, we would set the style of the Activity back to the 
 <script src="https://gist.github.com/midhunhk/fe2be8b80e4b9af15797d805045c88b4.js?file=MainActivity.java"></script>
 
 That's it, the contents of splash.xml will be displayed instead of the blank white screen before the application launches. This is a good place to show the app's branding.
+
+<div class="post-header orange"> 
+  <div class="post-title">Hello</div> 
+</div>
