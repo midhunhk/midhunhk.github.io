@@ -2,11 +2,13 @@
 
 */
 .post-header{
-	height: 150px;
+	height: 200px;
+	margin: 10px 0;
+	border-radius: 5px;
 	text-align: center;
 }
 .post-title{
-	padding-top: 60px;
+	padding-top: 100px;
 	vertical-align: middle;
 	font-family: 'Merriweather', serif;
 	font-size: 1.8rem;
