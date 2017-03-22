@@ -4,8 +4,8 @@ title: Splash Screen
 category: Dev
 tags: [app, android]
 ---
-<div class="post-header mexican-red"> 
-  <div class="post-title">Android Splash Screen</div> 
+<div class="custom-post-header mexican-red"> 
+  <div class="custom-post-title">Android Splash Screen</div> 
 </div>
 
 With the latest updates to Trip O Meter (codenamed Balanjar - Version 2.0), the app startup time has increased a bit. 
