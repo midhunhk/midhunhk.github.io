@@ -2,10 +2,6 @@
 layout: page
 title: Projects
 ---
-<div class="custom-post-header midnight-blue">
-  <div class="custom-post-title">Personal Projects</div>
-</div>
-
 Listed below is a non exhaustive list of my personal projects. Source code for most projects are available on GitHub.
 
 | No| Projects  |
