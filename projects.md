@@ -19,3 +19,6 @@ Listed below is a non exhaustive list of my personal projects. Source code for m
 | 11 | File Splitter  |
 | 12 | DiscsIndex  |
 | 13 | Project Manager  |
+| 14 | [Legendary Train](https://github.com/midhunhk/legendary-train) |
+| 15 | [libSndbar](https://github.com/midhunhk/lib-sndbar)|
+| 16 | [libAeApps](https://github.com/midhunhk/ae-apps-library) |
