@@ -222,8 +222,7 @@ a.sidebar-nav-item:focus {
 }
 .theme-base-0c .content a,
 .theme-base-0c .related-posts li a:hover {
-  /*color: #75b5aa;*/
-  color: #ffffff;
+  color: #75b5aa;
 }
 
 /* Blue */
@@ -253,7 +252,7 @@ a.sidebar-nav-item:focus {
   color: #8f5536;
 }
 
-.post-tag { display: inline-block; /*background: rgba(255, 153, 0, 0.15);*/ background: #86c6bb; padding: 0 .5rem; margin-right: .5rem; border-radius: 4px; color: #6a9fb5; font-size: 90%; }
+.post-tag { display: inline-block; /*background: rgba(255, 153, 0, 0.15);*/ background: #86c6bb; padding: 0 .5rem; margin-right: .5rem; border-radius: 4px; color: #6a9fb5; font-size: 90%; color: #ffffff;}
 
 /*animate link underlines*/
 .hover-link-underline a { position: relative; text-decoration: none; color: #fff;}
