@@ -6,7 +6,8 @@ title: Categories
 <div class="tags-expo">
   <div class="tags-expo-list">
     {% for tag in site.categories %}
-    <a href="#{{ tag[0] | slugify }}" class="post-tag" style="color: #ffffff;">{{ tag[0] }}</a>,
+    <a href="#{{ tag[0] | slugify }}" class="post-tag" style="color: #ffffff;">{{ tag[0] }}</a>
+      {%if forloop.index < forloop.length %} , {% endif %}
     {% endfor %}
   </div>
   <hr/>
