@@ -4,7 +4,7 @@ title: Splash Screen
 category: Dev
 tags: [app, android]
 ---
-<div class="custom-post-header mexican-red"> 
+<div class="custom-post-header gulf-stream"> 
   <div class="custom-post-title">Android Splash Screen</div> 
 </div>
 
