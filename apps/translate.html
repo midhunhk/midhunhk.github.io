@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        
+        <title>Translation &middot; Helper</title>
+        
+        <!--	
+		Material Design for Bootstrap
+
+		Version: MDB Free 4.3.2
+
+		Documentation:
+		http://mdbootstrap.com/
+
+		Getting started:
+		http://mdbootstrap.com/getting-started/
+
+		FAQ
+		http://mdbootstrap.com/faq/
+		
+		Icons List
+		https://mdbootstrap.com/css/icons-list/
+		-->
+		  
+		<!-- Font Awesome -->
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" rel="stylesheet">
+
+		<!-- Bootstrap core CSS -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Material Design Bootstrap -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/css/mdb.min.css" rel="stylesheet">
+		
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet">
+    </head>
+    
+    <body>
+		
+		<div class="container-fluid info-color .z-depth-3"">
+			<div class="container">
+				<div class="row white-text p-2">
+					<h3>Translator Helper for Android apps projects</h3>
+				</div>
+			</div>
+		</div>
+		
+        <div class="container">
+		
+			<section class="section magazine-section">
+
+				<div class="row text-xs-left">
+
+					<!--First column-->
+					<div class="col-lg-4 col-md-8">
+					
+						<!--Featured news-->
+						<div class="single-news">
+						
+						<div class="row mt-1">
+							<div class="col-md-12">
+								<input id="txtName" name="textinput" placeholder="Property Name (str_prop_name)" class="form-control input-md" required="" type="text">
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-12">
+								<input id="txtText" name="textinput" placeholder="Translated String" class="form-control input-md" required="" type="text">
+							</div>
+						</div>
+						
+						<div class="row">
+							<div class="col-md-12">
+								<input id="txtLangCode" name="textinput" placeholder="Language Code (en, es, fr, de) optional" class="form-control input-md" required="" type="text">
+							</div>
+						</div>
+
+						<!-- Button -->
+						<div class="row">
+							<div class="col-md-12">
+								<a id="generateButton" class="btn btn-primary" href="#">
+									<span>Generate</span>
+									<i class="fa fa-space-shuttle" aria-hidden="true"></i>
+								</a>
+								<a id="resetButton" class="btn btn-default" href="#">
+									<span>Reset</span>
+									<i class="fa fa-flash" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
+
+						</div>
+						<!--/Featured news-->
+
+					</div>
+					<!--/First column-->
+
+					<!--Second column-->
+					<div class="col-lg-8 col-md-16  default-color">
+
+						<!--Small news-->
+						<div class="single-news">
+
+							<div class="row">
+
+								<div class="col-md-12 text-left">
+									<pre id="responseWrapper">
+										<code id="response"></code>
+									</pre>
+								</div>
+
+							</div>
+						</div>
+						<!--/Small news-->
+
+					</div>
+					<!--/Second column-->
+
+				</div>
+				<!--/First row-->
+				
+
+
+			</section>
+		
+    </div><!-- /.container -->
+        
+        <!-- Load jQuery -->
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/js/mdb.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+        
+        <script>
+			//
+			// http://nicetranslator.com/
+			// 
+			
+            $(document).ready(function(){
+				// Called when the page is ready
+				
+				// Bind button clicks
+                $("#generateButton").click( function(e){
+                    e.preventDefault();
+                    
+					var name = $("#txtName").val();
+					var text = $("#txtText").val();
+					var lang = $("#txtLangCode").val()
+					
+					Translations.addEntry(name, text, lang);
+					
+					Translations.clearInputs();
+					
+					Translations.updateSection();
+                    
+                    return false;
+                });
+				
+				$("#resetButton").click( function(e){
+					e.preventDefault();
+					
+					Translations.clearAllInputs();
+					
+					Translations.reset();
+					
+					Translations.updateSection();
+				});
+				
+            });
+			
+			// Define the app object to manage the translations data
+			var Translations = (function (){
+				var VERSION = "1.0.5";
+				var translationsData = {};
+				
+				addEntry = function(name, text, lang){
+					
+					if(!name || !text){
+						toastr.error('Input required to generate entry.');
+						return;
+					}
+				
+                    var entry = '<string name="' + name +'">' + text +'</string>';
+					
+					var translations = translationsData[lang];
+					if(!translations){
+						translations = [];
+						translationsData[lang] = translations;
+					}
+					
+					translations.push(entry);
+					
+				},
+				
+				clearInputs = function (){
+					$("#txtText").val("");
+					$("#txtLangCode").val("");
+				},
+				
+				clearAllInputs = function () {
+					$("#txtName").val("");
+					clearInputs();
+				},
+				
+				updateSection = function() {
+					var htmlData = "";
+					
+					$.each(translationsData, function (index, entries) {
+						if(!!index){
+							htmlData += "\n<!-- Language " + index + " -->";
+						}
+						
+						$(entries).each( function(index, value){
+							htmlData += "\n" + value;
+						});
+					});
+					$("#response").text(htmlData);
+				},
+				
+				reset = function() {
+					translationsData = {};
+				}
+			
+				return {
+					reset : reset,
+					addEntry : addEntry,
+					clearInputs : clearInputs, 
+					clearAllInputs : clearAllInputs,
+					updateSection : updateSection
+				}
+			})();
+            
+        </script>
+    </body>
+</html>
