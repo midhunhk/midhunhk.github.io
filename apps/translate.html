@@ -182,7 +182,7 @@
 			// Define the app object to manage the translations data
 			// -----------------------------------------------------
 			var Translations = (function (){
-				var VERSION = "1.1.5";
+				var VERSION = "1.1.6";
 				var translationsData = {};
 				var $container = $("#translationRowContainer");
 				
@@ -191,10 +191,10 @@
 				},
 				
 				addEntries = function(){
-					toastr.info("Adding " + $(".langCodeAndTranslationRow").length + " entries.");
+					// toastr.info("Adding " + $(".langCodeAndTranslationRow").length + " entries.");
 					
 					var name = $("#txtName").val();
-					$(".langCodeAndTranslationRow").each( function (){
+					$(".langCodeAndTranslationRow:visible").each( function (){
 						$lang = $(this).find(".langCode");
 						$text = $(this).find(".translationString");
 					
@@ -257,7 +257,7 @@
 				
 				addTranslationRow = function (){
 					
-					var $translationRow = $("#translationRowContainer").find(".langCodeAndTranslationRow")[0];
+					var $translationRow = $container.find(".langCodeAndTranslationRow")[0];
 					var $template = $($translationRow).clone()
 					$template.find(".langCode").text("");
 					$template.addClass("clonedRow");
