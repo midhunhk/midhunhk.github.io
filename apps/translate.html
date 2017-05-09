@@ -4,10 +4,10 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
+        <meta name="description" content="Translation Helper is a SPA that helps when translating android string resources to multiple languages">
         <meta name="author" content="">
         
-        <title>Translation &middot; Helper</title>
+        <title>Translation Helper</title>
         
         <!--	
 		Material Design for Bootstrap
@@ -19,9 +19,6 @@
 
 		Getting started:
 		http://mdbootstrap.com/getting-started/
-
-		FAQ
-		http://mdbootstrap.com/faq/
 		
 		Icons List
 		https://mdbootstrap.com/css/icons-list/
@@ -41,15 +38,25 @@
     
     <body>
 		
-		<div class="container-fluid info-color .z-depth-3"">
+		<!-- Navigation -->
+		<nav class="navbar fixed-top navbar-toggleable-md navbar-dark scrolling-navbar cyan accent-4 lighten-3">
 			<div class="container">
-				<div class="row white-text p-2">
-					<h3>Translator Helper for Android apps projects</h3>
+				<a class="navbar-brand col-md-10" href="#">
+					<h3 id="appTitle">Translator Helper</h3>
+				</a>
+				<div class="collapse navbar-collapse col-md-2" id="navbarNav">
+					<ul class="navbar-nav mr-auto">
+						<a href="https://github.com/midhunhk/midhunhk.github.io/tree/master/apps">
+							<i class="fa fa-github" aria-hidden="true"></i>
+							<span>Github Project</span>
+						</a>
+					</ul>
 				</div>
 			</div>
-		</div>
+		</nav>
+		<!-- End Navigation -->
 		
-        <div class="container">
+        <div class="container mt-5">
 		
 			<section class="section magazine-section">
 
@@ -59,7 +66,7 @@
 					<div class="col-lg-4 col-md-8">
 					
 						<!--Featured news-->
-						<div class="single-news">
+						<div class="single-news animated fadeIn" >
 						
 						<div class="row mt-1">
 							<div class="col-md-12">
@@ -70,7 +77,7 @@
 						<div id="translationRowContainer">
 							<div class="row langCodeAndTranslationRow">
 								<div class="col-md-2">
-									<input id="txtLangCode" name="textinput" placeholder="Lang Code" class="form-control input-md p-1 m-1 langCode" required="" type="text">
+									<input id="txtLangCode" name="textinput" placeholder="Lang Code" class="form-control input-md p-1 m-1 langCode " required="" type="text">
 								</div>
 								<div class="col-md-10">
 									<input id="txtText" name="textinput" placeholder="Translated String" class="form-control input-md p-1 translationString" required="" type="text">
@@ -81,14 +88,14 @@
 						<!-- Button -->
 						<div class="row">
 							<div class="col-md-12">
-								<a id="generateButton" class="btn btn-primary" href="#">
+								<a id="generateButton" class="btn btn-primary">
 									<span>Generate</span>
-									<i class="fa fa-space-shuttle" aria-hidden="true"></i>
+									<i class="fa fa-space-shuttle animated rubberBand" aria-hidden="true"></i>
 								</a>
-								<a id="addRowButton" class="btn btn-mdb btn-sm mt-1" href="#">
+								<a id="addRowButton" class="btn btn-mdb btn-sm mt-1" >
 									<span>+</span>
 								</a>
-								<a id="resetButton" class="btn btn-mdb btn-sm mt-1" href="#">
+								<a id="resetButton" class="btn btn-mdb btn-sm mt-1">
 									<span>Reset</span>
 								</a>
 							</div>
@@ -101,7 +108,7 @@
 					<!--/First column-->
 
 					<!--Second column-->
-					<div class="col-lg-8 col-md-16  default-color">
+					<div class="col-lg-8 col-md-16  cyan darken-2 animated fadeInDown">
 
 						<!--Small news-->
 						<div class="single-news">
@@ -110,7 +117,7 @@
 
 								<div class="col-md-12 text-left">
 									<pre id="responseWrapper">
-										<code id="response"></code>
+										<code id="response" class="white-text"></code>
 									</pre>
 								</div>
 
@@ -156,7 +163,6 @@
                 });
 				
 				$("#resetButton").click( function(e){
-					e.preventDefault();
 					
 					Translations.clearAllInputs();
 					
@@ -166,19 +172,22 @@
 				});
 				
 				$("#addRowButton").click( function(){
+					
 					Translations.addTranslationRow();
 				});
 				
             });
 			
+			// -----------------------------------------------------
 			// Define the app object to manage the translations data
+			// -----------------------------------------------------
 			var Translations = (function (){
-				var VERSION = "1.1.0";
+				var VERSION = "1.1.5";
 				var translationsData = {};
 				var $container = $("#translationRowContainer");
 				
 				init = function (){
-					// addTranslationRow();
+					$("#appTitle").text( $("#appTitle").text() + " " + VERSION);
 				},
 				
 				addEntries = function(){
@@ -221,7 +230,10 @@
 					$("#txtLangCode").val("");
 					clearInputs();
 					
-					$container.find(".clonedRows").empty();
+					$($container.find(".clonedRows")).empty();
+					for(var i = $container.children().length - 1; i > 0 ; i--){
+						$( $container.children().get(i) ).hide('fast').empty();
+					}
 				},
 				
 				updateSection = function() {
@@ -247,9 +259,9 @@
 					
 					var $translationRow = $("#translationRowContainer").find(".langCodeAndTranslationRow")[0];
 					var $template = $($translationRow).clone()
-					$template.find(".langCode").html("");
+					$template.find(".langCode").text("");
 					$template.addClass("clonedRow");
-					$template.find(".translationString").html("");
+					$template.find(".translationString").text("");
 					$template.hide().appendTo($container).show('normal');
 				}
 			
