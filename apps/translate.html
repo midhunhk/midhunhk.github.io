@@ -63,19 +63,18 @@
 						
 						<div class="row mt-1">
 							<div class="col-md-12">
-								<input id="txtName" name="textinput" placeholder="Property Name (str_prop_name)" class="form-control input-md" required="" type="text">
+								<input id="txtName" name="textinput" placeholder="Property Name (str_prop_name)" class="form-control input-md p-1" required="" type="text">
 							</div>
 						</div>
 
-						<div class="row">
-							<div class="col-md-12">
-								<input id="txtText" name="textinput" placeholder="Translated String" class="form-control input-md" required="" type="text">
-							</div>
-						</div>
-						
-						<div class="row">
-							<div class="col-md-12">
-								<input id="txtLangCode" name="textinput" placeholder="Language Code (en, es, fr, de) optional" class="form-control input-md" required="" type="text">
+						<div id="translationRowContainer">
+							<div class="row langCodeAndTranslationRow">
+								<div class="col-md-2">
+									<input id="txtLangCode" name="textinput" placeholder="Lang Code" class="form-control input-md p-1 m-1 langCode" required="" type="text">
+								</div>
+								<div class="col-md-10">
+									<input id="txtText" name="textinput" placeholder="Translated String" class="form-control input-md p-1 translationString" required="" type="text">
+								</div>
 							</div>
 						</div>
 
@@ -86,9 +85,11 @@
 									<span>Generate</span>
 									<i class="fa fa-space-shuttle" aria-hidden="true"></i>
 								</a>
-								<a id="resetButton" class="btn btn-default" href="#">
+								<a id="addRowButton" class="btn btn-mdb btn-sm mt-1" href="#">
+									<span>+</span>
+								</a>
+								<a id="resetButton" class="btn btn-mdb btn-sm mt-1" href="#">
 									<span>Reset</span>
-									<i class="fa fa-flash" aria-hidden="true"></i>
 								</a>
 							</div>
 						</div>
@@ -141,18 +142,13 @@
 			
             $(document).ready(function(){
 				// Called when the page is ready
+				Translations.init();
 				
 				// Bind button clicks
                 $("#generateButton").click( function(e){
                     e.preventDefault();
                     
-					var name = $("#txtName").val();
-					var text = $("#txtText").val();
-					var lang = $("#txtLangCode").val()
-					
-					Translations.addEntry(name, text, lang);
-					
-					Translations.clearInputs();
+					Translations.addEntries();
 					
 					Translations.updateSection();
                     
@@ -169,12 +165,33 @@
 					Translations.updateSection();
 				});
 				
+				$("#addRowButton").click( function(){
+					Translations.addTranslationRow();
+				});
+				
             });
 			
 			// Define the app object to manage the translations data
 			var Translations = (function (){
-				var VERSION = "1.0.5";
+				var VERSION = "1.1.0";
 				var translationsData = {};
+				var $container = $("#translationRowContainer");
+				
+				init = function (){
+					// addTranslationRow();
+				},
+				
+				addEntries = function(){
+					toastr.info("Adding " + $(".langCodeAndTranslationRow").length + " entries.");
+					
+					var name = $("#txtName").val();
+					$(".langCodeAndTranslationRow").each( function (){
+						$lang = $(this).find(".langCode");
+						$text = $(this).find(".translationString");
+					
+						addEntry(name, $text.val(), $lang.val());
+					});
+				},
 				
 				addEntry = function(name, text, lang){
 					
@@ -197,12 +214,14 @@
 				
 				clearInputs = function (){
 					$("#txtText").val("");
-					$("#txtLangCode").val("");
 				},
 				
 				clearAllInputs = function () {
 					$("#txtName").val("");
+					$("#txtLangCode").val("");
 					clearInputs();
+					
+					$container.find(".clonedRows").empty();
 				},
 				
 				updateSection = function() {
@@ -222,14 +241,26 @@
 				
 				reset = function() {
 					translationsData = {};
+				},
+				
+				addTranslationRow = function (){
+					
+					var $translationRow = $("#translationRowContainer").find(".langCodeAndTranslationRow")[0];
+					var $template = $($translationRow).clone()
+					$template.find(".langCode").html("");
+					$template.addClass("clonedRow");
+					$template.find(".translationString").html("");
+					$template.hide().appendTo($container).show('normal');
 				}
 			
 				return {
+					init : init,
 					reset : reset,
-					addEntry : addEntry,
+					addEntries : addEntries,
 					clearInputs : clearInputs, 
+					updateSection : updateSection,
 					clearAllInputs : clearAllInputs,
-					updateSection : updateSection
+					addTranslationRow : addTranslationRow
 				}
 			})();
             
