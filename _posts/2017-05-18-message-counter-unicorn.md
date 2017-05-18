@@ -6,7 +6,7 @@ tags: [app, android]
 ---
 <div class="custom-post-header teal">
   <div class="custom-post-title">
-    <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f984.png" style="padding:2px"/>
+    <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f984.png" style="float:left;padding:2px"/>
     <span>Unicorn</span>
   </div>
 </div>
