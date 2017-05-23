@@ -17,24 +17,11 @@
 
 /* Some Colorful backgrounds for the header*/
 
-.orange{
-	background-color: #ff9900;
-}
-.violet{
-	background-color: rgba(123, 31, 162, 1);
-}
-.teal{
-	background-color: #028482;
-}
-.mexican-red{
-	background-color: #A31E39;	
-}
-.midnight-blue{
-	background-color: #003366;	
-}
-.rocket-red{
-	background-color: #FB3745;	
-}
-.gulf-stream{
-	background-color: #75b5aa;
-}
+.orange{background-color: #ff9900;}
+.violet{background-color: rgba(123, 31, 162, 1); }
+.teal{ background-color: #028482;}
+.mexican-red{ background-color: #A31E39; }
+.midnight-blue{background-color: #003366; }
+.rocket-red{ background-color: #FB3745; }
+.gulf-stream{background-color: #75b5aa; }
+.caribbean-green{ background-color: #02CCA4;}
