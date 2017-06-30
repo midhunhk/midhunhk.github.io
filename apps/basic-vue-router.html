@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>vue-router</title>
+	
+	<!-- Bootstrap core CSS -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Material Design Bootstrap -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/css/mdb.min.css" rel="stylesheet">
+</head>
+
+<body>
+	
+	<!-- Navigation -->
+	<nav class="navbar fixed-top navbar-toggleable-md navbar-dark scrolling-navbar deep-orange-gradient accent-4 lighten-3 animated bounce">
+		<div class="container">
+			<a class="navbar-brand col-md-10" href="#">
+				<h3 id="appTitle">basic vue-router</h3>
+			</a>
+		</div>
+	</nav>
+	<!-- End Navigation -->
+	
+	<div id="app" class="container mt-5">
+	  <h1>Hello App!</h1>
+	  <p>
+		<!-- use router-link component for navigation. -->
+		<!-- specify the link by passing the `to` prop. -->
+		<!-- `<router-link>` will be rendered as an `<a>` tag by default -->
+		<router-link to="/foo">Go to Foo</router-link> | 
+		<router-link to="/bar">Go to Bar</router-link>
+	  </p>
+	  <!-- route outlet -->
+	  <!-- component matched by the route will render here -->
+	  <router-view></router-view>
+	</div>
+	
+	<script src="https://unpkg.com/vue/dist/vue.js"></script>
+	<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+	<script src="basic-vue-router.js"></script>
+
+</body>
+</html>
