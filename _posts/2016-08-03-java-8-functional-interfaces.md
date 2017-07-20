@@ -36,3 +36,6 @@ The below code is the above example written in javascript. Here the object `user
 
 ### Further Reading
 * <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/FunctionalInterface.html">Functional Interfaces</a>
+
+#### Update
+Using lambda expressions is performance and memory efficient than using Anonymous inner classes. When we create an anonymnous inner class, JVM has to create a new object, allocate memory, initialize static blocks, run the constructor methods etc. These are not required when creating a lambda expression.
