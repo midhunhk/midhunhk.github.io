@@ -26,14 +26,14 @@ And apparantly, `trusty` does not support Android SDKs by default.
 
 I currently solved this problem by updating the config file to use `precise` as shown below.
 
-*.travis.yml*
-`language: android  
-dist: precise  
-jdk: oraclejdk8  `
+*.travis.yml*  
+`language: android`  
+`dist: precise`  
+`jdk: oraclejdk8`  
 
 Once the Android SDKs are available in trusty, or when workarounds to install the SDK and tools onto trusty are available, the Builds would be switched to `trusty`.
 
 ## References
-https://blog.travis-ci.com/2017-07-11-trusty-as-default-linux-is-coming?utm_source=web&utm_medium=banner&&utm_campaign=trusty-default
-https://github.com/travis-ci/travis-ci/issues/5990
-https://github.com/Amos2016GroupOne/amos-ss16-proj1/pull/11/files
+[Travis Blogpost](https://blog.travis-ci.com/2017-07-11-trusty-as-default-linux-is-coming?utm_source=web&utm_medium=banner&&utm_campaign=trusty-default)  
+[Issue raised on GitHub](https://github.com/travis-ci/travis-ci/issues/5990)  
+[Refernce fix for this issue](https://github.com/Amos2016GroupOne/amos-ss16-proj1/pull/11/files)  
