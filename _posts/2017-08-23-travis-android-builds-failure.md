@@ -5,7 +5,7 @@ category: Dev
 tags: [app, android]
 ---
 <div class="custom-post-header mexican-red">
-<div class="custom-post-title">Travis Andorid Build Failure</div>
+<div class="custom-post-title">Travis Android Build Failure</div>
 </div>
 The last release for Trip O Meter was in July. Last week, I was modifying some other configuration in the project, and all of a sudden the Trip O Meter Travis Builds started failing.
 I had setup the CI builds for every checkin with the latest release [Fig and Camelot](http://midhunhk.github.io/dev/2017/07/17/fig-and-camelot/).
