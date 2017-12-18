@@ -3,8 +3,9 @@ layout: post
 title: Google Developer Days India 2017
 category: Dev
 tags: [google, gdd, india]
----
-![description](/public/images/gdd_india.jpg)
+--- 
+![GDD India 2017](/public/images/gdd_india.jpg)
+
 I was fortunate to get an invitation to attend the first ever Google Developer Days event in India. I just registered on the site 2-3 months
 back and was surprised when I receieved an email confirming my participation. I was very excited as this was the first major Google event 
 that I was going to attend. Travel plans and stay arrangements were made and the long wait to Dec started.
