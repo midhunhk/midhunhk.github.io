@@ -5,7 +5,7 @@ featured_image: '/public/images/gdd_india.jpg'
 category: Dev
 tags: [google, gdd, india]
 --- 
-
+![GDD India 2017](/public/images/gdd_india.jpg)
 
 I was fortunate to get an invitation to attend the first ever Google Developer Days event in India. I just registered on the site 2-3 months
 back and was surprised when I receieved an email confirming my participation. I was very excited as this was the first major Google event 
