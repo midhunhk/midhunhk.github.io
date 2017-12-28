@@ -6,7 +6,7 @@ This is my personal blog hosted at [midhunhk.github.io](http://midhunhk.github.i
 
 The blog uses [Jekyll](http://jekyllrb.com) which is a static site generator and [Poole](https://github.com/poole) to power with sample templates, pages, posts and styles. I am using the [Hyde](http://hyde.getpoole.com) theme at present.
 
-http://midhunhk.github.io/2013/12/31/whats-jekyll/
+https://jekyllrb.com/docs/home/
 
 ## Benefits
 
