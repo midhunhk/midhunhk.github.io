@@ -6,8 +6,9 @@ permalink:           pretty
 title:               Midhun Harikumar
 tagline:             Random Thoughts!
 url:                 http://midhunhk.github.io
-paginate:            4
+paginate:            5
 baseurl:             
+tag_page:            /tags/
 
 # Assets
 #
@@ -23,7 +24,7 @@ author:
   email:             markdotto@gmail.com
 
 # Custom vars
-version:             1.0.5
+version:             1.1.0
 github:
   repo:              https://github.com/midhunhk/midhunhk.github.io
 
