@@ -9,7 +9,7 @@ I finally made transition from a Point & Shoot camera to a DSLR. It was made pos
 
 For me there was a lot to learn using DSLRs having used a Sony Cybershot for around 5 years. I started with Auto mode, moved quickly to Aperture Priority (AV) mode to fully Manual and to Semi Manual mode. Learning about the Exposure triangle, Metering modes, Picture styles and finally ISO should have covered the most difficult things within a year.
 
-Ofcourse one should be aware of the main compositional rules that can be followed.
+Of course one should be aware of the main compositional rules that can be followed.
 
 If you are planning to switch to a DSLR, do some research and may be try out a DSLR to see how it feels. The different terms and wealth of different camera models and lenses would confuse simple folks like me.
 

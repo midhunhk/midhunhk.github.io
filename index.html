@@ -2,10 +2,11 @@
 layout: default
 title: Home
 ---
-
+<!--
 <div style="display:inline-block;">
     Browse by <a href="/categories/">Category</a> or <a href="/tags/">Tag</a>
 </div>
+-->
 
 <div class="posts">
   {% for post in paginator.posts %}
@@ -24,6 +25,7 @@ title: Home
 
     {% if post.content contains "<!-- more -->" %}
       {{ post.content | split:"<!-- more -->" | first % }}
+      <br />
       <a class="block" href="{{ post.url }}">Read more</a>
     {% else %}
       {{ post.content }}

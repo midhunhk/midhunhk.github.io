@@ -5,7 +5,7 @@ category: Dev
 tags: [java, java8, lambda]
 ---
 Ever since I heard Lambdas as one of the new features of Java 8, I did some research on it and ended up not understanding it at all. Other than some relation with complex mathematical terms, there was nothing I could understand about this.
-
+<!-- more -->
 This week, while watching a session on Advanced Javascript, I came across some Closure examples.
 
 After setting up Eclipse Neon and JDK8, the first thing I tried was to write an example Lambda expression. It was then that a colleague of mine, <a href="https://github.com/RaghuChandrasekaran">Raghu</a> directed me to a real life example for lambdas which was simple to understand.
