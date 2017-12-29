@@ -4,7 +4,9 @@ title: Introducing Trip O Meter
 category: Project
 tags: [app, android]
 ---
-![Trip O Meter](/public/images/tripometer_promo.png)
+<div class="featured">
+  <img alt="Trip O Meter" src="/public/images/tripometer_promo.png" />
+</div>
 Hello dear reader. I welcome 2017 with a new Android app announcement. 
 
 ## Trip O Meter
