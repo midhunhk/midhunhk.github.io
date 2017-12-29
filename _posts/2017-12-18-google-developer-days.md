@@ -5,8 +5,9 @@ featured_image: '/public/images/gdd_india.jpg'
 category: Dev
 tags: [google, gdd, india]
 ---
-![GDD India 2017](/public/images/gdd_india.jpg)
-
+<div class="featured">
+  ![GDD India 2017](/public/images/gdd_india.jpg)
+</div>
 I was fortunate to get an invitation to attend the first ever Google Developer Days event in India. We need to register on the google Developers site.I was surprised and excited when I received an email confirming my participation. Travel plans and stay arrangements were made and the long wait to Dec started.
 <!-- more -->
 The event was hosted at the Bangalore International Convention Centre on Dec 1 and 2. There were thousands of attendees, mostly comprised of students, entrepreneurs and people working in the tech industry. I got to meet a few people from outside India who came just to attend this event. And of course there were Googlers who work on many of Google products we use in our day to day life.
