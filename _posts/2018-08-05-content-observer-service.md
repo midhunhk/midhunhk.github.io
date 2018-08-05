@@ -17,14 +17,13 @@ Android has introduced `JobService` and related classes with API 21 which helps 
 based on certain conditions that are configured. With API 24, it got the ability to listen to changes to Content URIs. 
 Since I had a tough time to find this solution, the below code explains how to implement this.
 
-First off, we would create a `JobService` class which is actually a Service and Android calls the `onStartJob` when the conditions 
-that we specify are met. Since this method is called on the Main thread, its best to offload the processing in a separate thread.
+First off, we would create a `JobService` class which is actually a Service and Android calls the `onStartJob` when some specified conditions are met. Since this method is called on the Main thread, its best to offload the processing to a separate thread.
+
+<script src="https://gist.github.com/midhunhk/bb7de0dbb3bb11ba0b08cb55d073a751.js"></script>
 
 I'm using the `doAsync` method from the `Anko Commons` library from Jetbrains to simplify the work in a new thread.
 
 `implementation "org.jetbrains.anko:anko-commons:0.10.4"`
-
-<script src="https://gist.github.com/midhunhk/bb7de0dbb3bb11ba0b08cb55d073a751.js"></script>
 
 That looks simple, right. Next step is to schedule the Job after specifying the conditions. The below example code uses an 
 `addTriggerContentUri` operation on the Content Observer URI that we are interested in. Optionally specify any delays or 
