@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Index for Kids Videos">
+        <meta name="author" content="">
+        
+        <title>Kids Videos</title>
+		<!-- Bootstrap core CSS -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Material Design Bootstrap -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/css/mdb.min.css" rel="stylesheet">
+    </head>
+    
+    <body>
+		
+		<!-- Navigation -->
+		<nav class="navbar fixed-top navbar-toggleable-md navbar-dark scrolling-navbar cyan accent-4 lighten-3">
+			<div class="container">
+				<a class="navbar-brand col-md-10" href="#">
+					<h3>Kids Videos</h3>
+				</a>
+			</div>
+		</nav>
+		<!-- End Navigation -->
+		
+        <div class="container mt-5">
+			<section class="section magazine-section">
+				<div class="row text-xs-left">
+					<!--First column-->
+					<div class="col-md-8">
+						<button type="button" class="btn btn-outline-default btn-rounded waves-effect">Trains</button> <br/>
+						<button type="button" class="btn btn-outline-default btn-rounded waves-effect">Trains for kids</button> <br/>
+						<button type="button" class="btn btn-outline-default btn-rounded waves-effect">PJ Mask Toys</button> <br/>
+						<button type="button" class="btn btn-outline-default btn-rounded waves-effect">Paw Patrol Toys</button> <br/>
+						<button type="button" class="btn btn-outline-default btn-rounded waves-effect">Dora toys</button> <br/>
+					</div>
+				</div>
+			</section>
+    </div><!-- /.container -->
+	
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/js/mdb.min.js"></script> 
+	<script>
+		$(document).ready(function(){
+			$('.btn').click( function(e) {
+				var btnVal = $(this).text();
+				var url = "https://www.youtube.com/results?search_query=" + encodeURIComponent(btnVal)
+				window.open(url, '_blank');
+			});
+		});
+	</script>
+    </body>
+</html>
