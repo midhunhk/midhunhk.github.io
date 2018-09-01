@@ -15,8 +15,7 @@ With Version 4.0 of Message Counter around the corner, lets take a look at the h
 The general idea for the app's icon is a "Message" icon along with a "Counter". It has undergone some redesign throughout 
 the various versions. 
 
-It all started out with a plain blue message icon with the answer to life, the universe and everything -  
-[42](https://www.google.com/search?q=answer+to+life+the+universe+and+everything) in a circle at the top. 
+It all started out with a plain blue message icon with [the answer to life, the universe and everything](https://www.google.com/search?q=answer+to+life+the+universe+and+everything) in a circle at the top. 
 
 This icon didn't have a balance and with the next release, it was modified into a 3D icon.
 
