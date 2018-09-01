@@ -23,7 +23,7 @@ This icon didn't have a balance and with the next release, it was modified into 
 Version 3.0 was a major redesign for the app, and the color scheme of the app changed to Teal and Orange. 
 The next update tweaked the icon following Material Design principles and have a the text white color to brighten it up as well as some round corners.
 
-<img alt="app icon" src="https://raw.githubusercontent.com/midhunhk/message-counter/gh-pages/resources/v4/app_icon.png" align="left"/>
+<img alt="app icon" src="https://raw.githubusercontent.com/midhunhk/message-counter/gh-pages/resources/v4/app_icon.png" align="right"/>
 A complete redesign and inverse colors were used when designing the latest app icon. The icon is inspired by the latest icons 
 in android. This was designed with support for different style background for the icon based on the launcher as per the latest 
 android specs.
