@@ -59,7 +59,7 @@ html {
   color: rgba(255,255,255,.5);
   background-color: #202020;
   /* border-right: 4px solid #ff9900; */
-  box-shadow: 1px 0px 8px #888;
+  /*box-shadow: 1px 0px 8px #888;*/
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -138,8 +138,8 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 18rem;
-    margin-right: 4rem;
+    margin-left: 17rem;
+    margin-right: 2rem;
   }
 }
 
