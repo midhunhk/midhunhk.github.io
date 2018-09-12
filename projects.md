@@ -16,7 +16,7 @@ Listed below is a non exhaustive list of my personal projects. Source code for m
 | 8 | [Trip O Meter](https://github.com/midhunhk/trip-o-meter)  |
 | 9 | [CryptX](https://github.com/midhunhk/cryptx-v5)  |
 | 10 | eMPlayer |
-| 11 | File Splitter  |
+| 11 | [File Splitter](https://github.com/midhunhk/next-arsenal-match)  |
 | 12 | DiscsIndex  |
 | 13 | Project Manager  |
 | 14 | [Legendary Train](https://github.com/midhunhk/legendary-train) |
