@@ -5,13 +5,13 @@ category: Dev
 tags: [app, android]
 ---
 <div class="featured">
-  <img src="https://github.com/midhunhk/message-counter/blob/gh-pages/resources/v4/page_header.png" alt="Message Counter 4" />
+  <img src="https://raw.githubusercontent.com/midhunhk/message-counter/gh-pages/resources/v4/page_header.png" alt="Message Counter 4" />
 </div>
 
 September marks a Major milestone for a hobby Android app. What started as a proof of concept back in 2013 has now reached Version 4 
 and close to a total of 1,00,000 downloads.
-<!-- more -->
 
+<!-- more -->
 The app has been completely rewritten from scratch in [Kotlin](https://kotlinlang.org/), making heavy use of 
 [Android Architecture Components](https://developer.android.com/topic/libraries/architecture/) and targeting the latest 
 Android API versions.
@@ -34,7 +34,7 @@ Overall, it was a good learning experience with around 220 separate commits over
 I shall try to write about some learnings from the project in future posts.
 
 ## References
-[Download from Google Play](https://play.google.com/store/apps/details?id=com.ae.apps.messagecounter)
-[Wiki](https://github.com/midhunhk/message-counter/wiki)
-[Source Code](https://github.com/midhunhk/message-counter)
-[App Page](http://midhunhk.github.io/message-counter/)
+[Download from Google Play](https://play.google.com/store/apps/details?id=com.ae.apps.messagecounter)  
+[Wiki](https://github.com/midhunhk/message-counter/wiki)  
+[Source Code](https://github.com/midhunhk/message-counter)  
+[App Page](http://midhunhk.github.io/message-counter/)  
