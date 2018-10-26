@@ -4,10 +4,6 @@ title: Observe Content Provider in Android
 category: Dev
 tags: [java, development, kotlin]
 ---
-<div class="custom-post-header rocket-red">
-<div class="custom-post-title">Observe Content Provider in Android</div>
-</div>
-
 Message Counter was using a background service to start an SMS Content Observer. While upgrading the app to target 
 the latest Android API, it appeared that the service was killed after around 1 minute of the application went to the background.  
 
