@@ -4,10 +4,6 @@ title: Android Messages Codenames
 category: Dev
 tags: [app]
 ---
-<div class="custom-post-header gulf-stream">
-<div class="custom-post-title">App Codenames</div>
-</div>
-
 The latest release of **Android Messages** app from Google had just hit the playstore featuring Material Theme. I was able to trace back 
 the internal codenames of the app.
 <!-- more -->
