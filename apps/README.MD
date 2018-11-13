@@ -7,3 +7,5 @@ Although they could be placed in individual repositories, it seems to be an over
 3. [Basic Vue Router](http://midhunhk.github.io/apps/basic-vue-router.html)
 4. [Basic ReactJS App](http://midhunhk.github.io/apps/basic-reactjs.html)
 5. [Kids Videos](http://midhunhk.github.io/apps/kids-videos.html)
+6. [Slanted Div](http://midhunhk.github.io/apps/templates/slanted_div.html)
+7. [Full Width Pic](http://midhunhk.github.io/apps/templates/full_width_pics.html)
