@@ -5,7 +5,7 @@ category: Meetup
 tags: [local guides, meetup, ernakulam]
 ---
 <div class="featured">
-  <img src="/public/images/local_guides_group.jpg" alt="Local Guides at St. Mary's Church Ground" />
+  <img src="/public/images/local_guides_group.jpg" alt="Local Guides at St. Mary's Church Ground. Includes Midhun Harikumar" />
 </div>
 
 The data on Google Maps is mainly updated and verified by a community called Local Guides. Google simply do all all of this by its own.
