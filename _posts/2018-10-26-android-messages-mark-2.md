@@ -6,8 +6,7 @@ tags: [app]
 ---
 
 This is a followup post to my earlier [post](http://midhunhk.github.io/dev/2018/09/06/android-messages-codenames/) which listed the internal codenames
-that were used by the official Android Messages app. It ended with them coming to the end of the Alphabetic order with "Zither" and another update with 
-"Nose Flute". 
+that were used by the official Android Messages app. It ended with them coming to the end of the Alphabetic order with "Zither" and another update with "Nose Flute". 
 
 A new version has now been released!
 <!-- more -->
@@ -16,5 +15,6 @@ It looks like characters from the world of Dungeons and Dragons or World of Warc
 | Version | Codename |
 |---------|----------|
 | 3.7     | Axebeak  |
+| 3.8     | Basilisk |
 
 I will probably keep updating this table with each new release of the said app.
