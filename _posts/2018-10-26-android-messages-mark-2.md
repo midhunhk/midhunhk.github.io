@@ -18,6 +18,7 @@ It looks like characters from the world of Dungeons and Dragons or World of Warc
 | 3.8     | [Basilisk](https://en.wikipedia.org/wiki/Basilisk_(fantasy_role_play)) |
 | 3.9     | [Chimera](https://en.wikipedia.org/wiki/Chimera_(Dungeons_%26_Dragons)) |
 | 4.0     | Dragon   |
+| 4.1     | [Ettin](https://en.wikipedia.org/wiki/Ettin_(Dungeons_%26_Dragons)) |
 
 I will probably keep updating this table with each new release of the said app.
 
@@ -29,7 +30,9 @@ in both "Dungeons and Dragons" as well as "World of Warcraft", the one in WOW lo
 
 I would suggest the next codename to be "Darkmantle" or "Dire Wolf".
 
-*Edit 25-Deb-2019* More than 2 months after their last update, version 4.0 has appeared with codename Dragon. That looks very generic compared to my prediction from the last time.
+*Edit 25-Feb-2019* More than 2 months after their last update, version 4.0 has appeared with codename Dragon. That looks very generic compared to my prediction from the last time.
+
+*Edit 20-Apr-2019* Updated with codenmame for version 4.1
 
 ### References
  - [List of Monsters from D&D](https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_5th_edition_monsters)
