@@ -7,7 +7,7 @@ title: About
   "No one told you when to run, you missed the starting gun" - Time by Pink Floyd from The Dark Side of The Moon (1973)
 </p>
 
-I am a Software enthusiast, Android application developer, technical writer and open source contributor. I mainly listen to Progressive and Alternative rock, watch all types of movies, read fiction (often) and loves [Photography](https://www.instagram.com/midhunhk).
+I am a Software enthusiast, Android application developer, technical writer and open source contributor. I mainly listen to [Progressive and Alternative rock](https://open.spotify.com/user/ot6rqwy1bx1yfubp08uvx264k), watch all types of [movies](https://www.imdb.com/user/ur30920712/?ref_=nb_usr_prof_0), read fiction (often) and loves [Photography](https://www.instagram.com/midhunhk).
 
 Although I have worked on a broad range of software systems, at present I focus mainly on HTML5 based **J2EE Enterprise applications**, **Native Android** app development and a Java based product. I have experience in building Rich Internet Applications using the **Flash platform** with Adobe Flex in the past. 
 
