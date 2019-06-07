@@ -23,3 +23,11 @@ I love to be updated with technology, design and UX in my spare time and have pu
 <a href="https://stackexchange.com/users/290461">
   <img src="https://stackexchange.com/users/flair/290461.png" width="208" height="58" alt="profile for midhunhk on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for midhunhk on Stack Exchange, a network of free, community-driven Q&amp;A sites">
 </a>
+
+### Favourite Tools
+ - Eclipse with [Moonrise Theme](https://github.com/guari/eclipse-ui-theme) and Rain Drops Theme
+ - Visual Studio Code with Atom One Dark theme and material-icon-theme
+ - Android Studio with Dark Theme
+ - Notepad++ with Dark Theme
+ - Macromedia Fireworks 8
+ - Chrome Browser
