@@ -7,11 +7,13 @@ title: About
   "No one told you when to run, you missed the starting gun" - Time by Pink Floyd from The Dark Side of The Moon (1973)
 </p>
 
-I am a Software enthusiast, Android application developer, technical writer and open source contributor. I hail from **Kerala**, a Southern state in **India**. I listen to Progressive and Alternative rock, read fiction and has interests in Photography.
+I am a Software enthusiast, Android application developer, technical writer and open source contributor. I mainly listen to Progressive and Alternative rock, watch all types of movies, read fiction (often) and loves [Photography](https://www.instagram.com/midhunhk).
 
-I have worked on a broad range of software systems, but I focus mainly on HTML5 based **J2EE Enterprise applications** and **Native Android** application development at present. I have experience with Rich Internet Applications based on the **Flash platform** using Adobe Flex in the recent past.
+Although I have worked on a broad range of software systems, at present I focus mainly on HTML5 based **J2EE Enterprise applications**, **Native Android** app development and a Java based product. I have experience in building Rich Internet Applications using the **Flash platform** with Adobe Flex in the past. 
 
-I love to be updated with technology, design and UX in my spare time and have published a few apps on the play store.
+Having learnt programming with C and C++, now I mainly use Java, Kotlin, JavaScript and NodeJS.
+
+I keep myself updated with the latest technologies, design and UX in my spare time and have published a few apps on the play store.
 
 ### Certifications
 * Developing Applications with Google Cloud Platform Specialization 
