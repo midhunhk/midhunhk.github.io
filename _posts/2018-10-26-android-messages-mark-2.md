@@ -21,6 +21,7 @@ It looks like characters from the world of Dungeons and Dragons or World of Warc
 | 4.1     | [Ettin](https://en.wikipedia.org/wiki/Ettin_(Dungeons_%26_Dragons)) |
 | 4.2     | Fairie   |
 | 4.3     | [Griffin](https://en.wikipedia.org/wiki/Griffon_(Dungeons_%26_Dragons))  |
+| 4.4     | [Hydra](https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_monsters_(1974%E2%80%9376))   |
 
 I will probably keep updating this table with each new release of the said app.
 
@@ -37,6 +38,7 @@ I would suggest the next codename to be "Darkmantle" or "Dire Wolf".
 *Edit 20-Apr-2019* Updated with codenmame for version 4.1  
 *Edit 07-May-2019* Updated with codenmame for version 4.2  
 *Edit 15-May-2019* Updated with codenmame for version 4.3 
+*Edit 20-Jun-2019* Updated with codenmame for version 4.4 
 
 ### References
  - [List of Monsters from D&D](https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_5th_edition_monsters)
