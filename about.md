@@ -21,6 +21,7 @@ I keep myself updated with the latest technologies, design and UX in my spare ti
 * Getting Started With Application Development
 * Securing and Integrating Components of your Application
 * App Deployment, Debugging, and Performance
+* [Android Associate Developer Kotlin](https://app.pluralsight.com/roleiq/roles/817e0f34-7ca3-46ed-879a-680884acd3fe)
 
 <a href="https://stackexchange.com/users/290461">
   <img src="https://stackexchange.com/users/flair/290461.png" width="208" height="58" alt="profile for midhunhk on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for midhunhk on Stack Exchange, a network of free, community-driven Q&amp;A sites">
