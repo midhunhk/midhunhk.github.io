@@ -14,16 +14,17 @@ It looks like characters from the world of Dungeons and Dragons or World of Warc
 
 | Version | Codename |
 |---------|----------|
-| 3.7     | Axebeak  |
+| 3.7     | [Axebeak](https://en.wikipedia.org/wiki/Index_of_Advanced_Dungeons_%26_Dragons_1st_edition_monsters)  |
 | 3.8     | [Basilisk](https://en.wikipedia.org/wiki/Basilisk_(fantasy_role_play)) |
 | 3.9     | [Chimera](https://en.wikipedia.org/wiki/Chimera_(Dungeons_%26_Dragons)) |
-| 4.0     | Dragon   |
+| 4.0     | [Dragon](https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_monsters_(1974%E2%80%9376)) |
 | 4.1     | [Ettin](https://en.wikipedia.org/wiki/Ettin_(Dungeons_%26_Dragons)) |
 | 4.2     | Fairie   |
 | 4.3     | [Griffin](https://en.wikipedia.org/wiki/Griffon_(Dungeons_%26_Dragons))  |
 | 4.4     | [Hydra](https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_monsters_(1974%E2%80%9376))   |
 | 4.6     | [Imp](https://en.wikipedia.org/wiki/Imp_(Dungeons_%26_Dragons))  |
 | 4.7     | [Kraken](https://en.wikipedia.org/wiki/Index_of_Advanced_Dungeons_%26_Dragons_1st_edition_monsters)   |
+| 4.8     | [Lizard](https://en.wikipedia.org/wiki/Index_of_Advanced_Dungeons_%26_Dragons_1st_edition_monsters)   |
 
 I will probably keep updating this table with each new release of the said app.
 
@@ -42,6 +43,7 @@ I would suggest the next codename to be "Darkmantle" or "Dire Wolf".
 *Edit 15-May-2019* Updated with codenmame for version 4.3  
 *Edit 20-Jun-2019* Updated with codenmame for version 4.4  
 *Edit 20-Aug-2019* Updated for 4.5 and 4.5   
+*Edit 24-Sep-2019* Updated for 4.8
 
 ### References
  - [List of Monsters from D&D](https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_5th_edition_monsters)
