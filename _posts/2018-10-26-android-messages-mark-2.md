@@ -25,6 +25,10 @@ It looks like characters from the world of Dungeons and Dragons or World of Warc
 | 4.6     | [Imp](https://en.wikipedia.org/wiki/Imp_(Dungeons_%26_Dragons))  |
 | 4.7     | [Kraken](https://en.wikipedia.org/wiki/Index_of_Advanced_Dungeons_%26_Dragons_1st_edition_monsters)   |
 | 4.8     | [Lizard](https://en.wikipedia.org/wiki/Index_of_Advanced_Dungeons_%26_Dragons_1st_edition_monsters)   |
+| 5.0     | [Nixie](https://en.wikipedia.org/wiki/Fey_(Dungeons_%26_Dragons)#Nixie) |
+| 5.2     | [Pegasus](https://roll20.net/compendium/dnd5e/Pegasus#content) |
+| 5.3     | [Quasit](https://en.wikipedia.org/wiki/Quasit) |
+| 5.4     | [Roper](https://en.wikipedia.org/wiki/Roper_(Dungeons_%26_Dragons)) |
 
 I will probably keep updating this table with each new release of the said app.
 
