@@ -15,9 +15,9 @@ After refactoring, I was left with the following classes, and I will explain the
 
 The key interfaces in this implementation are "Pipeline" and "Stage"
 
-<script src="https://gist.github.com/midhunhk/cf2708eac1cc349f4821fd4215632dbb#file-pipeline-java"></script>
+<script src="https://gist.github.com/midhunhk/750a2c54f978485fbebcfc13c3d8b104.js"></script>
 
-<script src="https://gist.github.com/midhunhk/cf2708eac1cc349f4821fd4215632dbb#file-stage-java"></script>
+<script src="https://gist.github.com/midhunhk/168465f884051d0f642994acfee395fa.js"></script>
 
 The next step is to create a number of Stages for the pipeline as required.
 These stages are added to the pipeline and it is executed.
