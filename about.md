@@ -31,6 +31,6 @@ I keep myself updated with the latest technologies, design and UX in my spare ti
  - Eclipse with [Moonrise Theme](https://github.com/guari/eclipse-ui-theme) and Rain Drops Theme
  - Visual Studio Code with Atom One Dark theme and material-icon-theme
  - Android Studio with Dark Theme
- - Notepad++ with Dark Theme
+ - Notepad++ with [Dracula Theme](https://draculatheme.com/notepad-plus-plus/)
  - Macromedia Fireworks 8
  - Chrome Browser
