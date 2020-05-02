@@ -34,3 +34,11 @@ I keep myself updated with the latest technologies, design and UX in my spare ti
  - Notepad++ with [Dracula Theme](https://draculatheme.com/notepad-plus-plus/)
  - Macromedia Fireworks 8
  - Chrome Browser
+
+### Programming Bibles
+ - [Let us C](https://www.amazon.in/Let-Us-16TH-Yashavant-Kanetkar/dp/9387284492/ref=dp_ob_title_bk) by Yashavant Kanetkar
+ - [Understanding pointers in C](https://www.amazon.in/Understanding-Pointers-Yashavant-P-Kanetkar/dp/8176563587) by Yashavant Kanetkar
+ - [Programming: Principles and Practice Using C++](https://www.amazon.ca/Programming-Principles-Practice-Using-C/dp/0321543726) by Bjarne Stroustrup
+ - [Head First Design Patterns](http://shop.oreilly.com/product/9780596007126.do) by Elisabeth Freeman and Kathy Sierra
+ - [Effective Java](https://www.amazon.ca/Effective-Java-3rd-Joshua-Bloch/dp/0134685997) by Joshua Bloch
+ - [Working Effectively with Legacy Code](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052) by Michael C Feathers
