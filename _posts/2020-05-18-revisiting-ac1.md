@@ -2,6 +2,7 @@
 layout: post
 title: Revisiting Assassins Creed 1
 category: Review
+comments: true
 tags: [game,review]
 ---
 ![Air Assassination](/public/images/2020/05/18/jump_cinematic.png)
