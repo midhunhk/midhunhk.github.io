@@ -2,6 +2,7 @@
 layout: post
 title: Android error on Toast
 category: Dev
+comments: true
 tags: [android, kotlin, development]
 ---
 I was trying to Toast a message to show a debug message from a `Fragment` method that I had written a couple of days ago.

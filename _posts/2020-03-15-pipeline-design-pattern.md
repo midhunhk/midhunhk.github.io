@@ -2,6 +2,7 @@
 layout: post
 title: Pipeline Design Pattern
 category: Dev
+comments: true
 tags: [java, development]
 ---
 To simplify a process, I had to quickly build a utility app to create report based on status from a large number of emails on a daily basis.
