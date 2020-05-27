@@ -54,7 +54,7 @@ I would suggest the next codename to be "Darkmantle" or "Dire Wolf".
 *Edit 15-May-2019* Updated with codenmame for version 4.3  
 *Edit 20-Jun-2019* Updated with codenmame for version 4.4  
 *Edit 20-Aug-2019* Updated for 4.5 and 4.5   
-*Edit 24-Sep-2019* Updated for 4.8
+*Edit 24-Sep-2019* Updated for 4.8  
 *Edit 27-May-2020* Updated for multiple versions
 
 ### References
