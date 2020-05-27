@@ -2,6 +2,7 @@
 layout: post
 title: Android Messages Codenames
 category: Dev
+comments: true
 tags: [app]
 ---
 
@@ -10,7 +11,7 @@ that were used by the official Android Messages app. It ended with them coming t
 
 A new version has now been released!
 <!-- more -->
-It looks like characters from the world of Dungeons and Dragons or World of Warcraft. We will be able to confirm with upcoming versions.
+It looks like monsters from the world of Dungeons and Dragons. We will be able to confirm with upcoming versions.
 
 | Version | Codename |
 |---------|----------|
@@ -29,6 +30,12 @@ It looks like characters from the world of Dungeons and Dragons or World of Warc
 | 5.2     | [Pegasus](https://roll20.net/compendium/dnd5e/Pegasus#content) |
 | 5.3     | [Quasit](https://en.wikipedia.org/wiki/Quasit) |
 | 5.4     | [Roper](https://en.wikipedia.org/wiki/Roper_(Dungeons_%26_Dragons)) |
+| 5.7     | [Unicorn](https://en.wikipedia.org/wiki/List_of_Advanced_Dungeons_%26_Dragons_2nd_edition_monsters) |
+| 5.8     | [Vampire](https://en.wikipedia.org/wiki/List_of_Advanced_Dungeons_%26_Dragons_2nd_edition_monsters) |
+| 5.9     | [Wyvern](https://en.wikipedia.org/wiki/List_of_Advanced_Dungeons_%26_Dragons_2nd_edition_monsters) |
+| 6.0     | [Xorn](https://en.wikipedia.org/wiki/List_of_Advanced_Dungeons_%26_Dragons_2nd_edition_monsters) |
+| 6.1     | [Yeti](https://en.wikipedia.org/wiki/List_of_Advanced_Dungeons_%26_Dragons_2nd_edition_monsters) |
+| 6.2     | [Zombie](https://en.wikipedia.org/wiki/List_of_Advanced_Dungeons_%26_Dragons_2nd_edition_monsters) |
 
 I will probably keep updating this table with each new release of the said app.
 
@@ -48,6 +55,7 @@ I would suggest the next codename to be "Darkmantle" or "Dire Wolf".
 *Edit 20-Jun-2019* Updated with codenmame for version 4.4  
 *Edit 20-Aug-2019* Updated for 4.5 and 4.5   
 *Edit 24-Sep-2019* Updated for 4.8
+*Edit 27-May-2020* Updated for multiple versions
 
 ### References
  - [List of Monsters from D&D](https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_5th_edition_monsters)
