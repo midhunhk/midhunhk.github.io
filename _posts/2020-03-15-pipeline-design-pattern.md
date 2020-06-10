@@ -88,5 +88,7 @@ These stages are added to the pipeline and it is executed like in the main class
 
 The `GenerateReportsStage` makes use of the interface `Reporter` so that reports of different types can be created.
 
+A sample implementation is available at: [https://github.com/ae-app-labs/pipeline-design-pattern](https://github.com/ae-app-labs/pipeline-design-pattern)
+
 Further Reading:
-https://stackoverflow.com/questions/39947155/pipeline-design-pattern-implementation
+[https://stackoverflow.com/questions/39947155/pipeline-design-pattern-implementation](https://stackoverflow.com/questions/39947155/pipeline-design-pattern-implementation)
