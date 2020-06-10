@@ -20,7 +20,43 @@ The key interfaces in this implementation are "Pipeline" and "Stage"
 
 <script src="https://gist.github.com/midhunhk/168465f884051d0f642994acfee395fa.js"></script>
 
-The next step is to create a number of Stages for the pipeline as required.
+The next step is to create a number of Stages for the pipeline as required. 
+
+Assuming `Messages` is a model object that has a list of messages in it, then for example:
+
+```java
+class ReadNamesStage implements Stage<Messages> {
+
+    Messages execute(Messages input){
+      // Read messages, probably an IO operation. 
+      return message;
+    }
+
+}
+
+class RemoveDuplicateStage implements Stage<Messages> {
+
+  Messages execute(Messages input){
+    Messages output;
+    // Logic to remove duplicates from the input and save to output
+    return output;
+  }
+
+}
+
+class GenerateReportStage implements Stage<Messages> {
+
+  Messages execute(Messages input){
+    Reporter reporter = new HTMLReportGenerator();
+    reporter.generate(input);
+    
+    return input;
+  }
+  
+}
+```
+
+
 These stages are added to the pipeline and it is executed like in the main class like this.
 
 <script src="https://gist.github.com/midhunhk/fd776304766781d202d5105f9344a839.js"></script>
