@@ -56,6 +56,31 @@ class GenerateReportStage implements Stage<Messages> {
 }
 ```
 
+Next, we need to implement the Pipeline interface.
+
+```java
+
+class MessageReaderPipeline implements Pipeline {
+
+    List<Stage> stages = new ArrayList<>();
+
+    public void addPipe(Stage stage){
+        stages.add(stage);
+    }
+    
+    public void execute(){
+        // The input to the first stage is empty in this implementation
+        Messages input = null, output;
+        for(Stage stage: stages){
+            output = stage.execute(input);
+            // Output of a stage serves as the input to the next
+            input = output;
+         }
+    }
+
+}
+
+```
 
 These stages are added to the pipeline and it is executed like in the main class like this.
 
