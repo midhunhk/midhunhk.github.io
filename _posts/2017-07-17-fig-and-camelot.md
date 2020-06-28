@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fig & Camelot
+title: Fig and Camelot
 category: Dev
 tags: [app, android]
 ---
