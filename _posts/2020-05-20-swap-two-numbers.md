@@ -17,7 +17,23 @@ Given two variables, let's say `a` and `b`, we can swap their values without usi
 It might be be a bit confusing at first, but works based on how the compiler does evaluations.
 I have tested this as a Java project and even works with negative numbers as well. I am pretty sure it would also work on C/C++ too.
 
-<script src="https://gist.github.com/midhunhk/9741912d5027f94ac90bc747cbdc70f3.js"></script>
+```java
+public class SwapSample {
+
+	public static void main(String[] args) {
+		int a = 10, b = 20;
+		printVariables("Before", a, b);
+		
+		b = (a + b) - (a = b);
+		
+		printVariables("After ", a, b);
+	}
+
+	private static void printVariables(String message, int a, int b) {
+		System.out.println(message + ": a = " + a + " & b = " + b);
+	}
+}
+```
 
 The above code would produce the output as:
 
