@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Swap two numbers without a temporary variable
-category: dev
+category: Dev
 comments: true
 tags: [development,java,kotlin]
 ---
