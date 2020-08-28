@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Android Messages Codenames, Part 1
-category: Dev
+category: Review
 comments: true
 tags: [app]
 ---
