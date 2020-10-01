@@ -8,7 +8,7 @@ tags: [app]
 The latest release of **Android Messages** app from Google had just hit the playstore featuring Material Theme. I was able to trace back 
 the internal codenames of the app.
 <!-- more -->
-You can check out [part 2](http://midhunhk.github.io/dev/2018/10/26/android-messages-mark-2/) and [part 3](https://midhunhk.github.io/review/2020/08/27/android-messages-again/) of this series as well.  
+You can check out [part 2](http://midhunhk.github.io/review/2018/10/26/android-messages-mark-2/) and [part 3](https://midhunhk.github.io/review/2020/08/27/android-messages-again/) of this series as well.  
 
 The code names are part of the application version name from version code 2.1 and up and they are. They seem to be related to music, most of them 
 being musical instruments from different parts of the world.
