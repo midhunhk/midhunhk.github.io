@@ -11,12 +11,17 @@ This is another follow-up to my earlier posts in this series, which lists the co
 With the Android team dicontinuing the highly awaited "dessert codename" of each major release, this seems like a good detour!
 <!-- more -->
 
-This post will likely be updated with this series of codenames, which look like types of trees or shrubs.
+This post will likely be updated with this series of codenames, which look like types of trees or shrubs.  
+There are a few fictional characters with connections to "trees"
 
 | Version | Codename |
 |---------|----------|
 | 6.4     | [Acacia](https://en.wikipedia.org/wiki/Acacia) |
 | 6.5     | [Banyan](https://en.wikipedia.org/wiki/Banyan) |
 | 6.6     | [Cypress](https://en.wikipedia.org/wiki/Cypress) |
+| 6.7     | [Deku](https://zelda.gamepedia.com/The_Great_Deku_Tree) |
+| 6.8     | [Ent](https://en.wikipedia.org/wiki/Ent) |
+| 6.9     | [Fir](https://en.wikipedia.org/wiki/Fir) |
+| 7.0     | [Groot](https://en.wikipedia.org/wiki/Groot) |
 
 Check back often to see an update.
