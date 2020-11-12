@@ -263,7 +263,8 @@ a.sidebar-nav-item:focus {
 .post-tag { 
   display: inline-block; 
   /*background: rgba(255, 153, 0, 0.15);*/ 
-  background: #86c6bb; 
+  /*background: #86c6bb; (teal) */
+  background: #1371DD;
   padding: 0 .5rem; margin-right: .5rem; border-radius: 4px; 
   /*color: #6a9fb5;*/ font-size: 90%; color: #ffffff !important;}
 
