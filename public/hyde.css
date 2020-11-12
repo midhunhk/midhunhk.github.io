@@ -251,6 +251,15 @@ a.sidebar-nav-item:focus {
   color: #8f5536;
 }
 
+/* Dark Blue */
+.theme-base-13 .sidebar {
+  background-color: #1371DD;
+}
+.theme-base-13 .content a,
+.theme-base-13 .related-posts li a:hover {
+  color: #1371DD;
+}
+
 .post-tag { 
   display: inline-block; 
   /*background: rgba(255, 153, 0, 0.15);*/ 
