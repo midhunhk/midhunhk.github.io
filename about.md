@@ -9,10 +9,11 @@ title: About
 
 I am a Software enthusiast, Android application developer, technical writer and open source contributor. I mainly listen to [Progressive and Alternative rock](https://open.spotify.com/user/ot6rqwy1bx1yfubp08uvx264k), watch all types of [movies](https://letterboxd.com/midhunhk/), read fiction (often) and loves [Photography](https://www.instagram.com/midhunhk). Visit my [Bio](https://midhunhk.github.io/bio/).
 
-Although I have worked on a broad range of software systems, at present I focus mainly on HTML5 based **J2EE** Enterprise applications, **Native Android** app development and few **Java** based products. I have experience in building Rich Internet Applications using the **Flash platform** with Adobe Flex in the past. 
-I have experience in modern front end frameworks like React, VueJs and Svelte as well.
+Having learnt programming with **C and C++**, I have a string undersatnding of various Data Structures and Design Patterns.
 
-Having learnt programming with **C and C++**, now I mainly use Java, **Kotlin**, JavaScript and **NodeJS**.
+Although I have worked on a broad range of software systems, at present I focus mainly on HTML5 based **J2EE** Enterprise applications, **Native Android** app development, **Java**  and Spring Boot apps, as well as NodeJS Web Services. 
+
+I have created multiple Rich Internet Applications and Desktop applications using the **Flash platform** with Adobe Flex in the past. I am experienced in modern front end frameworks like React, VueJs and Svelte as well.
 
 I keep myself updated with the latest technologies, design and UX in my spare time and have published a few apps on the [play store](https://play.google.com/store/apps/dev?id=6177347481993841752).
 
