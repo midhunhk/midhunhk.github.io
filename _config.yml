@@ -5,7 +5,7 @@ permalink:           pretty
 # Setup
 title:               Midhun Harikumar
 tagline:             Random Thoughts!
-url:                 http://midhunhk.github.io
+url:                 https://midhunhk.github.io
 paginate:            8
 baseurl:             
 tag_page:            /tags/
