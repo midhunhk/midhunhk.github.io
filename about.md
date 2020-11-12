@@ -14,7 +14,7 @@ I have experience in modern front end frameworks like React, VueJs and Svelte as
 
 Having learnt programming with **C and C++**, now I mainly use Java, **Kotlin**, JavaScript and **NodeJS**.
 
-I keep myself updated with the latest technologies, design and UX in my spare time and have published a few apps on the play store.
+I keep myself updated with the latest technologies, design and UX in my spare time and have published a few apps on the [play store](https://play.google.com/store/apps/dev?id=6177347481993841752).
 
 ### Certifications
 * Developing Applications with Google Cloud Platform Specialization 
