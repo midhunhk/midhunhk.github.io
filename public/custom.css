@@ -7,6 +7,7 @@
 .custom-post-header{ height: 200px; margin: 10px 0; border-radius: 5px; text-align: center;}
 .custom-post-title{ padding-top: 80px; vertical-align: middle; font-family: 'Merriweather', serif; font-size: 1.8rem; color: #ffffff;}
 .featured{ margin: 10px 0;}
+.post-tag{ margin-bottom: 1em;}
 
 /* Some Colorful backgrounds for the header*/
 .orange{background-color: #ff9900;}
