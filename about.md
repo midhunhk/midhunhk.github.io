@@ -9,7 +9,7 @@ title: About
 
 I am a Software enthusiast, Android application developer, technical writer and open source contributor. I mainly listen to [Progressive and Alternative rock](https://open.spotify.com/user/ot6rqwy1bx1yfubp08uvx264k), watch all types of [movies](https://letterboxd.com/midhunhk/), read fiction (often) and loves [Photography](https://www.instagram.com/midhunhk). Visit my [Bio](https://midhunhk.github.io/bio/).
 
-Having learnt programming with **C and C++**, I have a string undersatnding of various Data Structures and Design Patterns.
+Having learnt programming with **C and C++**, I have a strong understanding of various Data Structures and Design Patterns.
 
 Although I have worked on a broad range of software systems, at present I focus mainly on HTML5 based **J2EE** Enterprise applications, **Native Android** app development, **Java**  and Spring Boot apps, as well as NodeJS Web Services. 
 
