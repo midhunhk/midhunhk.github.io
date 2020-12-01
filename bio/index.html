@@ -7,6 +7,8 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- https://animate.style/ -->
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Mulish&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="https://midhunhk.github.io/public/favicon.ico">
     
@@ -14,6 +16,7 @@
 
     <style type="text/css">
         body {font-family: 'Mulish', sans-serif; background-color: #F6F6F6;}
+
         .title{ font-family: 'Merriweather', serif; font-weight: 900; }
         .accent-text{ color: #1371DD;}
         .accent-bg{ background-color: #1371DD !important; }
@@ -28,18 +31,21 @@
         .fa-instagram:hover {color: #c13584 !important;}
         .fa-google-play:hover {color: #3DDC84 !important;}
 
+        :root {
+        --animate-delay: 0.6s;
+        }
     </style>
 
     <script src="https://kit.fontawesome.com/c01311720b.js" crossorigin="anonymous"></script>
 </head>
 <body>
   
-    <section class="section pt-6 pb-6">
+    <section class="section pt-5 pb-5">
         <div class="container">
             <div class="columns is-vcentered">
                 <div class="column is-2"></div>
                 <div class="column is-4">
-                    <div class="p-4">
+                    <div class="p-4 animate__animated animate__fadeIn animate__delay-1s">
                         <img src="/public/images/mhk_2017_2.png" alt="Midhun Harikumar" class="is-horizontal-center profile-image">
                         <!-- <img src="/public/images/mhk_2017_web.png" alt="Midhun Harikumar" class="is-horizontal-center p-4"> -->
                         <!-- <img src="mhk_2017_web.png" alt="Midhun Harikumar" class="is-horizontal-center p-4"> -->
@@ -47,22 +53,23 @@
                 </div>
 
                 <div class="column is-4 pl-4">
-                    <p class="accent-text title is-size-2">Midhun Harikumar</p>
-                    <p class="pt-1 pb-4 has-text-weight-semibold is-size-6">Full Stack Developer</p>
-                    <p>
-                        I am a software engineer with more than 10 years of experience in UI/UX Design, Web, Java and related frameworks. 
-                        And 5+ years with Kotlin, NodeJS, React and Native Android.
-                    </p>
-                    
-                    <a class="is-primary button accent-bg mt-5" href="https://midhunhk.github.io">
-                        <span class="mr-2">Blog</span>
-                        <i class="fas fa-angle-right"></i>
-                    </a>
-                    <a class="button is-outlined mt-5 ml-2" href="https://midhunhk.github.io/about/">About</a>
-                    
-                    <div class="divider mt-5 mb-5">&nbsp;</div>
+                    <p class="accent-text title is-size-2 animate__animated animate__fadeInRight">Midhun Harikumar</p>
+                    <div class="animate__animated animate__fadeIn animate__delay-1s animate__fast">
+                    <p class="pt-1 pb-4 has-text-weight-semibold subtitle">Full Stack Developer</p>
+                        <p>
+                            I am a software engineer with more than 10 years of experience in frontend and backend software development.
+                        </p>
+                        
+                        <a class="is-primary button accent-bg mt-5" href="https://midhunhk.github.io">
+                            <span class="mr-2">Blog</span>
+                            <i class="fas fa-angle-right"></i>
+                        </a>
+                        <a class="button is-outlined mt-5 ml-2" href="https://midhunhk.github.io/about/">About</a>
+                        
+                        <div class="divider mt-5 mb-5">&nbsp;</div>
+                    </div>
 
-                    <div>
+                    <div class="animate__animated animate__fadeIn animate__delay-2s animate__fast">
                         <span class="icon is-large"><a target="_blank" title="GitHub" href="https://github.com/midhunhk"><i class="fab fa-2x fa-github pr-2 has-text-grey-dark"></i></a></span>
                         <span class="icon is-large"><a target="_blank" title="StackOverflow" href="https://stackoverflow.com/users/592025/midhunhk"><i class="fab fa-2x fa-stack-overflow pr-2 has-text-grey-dark"></i></a></span>
                         <span class="icon is-large"><a target="_blank" title="Play Store" href="https://play.google.com/store/apps/dev?id=6177347481993841752&hl=en_US"><i class="fab fa-google-play fa-2x pr-2 has-text-grey-dark"></i></a></span>
@@ -76,17 +83,33 @@
         </div>
     </section>
 
-    <!--
-    <div style="background-color: white;" class="p-4">&nbsp;</div>
+    <div style="background-color: white;" class="p-2 animate__animated animate__fadeIn animate__delay-2s">&nbsp;</div>
 
     <section class="section pt-6 pb-6">
-        <div class="container">
-            <div class="columns is-vcentered">
-                <div class="column is-2"></div>
+        <div class="container is-max-desktop">
+            <div class="columns is-vcentered is-12">
+                <div class="column is-one-third">
+                    <div class="box animate__animated animate__fadeIn animate__delay-2s animate__fast">
+                        <p class="title is-5 p-4 has-text-centered has-text-primary">UI/UX Design</p>
+                        <p class="">Highly skilled in creating rich User Interfaces and User Experience. Designs with Adobe XD.</p>
+                    </div>
+                </div>
+                <div class="column is-one-third">
+                    <div class="box animate__animated animate__fadeIn animate__delay-3s animate__fast">
+                        <p class="title is-5 p-4 has-text-centered has-text-info">Web & Mobile</p>
+                        <p class="">Well experienced in Native Android development and modern web technologies like Spring Boot, NodeJS, React, Svelte.</p>
+                    </div>
+                </div>
+                <div class="column is-one-third">
+                    <div class="box animate__animated animate__fadeIn animate__delay-4s animate__fast">
+                        <p class="title is-5 p-4 has-text-centered has-text-success">Programming</p>
+                        <p class="">Strong programming skills with Java, Kotlin and Javascipt, with foundation in C and C++.</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
-    -->
-    
+
 </body>
 </html>
