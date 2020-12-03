@@ -19,4 +19,6 @@ These events are purely from my observations and may not be accurate.
 
 <img src="/public/images/2020/12/tenet_timeline.png" alt="Tenet Timeline" />  
 
+Each event in a green box has the location and major event that occured there. A downward arrow indicates normal time, whereas an upward arrow indicates movement in inverted time. The yellow boxes indicate an estimated time span from the conversations of the main characters. 
+
 Use the comments section to share your interpretations or corrections.
