@@ -18,10 +18,15 @@
         body {font-family: 'Mulish', sans-serif; background-color: #F6F6F6;}
 
         .title{ font-family: 'Merriweather', serif; font-weight: 900; }
+        .logo{ color: #f6f6f6; border: #f6f6f6 solid 3px; padding:3px 6px; font-weight: 700;}
+        .wrap{ background: linear-gradient(90deg, #1371DD 0%, rgba(19,113,221,1) 30%, rgba(19,113,221,0) 30%, rgba(0,212,255,0) 100%); height:100}
         .accent-text{ color: #1371DD;}
         .accent-bg{ background-color: #1371DD !important; }
         .divider {background-color: #bbb; height:1px; }
         .profile-image{ box-shadow: 1em 1em 0 #464646;}
+        .profile-image2{ border: #f6f6f6 3px solid ;}
+        .skills{ background-color: #f6f6f6;}
+        .skills .content{ line-height: 1.5em;}
 
         .fa-linkedin:hover {color: #0072b1 !important;}
         .fa-twitter:hover {color: #1DA1F2 !important;}
@@ -39,76 +44,133 @@
     <script src="https://kit.fontawesome.com/c01311720b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  
-    <section class="section pt-5 pb-5">
-        <div class="container">
-            <div class="columns is-vcentered">
-                <div class="column is-2"></div>
-                <div class="column is-4">
-                    <div class="p-4 animate__animated animate__fadeIn animate__delay-1s">
-                        <img src="/public/images/mhk_2017_2.png" alt="Midhun Harikumar" class="is-horizontal-center profile-image">
-                        <!-- <img src="/public/images/mhk_2017_web.png" alt="Midhun Harikumar" class="is-horizontal-center p-4"> -->
-                        <!-- <img src="mhk_2017_web.png" alt="Midhun Harikumar" class="is-horizontal-center p-4"> -->
+
+    <div class="wrap mb-6">
+        <section>
+            <div class="container mt-2 mb-2">
+                <div class="columns is-vcentered">
+                    <div class="column is-1">&nbsp;</div>
+                    <div class="column is-4 mt-4">
+                        <span class="logo">MHK</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section pb-5 pt-0">
+            <div class="container">
+                <div class="columns is-vcentered">
+                    <div class="column is-1">&nbsp;</div>
+                    <div class="column is-4">
+                        <div class=" animate__animated animate__fadeIn animate__delay-1s">
+                            <img src="/public/images/mhk_2017_2.jpg" alt="Midhun Harikumar" class="is-horizontal-center profile-image2"/>
+                        </div>
+                        <div class="social pt-2">
+                            <div class="animate__animated animate__fadeIn animate__delay-2s animate__fast">
+                                <span class="icon is-large"><a target="_blank" title="GitHub" href="https://github.com/midhunhk"><i class="fab fa-2x fa-github pr-2 has-text-black"></i></a></span>
+                                <span class="icon is-large"><a target="_blank" title="StackOverflow" href="https://stackoverflow.com/users/592025/midhunhk"><i class="fab fa-2x fa-stack-overflow pr-2 has-text-black"></i></a></span>
+                                <span class="icon is-large"><a target="_blank" title="Twitter" href="https://twitter.com/midhunhk"><i class="fab fa-2x fa-twitter pr-2 has-text-black"></i></a></span>
+                                <span class="icon is-large"><a target="_blank" title="Instagram (photography)" href="https://www.instagram.com/midhunhk"><i class="fab fa-2x fa-instagram pr-2 has-text-black"></i></a></span>            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-5 ml-6">
+                        <p class="accent-text title is-size-2 animate__animated animate__fadeInRight">Midhun Harikumar</p>
+                        <div class="animate__animated animate__fadeIn animate__delay-1s animate__fast">
+                            <p class="pt-1 pb-4 has-text-weight-semibold subtitle">Full Stack Developer</p>
+                            <p class="pr-6">
+                                I am a software engineer with more than 10 years of experience in design and all aspects of software development.
+                                I work on some open source projects and learn new technologies in my free time.
+                            </p>
+                            
+                            <a class="is-primary button accent-bg mt-5" href="https://midhunhk.github.io">
+                                <span class="mr-2">Blog</span>
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <a class="button is-outlined mt-5 ml-2" href="https://midhunhk.github.io/about/">About</a>
+                            
+                            <!--
+                            <div class="divider mt-5 mb-5">&nbsp;</div>
+                            -->
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div> <!-- End wrap -->
+ 
+    <!-- Start Separator Section-->
+    <section class="section">
+        <div class="has-text-centered">
+            <svg width="100" height="100">
+                <g>
+                 <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+                  <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+                 </g>
+                </g>
+                <g>
+                 <rect stroke="#000" transform="rotate(45 51.48514556884767,50.66014099121092) " 
+                    height="40" width="40" y="20" x="20" fill-opacity="null" 
+                    stroke-opacity="null" stroke-width="0" fill="#1371DD"/>
+                </g>
+               </svg>
+        </div>
+    </section>
+    <!-- End Separator Section -->
+    
+    <section class="section">
+        <div class="container is-max-desktop pt-0">
+            <div class="columns is-12">
+                <div class="column is-6 is-offset-6 pt-0 pb-0 skills">
+                    <h2 class="is-size-2 title pl-6 is-uppercase">Skills</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="section pt-0 pb-0 accent-bg">
+        <div class="container is-max-desktop pt-0">
+            <div class="columns is-12">
+                <div class="column is-6 is-offset-6 pt-0 pb-0 skills">
+                    <div class="animate__anima pl-6ted animate__fadeIn animate__delay-2s animate__fast pl-6 pr-6">
+                        <p class="title is-5 mb-1 accent-text">UI/UX Design</p>
+                        <p class="content">I have always been interested in User Interfaces and how it can be used to create great user experiences.</p>
+                    </div>
+
+                    <div class="animate__animated animate__fadeIn animate__delay-3s animate__fast pl-6 pr-6">
+                        <p class="title is-5 mt-6 mb-1 accent-text">Web & Mobile</p>
+                        <p class="content">Well experienced in Native Android development and modern web technologies like Spring Boot, NodeJS, React, Svelte.</p>
+                    </div>
+
+                    <div class="animate__animated animate__fadeIn animate__delay-4s animate__fast pl-6 pr-6">
+                        <p class="title is-5 mt-6 mb-1 accent-text">Programming</p>
+                        <p class="content">I am an Engineer with a Bachelor's degree in Computer Science. I have strong programming skills with Java, Kotlin and Javascipt, with foundation in C and C++.</p>
                     </div>
                 </div>
 
-                <div class="column is-4 pl-4">
-                    <p class="accent-text title is-size-2 animate__animated animate__fadeInRight">Midhun Harikumar</p>
-                    <div class="animate__animated animate__fadeIn animate__delay-1s animate__fast">
-                    <p class="pt-1 pb-4 has-text-weight-semibold subtitle">Full Stack Developer</p>
-                        <p>
-                            I am a software engineer with more than 10 years of experience in frontend and backend software development.
-                        </p>
-                        
-                        <a class="is-primary button accent-bg mt-5" href="https://midhunhk.github.io">
-                            <span class="mr-2">Blog</span>
-                            <i class="fas fa-angle-right"></i>
-                        </a>
-                        <a class="button is-outlined mt-5 ml-2" href="https://midhunhk.github.io/about/">About</a>
-                        
-                        <div class="divider mt-5 mb-5">&nbsp;</div>
-                    </div>
-
-                    <div class="animate__animated animate__fadeIn animate__delay-2s animate__fast">
-                        <span class="icon is-large"><a target="_blank" title="GitHub" href="https://github.com/midhunhk"><i class="fab fa-2x fa-github pr-2 has-text-grey-dark"></i></a></span>
-                        <span class="icon is-large"><a target="_blank" title="StackOverflow" href="https://stackoverflow.com/users/592025/midhunhk"><i class="fab fa-2x fa-stack-overflow pr-2 has-text-grey-dark"></i></a></span>
-                        <span class="icon is-large"><a target="_blank" title="Play Store" href="https://play.google.com/store/apps/dev?id=6177347481993841752&hl=en_US"><i class="fab fa-google-play fa-2x pr-2 has-text-grey-dark"></i></a></span>
-                        <span class="icon is-large"><a target="_blank" title="LinkedIn" href="https://www.linkedin.com/in/midhunhk/"><i class="fab fa-2x fa-linkedin pr-2 has-text-grey-dark"></i></a></span>
-                        <span class="icon is-large"><a target="_blank" title="Twitter" href="https://twitter.com/midhunhk"><i class="fab fa-2x fa-twitter pr-2 has-text-grey-dark"></i></a></span>
-                        <!-- <span class="icon is-large"><a target="_blank" title="Facebook (not maintained)" href="https://www.facebook.com/midhunhk"><i class="fab fa-2x fa-facebook pr-2 has-text-grey-dark"></i></a></span> --> 
-                        <span class="icon is-large"><a target="_blank" title="Instagram (photography)" href="https://www.instagram.com/midhunhk"><i class="fab fa-2x fa-instagram pr-2 has-text-grey-dark"></i></a></span>            
-                    </div>
-                  </div>
             </div>
         </div>
     </section>
 
-    <div style="background-color: white;" class="p-2 animate__animated animate__fadeIn animate__delay-2s">&nbsp;</div>
+    <section class="section">
+        &nbsp;
+    </section>
 
-    <section class="section pt-6 pb-6">
-        <div class="container is-max-desktop">
-            <div class="columns is-vcentered is-12">
-                <div class="column is-one-third">
-                    <div class="box animate__animated animate__fadeIn animate__delay-2s animate__fast">
-                        <p class="title is-5 p-4 has-text-centered has-text-primary">UI/UX Design</p>
-                        <p class="">Highly skilled in creating rich User Interfaces and User Experience. Designs with Adobe XD.</p>
-                    </div>
-                </div>
-                <div class="column is-one-third">
-                    <div class="box animate__animated animate__fadeIn animate__delay-3s animate__fast">
-                        <p class="title is-5 p-4 has-text-centered has-text-info">Web & Mobile</p>
-                        <p class="">Well experienced in Native Android development and modern web technologies like Spring Boot, NodeJS, React, Svelte.</p>
-                    </div>
-                </div>
-                <div class="column is-one-third">
-                    <div class="box animate__animated animate__fadeIn animate__delay-4s animate__fast">
-                        <p class="title is-5 p-4 has-text-centered has-text-success">Programming</p>
-                        <p class="">Strong programming skills with Java, Kotlin and Javascipt, with foundation in C and C++.</p>
-                    </div>
-                </div>
+    <section class="section">
 
+        <div class="social has-text-centered animate__animated animate__fadeIn animate__delay-2s animate__fast">
+            <h2 class="title is-2 is-uppercase mb-4">Social media</h2>
+            <div>
+                <span class="icon is-large"><a target="_blank" title="GitHub" href="https://github.com/midhunhk"><i class="fab fa-2x fa-github pr-2 has-text-black"></i></a></span>
+                <span class="icon is-large"><a target="_blank" title="StackOverflow" href="https://stackoverflow.com/users/592025/midhunhk"><i class="fab fa-2x fa-stack-overflow pr-2 has-text-black"></i></a></span>
+                <span class="icon is-large"><a target="_blank" title="Play Store" href="https://play.google.com/store/apps/dev?id=6177347481993841752&hl=en_US"><i class="fab fa-google-play fa-2x pr-2 has-text-black"></i></a></span>
+                <span class="icon is-large"><a target="_blank" title="LinkedIn" href="https://www.linkedin.com/in/midhunhk/"><i class="fab fa-2x fa-linkedin pr-2 has-text-black"></i></a></span>
+                <span class="icon is-large"><a target="_blank" title="Twitter" href="https://twitter.com/midhunhk"><i class="fab fa-2x fa-twitter pr-2 has-text-black"></i></a></span>
+                <!-- <span class="icon is-large"><a target="_blank" title="Facebook (not maintained)" href="https://www.facebook.com/midhunhk"><i class="fab fa-2x fa-facebook pr-2 has-text-black"></i></a></span> --> 
+                <span class="icon is-large"><a target="_blank" title="Instagram (photography)" href="https://www.instagram.com/midhunhk"><i class="fab fa-2x fa-instagram pr-2 has-text-black"></i></a></span>            
             </div>
         </div>
+
     </section>
 
 </body>
