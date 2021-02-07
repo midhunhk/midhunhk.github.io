@@ -23,5 +23,8 @@ There are a few fictional characters with connections to "trees"
 | 6.8     | [Ent](https://en.wikipedia.org/wiki/Ent) |
 | 6.9     | [Fir](https://en.wikipedia.org/wiki/Fir) |
 | 7.0     | [Groot](https://en.wikipedia.org/wiki/Groot) |
+| 7.1     | [Hickory](https://en.wikipedia.org/wiki/Hickory) |
+| 7.2     | Isu |
+| 7.3     | [Juniper](https://en.wikipedia.org/wiki/Juniper) |
 
 Check back often to see an update.
