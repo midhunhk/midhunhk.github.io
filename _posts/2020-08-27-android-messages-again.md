@@ -26,5 +26,6 @@ There are a few fictional characters with connections to "trees"
 | 7.1     | [Hickory](https://en.wikipedia.org/wiki/Hickory) |
 | 7.2     | Isu |
 | 7.3     | [Juniper](https://en.wikipedia.org/wiki/Juniper) |
+| 7.4     | [Katsura](https://en.wikipedia.org/wiki/Cercidiphyllum) |
 
 Check back often to see an update.
