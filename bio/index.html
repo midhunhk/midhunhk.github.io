@@ -28,6 +28,15 @@
         .skills{ background-color: #f6f6f6;}
         .skills .content{ line-height: 1.5em;}
 
+        .fa-linkedin:hover {color: #f7f7f7 !important;}
+        .fa-twitter:hover {color: #f7f7f7 !important;}
+        .fa-facebook:hover {color: #f7f7f7 !important;}
+        .fa-github:hover {color: #f7f7f7 !important;}
+        .fa-stack-overflow:hover {color: #f7f7f7 !important;}
+        .fa-instagram:hover {color: #f7f7f7 !important;}
+        .fa-google-play:hover {color: #f7f7f7 !important;}
+
+/*
         .fa-linkedin:hover {color: #0072b1 !important;}
         .fa-twitter:hover {color: #1DA1F2 !important;}
         .fa-facebook:hover {color: #3b5998 !important;}
@@ -35,15 +44,43 @@
         .fa-stack-overflow:hover {color: #f48024 !important;}
         .fa-instagram:hover {color: #c13584 !important;}
         .fa-google-play:hover {color: #3DDC84 !important;}
-
         #profile .fa-twitter:hover {color: #f7f7f7 !important;}
         #profile .fa-github:hover {color: #f7f7f7 !important;}
         #profile .fa-stack-overflow:hover {color: #f7f7f7 !important;}
         #profile .fa-instagram:hover {color: #f7f7f7 !important;}
-
+*/
         :root {
         --animate-delay: 0.6s;
         }
+/*
+        .entry{
+            padding: 0 10px 0 105px;
+            position: relative;
+        }
+        .entry::before {
+            content: "";
+            position:absolute;
+            left: 77px;
+            top: 1px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #494860;
+        }
+        .entry .timestamp {
+            position: absolute;
+            left: 24px;
+            top: -8px;
+            background: #dba5c2;
+            border-radius: 10px;
+            padding: 7px;
+            font-size: 1.4em;
+            color: #fff;
+        }
+        .entry .entry-title {
+            font-size: 1.2em;
+        }*/
+
     </style>
 
     <script src="https://kit.fontawesome.com/c01311720b.js" crossorigin="anonymous"></script>
@@ -122,24 +159,17 @@
         </div>
     </section>
     <!-- End Separator Section -->
-    
-    <section class="section">
-        <div class="container is-max-desktop pt-0">
-            <div class="columns is-12">
-                <div class="column is-6 is-offset-6 pt-0 pb-0 skills">
-                    <h2 class="is-size-2 title pl-6 is-uppercase">Skills</h2>
-                </div>
-            </div>
-        </div>
-    </section>
- 
+
     <section class="section pt-0 pb-0 accent-bg">
         <div class="container is-max-desktop pt-0">
-            <div class="columns is-12">
-                <div class="column is-6 is-offset-6 pt-0 pb-0 skills">
+            <div class="columns is-12 is-vcentered">
+                <div class="column is-6">
+                    <h2 class="is-size-2 title is-uppercase has-text-black-bis">Skills</h2>
+                </div>
+                <div class="column is-6 pt-0 pb-0 skills">
                     <div class="animate__anima pl-6ted animate__fadeIn animate__delay-2s animate__fast pl-6 pr-6">
                         <p class="title is-5 mb-1 accent-text">UI/UX Design</p>
-                        <p class="content">I have always been interested in User Interfaces and how it can be used to create great user experiences.</p>
+                        <p class="content">I have always been interested in User Interfaces and how they can be used to create great user experiences.</p>
                     </div>
 
                     <div class="animate__animated animate__fadeIn animate__delay-3s animate__fast pl-6 pr-6">
@@ -148,7 +178,7 @@
                     </div>
 
                     <div class="animate__animated animate__fadeIn animate__delay-4s animate__fast pl-6 pr-6">
-                        <p class="title is-5 mt-6 mb-1 accent-text">Programming</p>
+                        <p class="title is-5 mt-6 mb-1 accent-text">Software Development</p>
                         <p class="content">I am an Engineer with a Bachelor's degree in Computer Science. I have strong programming skills with Java, Kotlin and Javascipt, with foundation in C and C++.</p>
                     </div>
                 </div>
@@ -158,13 +188,20 @@
     </section>
 
     <section class="section">
-        &nbsp;
+        <div class="container">
+            <h2 class="is-size-2 title is-uppercase">Blog Posts</h2>
+            <div id="items" class="columns ">
+            </div>
+        </div>
     </section>
 
-    <section class="section">
+    <section class="section has-background-link">
 
         <div class="social has-text-centered animate__animated animate__fadeIn animate__delay-2s animate__fast">
-            <h2 class="title is-2 is-uppercase mb-4">Social media</h2>
+            <h2 class="title is-2 is-uppercase mb-4 has-text-black-bis">Contact Me</h2>
+            <div class="p-2 has-text-black">
+                <span><b>Email</b> </span> midhunhk[at]gmail.com
+            </div>
             <div>
                 <span class="icon is-large"><a target="_blank" title="GitHub" href="https://github.com/midhunhk"><i class="fab fa-2x fa-github pr-2 has-text-black"></i></a></span>
                 <span class="icon is-large"><a target="_blank" title="StackOverflow" href="https://stackoverflow.com/users/592025/midhunhk"><i class="fab fa-2x fa-stack-overflow pr-2 has-text-black"></i></a></span>
@@ -178,5 +215,58 @@
 
     </section>
 
+    <section class="section has-background-grey-darker has-text-grey-light pt-2 pb-2">
+        <div class="container">
+            <p class="is-size-7">&copy; 2021 Midhun Harikumar. All Rights Reserved.</p>
+        </div>
+    </section>
+
+    <script>
+        ( function(){
+            const blogPostsToShow = 3
+            const blogPostsFeed = "https://midhunhk.github.io/atom.xml"
+
+            const t = (entry, tname) => entry.getElementsByTagName(tname)[0]
+            const date = entry => new Date(t(entry, 'updated').textContent).toISOString().split('T')[0]
+            const html2txt = html => html.replace(/<(?:.|\n)*?>/gm, '')
+            const content = entry =>  (t(entry, 'excerpt').textContent)
+            // const content = entry => html2txt( (t(entry, 'content').textContent).slice(0, 300))
+
+            // Load the latest blog posts
+            fetch(blogPostsFeed)
+                .then(response => response.text())
+                .then( xml => {
+                    const parser = new DOMParser()
+                    const xmlDoc = parser.parseFromString(xml, "text/xml")
+                    // console.log(xmlDoc.getElementsByTagName('entry')[0])
+                    const entriesArray = Array.from( xmlDoc.getElementsByTagName('entry'))
+                    const numBlogs = Math.min(blogPostsToShow, entriesArray.length)
+                    const subarray = entriesArray.slice(0, numBlogs)
+                    const html = subarray.map( entry => `
+                        <div class="column is-one-third">
+                            <div class="card is-shadowless">
+                                <div class="card-image">
+                                    <img src="${t(entry, 'featured').innerHTML}" alt="featured image"/>
+                                </div>
+                                <div class="card-content">
+                                    <div class="content">
+                                        <p class="m-t-tiny block">${date(entry)}</p>
+                                        <a href="${t(entry, 'link').getAttribute('href')}" class="mt-2 mb-2">
+                                            <h2 class="title is-4 mb-2 pb-2">${t(entry, 'title').innerHTML}</h2>
+                                        </a>
+                                        <p>${content(entry)}...</p>
+                                        <p>
+                                            <a href="${t(entry, 'link').getAttribute('href')}">Read More</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `)
+                    
+                    document.getElementById('items').innerHTML = html.join('')
+                })
+        })();
+    </script>
 </body>
 </html>
