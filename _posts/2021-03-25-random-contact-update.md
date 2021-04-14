@@ -10,6 +10,7 @@ tags: [app, android]
 An update to the Android app Random Contact had been in the plans for a couple of years now. 
 
 One of the major roadblocks was the major rewrite of the [lib-aeapps](https://midhunhk.github.io/dev/2018/09/21/announcing-lib-ae-apps-4/) library that is used by Random Contact. The library project was finally upgraded to version 4 in late 2020.
+
 <!-- more -->
 
 The app had an outdated design and technical stack. The last major update was back in 2017 when it was migrated to the Android Studio format and based on the original Material Design Guidelines.
