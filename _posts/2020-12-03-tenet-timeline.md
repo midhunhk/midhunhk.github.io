@@ -3,6 +3,7 @@ layout: post
 title: Tenet Timeline
 category: Review
 comments: true
+featured: /public/images/2019_12_30.jpg
 tags: [movies,small-post]
 ---
 Chris Nolan's [Tenet](https://www.imdb.com/title/tt6723592/?ref_=nv_sr_srsg_0) was one of the most awaited and anticipated movies of the year 2020.  
