@@ -9,6 +9,7 @@ tags: [app, android]
 </div>
 Just after the hard work on [Message Counter](http://midhunhk.github.io/message-counter) was completed and the app was released 
 to the public, I have taken up another major app rewriting task. This time it's [LibAeApps](https://github.com/midhunhk/ae-apps-library).
+
 <!-- more -->
 
 The "AeAppsLibrary" also called "libAeApps" is an Android library project that I use as library project with common functionality 

@@ -12,6 +12,7 @@ With the latest updates to Trip O Meter (codenamed Balanjar - Version 2.0), the 
 While I was not able to dig into the exact reason for the slowness, I thought about adding a Splash Screen while the app is loading.
 
 From my research, there are multiple ways to create a Splash Screen ranging from new Activity for splash which is displayed for a fixed time to the simple approach detailed below.
+
 <!-- more -->
 We create a Splash layout which defines the content of the Splash screen.
 <script src="https://gist.github.com/midhunhk/fe2be8b80e4b9af15797d805045c88b4.js?file=splash.xml"></script>

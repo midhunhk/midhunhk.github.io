@@ -9,6 +9,7 @@ tags: [app, html]
 I like to visualize data! Its easier to understand and relate that way. Its a good way to memorize key points.
 
 It was back in the tail end of 2014 that I thought of representing some hierarchies by drawing boxes in Fireworks. But this would not be easy to maintain and edit easily.
+
 <!-- more -->
 I had an idea to look for some JavaScript libraries to represent some tree like relations in HTML5. But most of my searches ended in libraries that can connect between two nodes, I needed a node to be able to connect 0 to many nodes.
 

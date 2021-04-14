@@ -10,6 +10,7 @@ tags: [app, android]
   </div>
 </div>
 We have released the latest version of Message Counter developed with codename **Unicorn**  this week.
+
 <!-- more -->
 ### Migration to Android Studio
 The major change for the project is migration from Eclipse Project to gradle based Android Studio Project.

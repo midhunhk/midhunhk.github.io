@@ -10,6 +10,7 @@ This is a followup post to my earlier [post](http://midhunhk.github.io/review/20
 that were used by the official Android Messages app. It ended with them coming to the end of the Alphabetic order with "Zither" and another update with "Nose Flute". 
 
 A new version has now been released!
+
 <!-- more -->
 It looks like monsters from the world of Dungeons and Dragons. We will be able to confirm with upcoming versions.
 

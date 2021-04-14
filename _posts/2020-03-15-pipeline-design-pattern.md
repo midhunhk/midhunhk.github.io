@@ -9,6 +9,7 @@ To simplify a process, I had to quickly build a utility app to create report bas
 
 I had always planned to refactor the single Java source file into a proper design when I found some free time.
 That's how I got to implement my version of the Pipeline Design Pattern.
+
 <!-- more -->
 After refactoring, I was left with the following classes, and I will explain the main ones below.
 

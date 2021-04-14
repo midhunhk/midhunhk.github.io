@@ -12,6 +12,7 @@ The graphics looked good and it was exciting to see the plot set in historical l
 An year or so after the game's release, I played the game, which turned out to be a pre-release version that had a bug which would crash the game 
 after you complete a few missions. This year during the lockdown, I got a chance to revisit the proper PC version of the game and I thought I would revisit 
 the game and take a look back to the original story.
+
 <!-- more -->
 ![Posing with the guards inside Masyaf Castle](/public/images/2020/05/18/masyaf.png)
 From the trailers and initial content, it looked like a story happening during the crusades with other information vague or not widely available at that time. 

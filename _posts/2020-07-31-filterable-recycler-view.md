@@ -12,6 +12,7 @@ with the custom contact picker that is used in it. Since it seemed like a good r
 along with the rearchitecture of my Andorid library project [lib-aeapps](https://github.com/midhunhk/lib-aeapps).
 
 Lets see how to add a filter for a RecyclerView in an Android app.
+
 <!-- more -->
 
 As you should have guessed, when we apply a filter we would show a subset of the data in the list. From the RecyclerView's point of view, 

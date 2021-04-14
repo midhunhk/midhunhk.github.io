@@ -10,6 +10,7 @@ tags: [local guides, meetup, ernakulam]
 
 The data on Google Maps is mainly updated and verified by a community called Local Guides. Google simply do all all of this by its own.
 Local Guides program is a voluntary program where Local Guides are free to contribute to keeping Maps updated as useful for everyone at their own leisure. 
+
 <!-- more -->
 
 Although there are no monetary compensation from Google, Local Guides do enjoy early access to new product features, coupon codes, meetups and various rewards from time to time.

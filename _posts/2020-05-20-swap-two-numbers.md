@@ -9,6 +9,7 @@ For no reason, I was reminded of a simple code snippet to swap (interchange) two
 I may have used it once or twice in my 10 years of being a professional software developer.
 
 Swapping two numbers is a common use case when working with some algorithms and the like.
+
 <!-- more -->
 Given two variables, let's say `a` and `b`, we can swap their values without using a temporary variable as:
 

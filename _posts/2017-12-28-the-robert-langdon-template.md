@@ -11,6 +11,7 @@ tags: [thoughts]
 I was excited to read the newest Robert Langdon book [Origin](https://en.wikipedia.org/wiki/Origin_(Dan_Brown_novel)) expecting a fresh
 adventure after the good [Inferno](https://en.wikipedia.org/wiki/Inferno_(Dan_Brown_novel)).
 Unfortunately it felt a complete waste of time and money when I was done. It got me thinking about the story structure that is common to all Robert Langdon novels.
+
 <!-- more -->
 ## The Template
 Below is the rough structure of a Robert Langdon Novel.

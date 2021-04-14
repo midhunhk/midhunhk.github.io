@@ -5,6 +5,7 @@ category: Dev
 tags: [java, java8, lambda]
 ---
 Ever since I heard Lambdas as one of the new features of Java 8, I did some research on it and ended up not understanding it at all. Other than some relation with complex mathematical terms, there was nothing I could understand about this.
+
 <!-- more -->
 This week, while watching a session on Advanced Javascript, I came across some Closure examples.
 

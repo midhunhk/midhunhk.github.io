@@ -9,6 +9,7 @@ tags: [app, android]
 </div>
 The last release for Trip O Meter was in July. Last week, I was modifying some other configuration in the project, and all of a sudden the Trip O Meter Travis Builds started failing.
 I had setup the CI builds for every check in with the latest release [Fig and Camelot](http://midhunhk.github.io/dev/2017/07/17/fig-and-camelot/).
+
 <!-- more -->
 The error stated that there were no android images found although I did not make any changes to the travis configuration file.
 > [Error: Target id is not valid. Use 'android list targets' to get the target ids.](https://travis-ci.org/midhunhk/trip-o-meter/builds/265911464)

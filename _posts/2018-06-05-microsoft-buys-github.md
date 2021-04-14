@@ -11,6 +11,7 @@ tags: [thoughts]
 All of a sudden there was this [announcement](https://blogs.microsoft.com/blog/2018/06/04/microsoft-github-empowering-developers/) from Microsoft's Satya Nadella. 
 I have been a member of Github since 2012 and have most of my Open Source projects as well as [this blog](https://midhunhk.github.io) hosted there.
 My first thought was "there goes my cloud repo".
+
 <!-- more -->
 ## Cause for concern
 As a developer, I have been burned by Microsoft on a couple of occassions, like when I had invested time and effort into learning [Silverlight](https://www.microsoft.com/silverlight/),

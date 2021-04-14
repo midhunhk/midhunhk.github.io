@@ -13,6 +13,7 @@ As with most other of Nolan's works, Tenet is highly non linear and may require 
 I made some notes while watching it, which is how I understand the timeline of events in the movie and thought I would share it.  
 
 <strong>SPOILERS beyond this point</strong>  
+
 <!-- more -->
 
 These events are purely from my observations and may not be accurate.  

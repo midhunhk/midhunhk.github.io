@@ -8,6 +8,7 @@ Message Counter was using a background service to start an SMS Content Observer.
 the latest Android API, it appeared that the service was killed after around 1 minute of the application went to the background.  
 
 This proved challenging for the app's functionality until further research led to...  
+
 <!-- more -->
 Android has introduced `JobService` and related classes with API 21 which helps to schedule a `Service` that would be invoked 
 based on certain conditions that are configured. With API 24, it got the ability to listen to changes to Content URIs. 
