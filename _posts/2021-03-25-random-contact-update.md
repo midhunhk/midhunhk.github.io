@@ -3,6 +3,7 @@ layout: post
 title: Random Contact 4.0
 category: Dev
 comments: true
+featured: /public/images/2021/03/25/mockup_light.png
 tags: [app, android]
 ---
 ![Random Contact mockup](/public/images/2021/03/25/mockup_light.png)
