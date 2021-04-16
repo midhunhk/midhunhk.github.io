@@ -1,8 +1,5 @@
-# Permalinks
-#
+lang:                en
 permalink:           pretty
-
-# Setup
 title:               Midhun Harikumar
 tagline:             Random Thoughts!
 url:                 https://midhunhk.github.io
