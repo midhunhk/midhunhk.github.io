@@ -250,7 +250,7 @@
     <script>
         ( function(){
             const blogPostsToShow = 3
-            const blogPostsFeed = "https://midhunhk.github.io/atom.xml"
+            const blogPostsFeed = "https://midhunhk.github.io/atom"
 
             const t = (entry, tname) => entry.getElementsByTagName(tname)[0]
             const date = entry => new Date(t(entry, 'updated').textContent).toISOString().split('T')[0]
