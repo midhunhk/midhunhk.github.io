@@ -1,29 +1,37 @@
-// Layout
-//
-// Styles for managing the structural hierarchy of the site.
-
-.container {
-  /*max-width: 40rem;*/
-  padding-left:  1.5rem;
-  padding-right: 1.5rem;
-  margin-left:  auto;
-  margin-right: 2rem;
-}
-
-footer {
-  margin-bottom: 2rem;
-}
-
-/* Block button style */
-.btn {
-    padding: 0.75rem 1rem;
-    display: inline-block;
+div.highlight {
     margin-bottom: 1rem;
-    color: rgba(255, 255, 255, 0.7);
-    background-color: rgba(255, 255, 255, 0.08);
-    border-color: rgba(255, 255, 255, 0.2);
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 0.3rem;
-    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+}
+
+@include desktop {
+    .navbar-item {
+        &.is-hoverable:hover {
+            .navbar-dropdown {
+                display: block;
+            }
+        }
+    }
+}
+
+.contents {
+    box-shadow: $box-shadow;
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.hero-darken {
+    background-color: rgba($hero-darken, 0.5);
+}
+
+.content {
+    figure {
+        margin: 0;
+    }
+}
+
+.callout {
+    &-icon {
+        width: 4rem;
+        height: 4rem;
+        margin-bottom: 0.75rem;
+    }
 }

@@ -3,6 +3,7 @@ layout: post
 title: Revisiting Assassins Creed 1
 category: Review
 comments: true
+summary: Replaying a video game from long time back, and make some notes.
 tags: [game,review]
 ---
 ![Air Assassination](/public/images/2020/05/18/jump_cinematic.png)

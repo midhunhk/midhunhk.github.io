@@ -8,7 +8,17 @@
 .custom-post-title{ padding-top: 80px; vertical-align: middle; font-family: 'Merriweather', serif; font-size: 1.8rem; color: #ffffff;}
 .featured{ margin: 10px 0;}
 .post-tag{ margin-bottom: 1em;}
-
+.post-title{ color: #1371DD; font-size: 2rem; font-weight:bold; line-height: 1.25; margin-bottom: 0.5rem;}
+.post-date{
+    display: block;
+    margin-top: -.5rem;
+    margin-bottom: 1rem;
+    color: #9a9a9a;
+}
+.post-content img{
+    margin: 1.5em auto;
+}
+.is-serif-font{font-family: 'Merriweather'}
 /* Some Colorful backgrounds for the header*/
 .orange{background-color: #ff9900;}
 .violet{background-color: rgba(123, 31, 162, 1); }
@@ -65,3 +75,15 @@
 /* Email button */
 .fa-envelope {color: #444444;}
 .fa-envelope:hover { background-color: #444444;}
+
+.divider {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #7a7a7a;
+    font-size: .75rem;
+    font-weight: 600;
+    letter-spacing: .5px;
+    margin: 25px 0;
+}

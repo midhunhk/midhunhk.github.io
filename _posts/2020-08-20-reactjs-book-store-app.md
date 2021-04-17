@@ -3,6 +3,8 @@ layout: post
 title: ReactJS Book Store application
 category: Dev
 comments: true
+featured: /public/images/2020/08/book-store-design.png
+summary: I want to note down how I created a simple ReactJS app in two nights time, from scratch to deploying on the cloud.
 tags: [web, development, reactjs]
 ---
 ![Book Store Design Concept](/public/images/2020/08/book-store-design.png)

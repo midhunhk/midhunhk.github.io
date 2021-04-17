@@ -20,9 +20,9 @@ layout: null
    <link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>{{ site.url }}{{ post.id }}</id>
-   <featured>{{ post.featured }}</featured>
-   <content type="html">{{ post.content | xml_escape }}</content>
-   <excerpt type="html">{{ post.content | split:"<!-- more -->" | first % }}</excerpt>
+   <featured>{% if page.featured %}{{ post.featured }}{% endif %}</featured>
+   <content type="html">{{ post.content | strip_html }}</content>
+   <excerpt type="html">{{ post.excerpt | strip_html | truncatewords:20 }}</excerpt>
  </entry>
  {% endfor %}
 
