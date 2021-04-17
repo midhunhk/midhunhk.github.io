@@ -4,9 +4,10 @@ title: Random Contact 4.0
 category: Dev
 comments: true
 featured: /public/images/2021/03/25/mockup_light.png
-featured_hero: true
+summary: An update to the Android app Random Contact had been in the plans for a couple of years now. 
 tags: [app, android]
 ---
+![Random Contact Redesign](/public/images/2021/03/25/mockup_light.png)
 An update to the Android app Random Contact had been in the plans for a couple of years now. 
 
 One of the major roadblocks was the major rewrite of the lib-AeApps project that is used by Random Contact. The library project was finally upgraded to version 4 in late 2020.
