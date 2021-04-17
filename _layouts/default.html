@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  {% include head.html %}
+{% include head.html %}
 
   <body>
-    {% include head.html %}
-
     {% include main_navigation.html %}
 
     {% unless page.hide_hero %}
@@ -27,6 +25,6 @@
     </section>
 
     {% include footer.html %}
-
+    {% include analytics.html %} 
   </body>
 </html>

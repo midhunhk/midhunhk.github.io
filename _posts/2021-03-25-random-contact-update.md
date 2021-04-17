@@ -29,8 +29,7 @@ Additionally In-App Reviews, In-App Update and a welcome message for people upgr
 
 Most of the time was spent on the polishing the UI and tweaking the themes. A few last minute bugs needed to be squashed and the latest version of the app is now available on the Google Play Store.
 
-Links
-=====
+### Links
 1. [Play Store Link](https://play.google.com/store/apps/details?id=com.ae.apps.randomcontact)
 2. [Case Study](https://ae-app-labs.github.io/case-studies/random-contact)
 3. [Github Source](https://github.com/midhunhk/random-contact)

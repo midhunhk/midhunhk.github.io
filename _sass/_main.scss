@@ -3,11 +3,12 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Merriweather');
 
 $primary: #1371DD !default;
+$success: #00d1b2;
+$background: #f6f6f6;
 $family-sans-serif: 'PT Sans', sans-serif;
 $family-secondary: 'Merriweather';
 $body-font-size: 1.4em;
-$body-line-height: 2;
-$success: #00d1b2;
+$body-line-height: 1.8;
 
 $tabs-link-active-color: $primary;
 $tabs-link-active-border-bottom-color: $primary;
@@ -15,15 +16,14 @@ $tabs-link-active-border-bottom-color: $primary;
 $modal-content-width: 800px;
 
 @import "../node_modules/bulma/bulma.sass";
+
 $hero-darken: $dark !default;
-
-
 @import "layout";
 @import "syntax";
 @import "showcase";
 @import "../node_modules/bulma-block-list/src/block-list.scss";
 
-.gh-sponsor {
-  color: #ea4aaa;
-}
 
+body{
+  background: $background;
+}

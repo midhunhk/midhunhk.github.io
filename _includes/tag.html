@@ -1,3 +1,4 @@
-<span class="tag {% if include.style %} {{ include.style }} {% else %} is-primary {% endif %}">
+<a class="tag {% if include.style %} {{ include.style }} {% else %} is-primary {% endif %}"
+    href="{{ site.url }}/tags#{{ include.tag }}">
     {{ include.tag }}
-</span>
+</a>
