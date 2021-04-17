@@ -1,18 +1,25 @@
 ---
 layout: default
 ---
-<div class="content">
-  <p>Published: {{ page.date | date: "%b %-d, %Y" }}</p>
-  {{ content }}
-</div>
 
-<div class="tags">
-  {% for tag in page.tags %}
-    {% include tag.html tag=tag %}
-  {% endfor %}
-</div>
+<div class="columns">
+  <div class="column is-4">
+    <p>
+        <span class="has-text-weight-bold">Published : </span> 
+        {{ page.date | date: "%b %-d, %Y" }}
+    </p>
+    <div class="tags mt-4">
+      {% for tag in page.tags %}
+        {% include tag.html tag=tag %}
+      {% endfor %}
+    </div>
+    {% include share-bar.html %}
+  </div>
 
-{% include share-bar.html %}
+  <div class="column is-8">
+     {{ content }}
+  </div>
+</div>
 
 {% include advertisements.html %}
 

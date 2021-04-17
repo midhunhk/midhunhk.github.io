@@ -5,6 +5,9 @@
 
   <body>
     {% include head.html %}
+
+    {% include main_navigation.html %}
+
     {% unless page.hide_hero %}
         {% include hero.html %}
     {% endunless %}
@@ -14,18 +17,16 @@
         <div class="columns">
 
             <div class="column is-12">
-              {{ content }}
+              <div class="post-content">
+                {{ content }}
+              </div>
             </div>
 
         </div>
       </div>
     </section>
 
-    <footer class="footer">
-      <small>
-          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
-      </small>
-    </footer>
+    {% include footer.html %}
 
   </body>
 </html>

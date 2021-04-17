@@ -3,20 +3,19 @@ layout: post
 title: Add custom filter to RecyclerView
 category: Dev
 comments: true
+featured: /public/images/2020/07/multi-contact-picker.png
+featured_hero: true
 tags: [android, development]
 ---
-![Filterable Contact Picker](/public/images/2020/07/multi-contact-picker.png)
-One of the most requested enhancements for the [Random Contact App](https://github.com/midhunhk/random-contact) is for a way to filter contacts 
+One of the most requested enhancements for the Random Contact App is for a way to filter contacts 
 with the custom contact picker that is used in it. Since it seemed like a good reusable component, I added the module 
-[MultiContactPicker](https://github.com/midhunhk/lib-aeapps/tree/master/modules/multi-contact/src/main/java/com/ae/apps/lib/multicontact)
-along with the rearchitecture of my Andorid library project [lib-aeapps](https://github.com/midhunhk/lib-aeapps).
+named MultiContactPicker along with the rearchitecture of my Andorid library project lib-aeApps.
 
 Lets see how to add a filter for a RecyclerView in an Android app.
 
 <!-- more -->
 
-As you should have guessed, when we apply a filter we would show a subset of the data in the list. From the RecyclerView's point of view, 
-the list of data that it has to show has changed - a call to `notifyDataSetChanged()` is to be expected.
+As you should have guessed, when we apply a filter we would show a subset of the data in the list. From the RecyclerView's point of view, the list of data that it has to show has changed - a call to `notifyDataSetChanged()` is to be expected.
 
 And where do we manage the data for a RecyclerView? The backing adapter which extends the class `RecyclerView.Adapter`.
 
@@ -105,7 +104,8 @@ Whenever there is a change in text, we simply invoke the `filter()` method on th
 These are all the changes that are required. Pretty much all of the above code except the implementation for `filterContactsByName()` 
 is generic and can be re-used for any project. Please reach out to me for any doubts. See the references to the source code hosted on GitHub.
 
-### References
-1. [lib-aeapps](https://github.com/midhunhk/lib-aeapps)
-2. [MultiContactRecyclerViewAdapter](https://github.com/midhunhk/lib-aeapps/blob/master/modules/multi-contact/src/main/java/com/ae/apps/lib/multicontact/MultiContactRecyclerViewAdapter.java)
-3. [Sample App](https://play.google.com/store/apps/details?id=com.ae.apps.lib.sample)
+## References
+1. [Random Contact App](https://github.com/midhunhk/random-contact)
+2. [lib-aeapps](https://github.com/midhunhk/lib-aeapps)
+3. [MultiContactRecyclerViewAdapter](https://github.com/midhunhk/lib-aeapps/blob/master/modules/multi-contact/src/main/java/com/ae/apps/lib/multicontact/MultiContactRecyclerViewAdapter.java)
+4. [Sample App](https://play.google.com/store/apps/details?id=com.ae.apps.lib.sample)

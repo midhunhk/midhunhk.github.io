@@ -1,5 +1,66 @@
 ---
-layout: blog
+layout: default
 title: Blog
-subtitle: Blog sub title
+subtitle: Random Thoughts!
 ---
+
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+  <h1 class="post-title is-family-secondary"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <p class="author">
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+  </p>
+  <div class="content">
+
+    {% if post.featured %}
+      <img src="{{ post.featured }}" alt="featured" />
+    {% endif %}
+
+    <p>
+      {% if post.summary %}
+        <!-- Use the summary if it exists -->
+        {{ post.summary }}
+      {% else %}
+        {% if post.content contains "<!-- more -->" %}
+          <!-- For a long post, only show the excerpt -->
+          {{ post.content | split:"<!-- more -->" | first }}
+          
+          <div class="has-text-right mt-2 mb-2">
+            <a class="button is-success" href="{{ post.url }}">
+              <span>Read More</span>
+              <span class="icon">
+                <i class="fas fa-arrow-right"></i>
+              </span>
+            </a>
+          </div>
+
+        {% else %}
+          <!-- Short post without an excerpt -->
+          {{ post.content }}
+        {% endif %}
+      {% endif %}
+    </p>
+
+    <div class="is-divider" data-content="&middot;"></div>
+  </div>
+{% endfor %}
+
+<div class="section has-background-success-light">
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class=" button is-primary previous">
+        Previous
+      </a>
+    {% else %}
+      <span class="previous">Previous</span>
+    {% endif %}
+    <span class="page_number ">
+      Page: {{ paginator.page }} of {{ paginator.total_pages }}
+    </span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="button is-primary next">Next</a>
+    {% else %}
+      <span class="next ">Next</span>
+    {% endif %}
+  </div>
+</div>

@@ -4,12 +4,12 @@ title: Random Contact 4.0
 category: Dev
 comments: true
 featured: /public/images/2021/03/25/mockup_light.png
+featured_hero: true
 tags: [app, android]
 ---
-![Random Contact mockup](/public/images/2021/03/25/mockup_light.png)
 An update to the Android app Random Contact had been in the plans for a couple of years now. 
 
-One of the major roadblocks was the major rewrite of the [lib-aeapps](https://midhunhk.github.io/dev/2018/09/21/announcing-lib-ae-apps-4/) library that is used by Random Contact. The library project was finally upgraded to version 4 in late 2020.
+One of the major roadblocks was the major rewrite of the lib-AeApps project that is used by Random Contact. The library project was finally upgraded to version 4 in late 2020.
 
 <!-- more -->
 
@@ -28,7 +28,9 @@ Additionally In-App Reviews, In-App Update and a welcome message for people upgr
 
 Most of the time was spent on the polishing the UI and tweaking the themes. A few last minute bugs needed to be squashed and the latest version of the app is now available on the Google Play Store.
 
-### Links
+Links
+=====
 1. [Play Store Link](https://play.google.com/store/apps/details?id=com.ae.apps.randomcontact)
 2. [Case Study](https://ae-app-labs.github.io/case-studies/random-contact)
 3. [Github Source](https://github.com/midhunhk/random-contact)
+4. [lib-aeapps](https://midhunhk.github.io/dev/2018/09/21/announcing-lib-ae-apps-4/)
