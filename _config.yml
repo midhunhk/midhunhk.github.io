@@ -1,7 +1,7 @@
 lang:                en
 title:               Midhun Harikumar
 tagline:             Random Thoughts!
-url:                 https://midhunhk.github.io
+url:                 https://midhunhk.com
 paginate:            6
 paginate_path:       "/blog/page:num/"
 permalink:           pretty
@@ -20,7 +20,7 @@ plugins:
 # Original About/contact
 author:
   name:              Midhunhk
-  url:               https://midhunhk.github.io/bio/
+  url:               https://midhunhk.com
   email:             midhunhk at gmail.com
 
 # Custom vars
