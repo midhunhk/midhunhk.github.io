@@ -1,8 +1,7 @@
 {
   "name": "midhunhk.github.io",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "Personal Portfolio and Blog",
-  "main": "index.js",
   "dependencies": {
     "bulma": "^0.9.2",
     "bulma-block-list": "^0.5.0"
