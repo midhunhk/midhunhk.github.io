@@ -5,18 +5,19 @@ category: Review
 comments: true
 tags: [app]
 ---
-
 This is another follow-up to my earlier posts in this series, which lists the codenames used by the Android Messags app, after [Musical Instruments](https://midhunhk.github.io/review/2018/09/06/android-messages-codenames/) and characters from [Dungeons and Dragons](https://midhunhk.github.io/review/2018/10/26/android-messages-mark-2/). 
-
+<br/><br/>
 With the Android team dicontinuing the highly awaited "dessert codename" of each major release, this seems like a good detour!
-
+<br/><br/>
 <!-- more -->
 
 This post will likely be updated with this series of codenames, which look like types of trees or shrubs.  
-There are a few fictional characters with connections to "trees"
+There are a few fictional characters with connections to "trees"  
 
-| Version | Codename |
-|---------|----------|
+<br/>
+
+| Version &nbsp;| Codename |
+|:---------:|:----------|
 | 6.4     | [Acacia](https://en.wikipedia.org/wiki/Acacia) |
 | 6.5     | [Banyan](https://en.wikipedia.org/wiki/Banyan) |
 | 6.6     | [Cypress](https://en.wikipedia.org/wiki/Cypress) |
@@ -31,4 +32,5 @@ There are a few fictional characters with connections to "trees"
 | 7.5     | [Lotus](https://en.wikipedia.org/wiki/Lotus_tree) |
 | 7.6     | [Maple](https://en.wikipedia.org/wiki/Maple) |
 
+<br/>
 Check back often to see an update.
