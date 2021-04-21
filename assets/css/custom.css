@@ -15,9 +15,8 @@
     margin-bottom: 1rem;
     color: #9a9a9a;
 }
-.post-content img{
-    margin: 1.5em auto;
-}
+.post-content img{ margin: 1.5em auto; }
+.post-content div div.is-8 p:first-child img{ margin-top: 0px !important;}
 .is-serif-font{font-family: 'Merriweather'}
 /* Some Colorful backgrounds for the header*/
 .orange{background-color: #ff9900;}
