@@ -21,9 +21,9 @@ It was an 8 hour work in a single sitting to migrate and configure to Bulma them
 
 The main obstacle was installing Ruby and setting up the Jekyll gem on local for testing the changes. Ofcourse since Bulma is my favourite and go to CSS framework, it was very easy to update all the styles.
 
-Finally, after spending <em>a hectic day</em> on day on it, I turned my attention on purchasing a domain name. After comparing a number of services, I finally chose [Namecheap](https://namecheap.pxf.io/rnQvdj). The process was very fast and the customer service was excellent to setup all the configurations to point to the exisiting Github Pages location, given this is the first time that I have ever bought and configured a domain.
+Finally, after spending <em>a hectic day</em> on it, I turned my attention on purchasing a domain name. After comparing a number of services, I finally chose [Namecheap](https://namecheap.pxf.io/rnQvdj). The process was very fast and the customer service was excellent to setup all the configurations to point to the exisiting Github Pages location, given this is the first time that I have ever bought and configured a domain.
 
-<article class="message is-success">
+<article class="message is-warning">
   <div class="message-header">
     <p>Discounts!</p>
   </div>
@@ -37,7 +37,7 @@ Finally, after spending <em>a hectic day</em> on day on it, I turned my attentio
 ## Two: [Ae App Labs](https://ae-app-labs.github.io/)
 I work on some of my Open Source projects, and tutorials under the Organization Ae App Labs. There was a static placeholder site hosted on Github Pages for it. Ever since I learnt about [Svelte](https://svelte.dev/) back in 2020, I wanted to apply it on a love project. I fell in love with the simplicity and you should check it out too.
 ![AE App labs](/public/images/2021/04/23/app_labs.jpg)
-Back in December 2020, I began the long process of redesigning the organization website into [Sapper](https://sapper.svelte.dev/) (An application framework powered by Svelte). There were a number of design revisions, development and features that were added in a span of 3-4 months until the site was completed.
+Back in December 2020, I began the long process of redesigning the organization website into [Sapper](https://sapper.svelte.dev/) (An application framework powered by Svelte). There were a number of design revisions, development and features that were added in a span of <em>3-4 months</em> until the site was completed.
 
 Do check it out for more details on some Open Source Projects, Case Studies and Tutorials!
 
