@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Introducing Trip O Meter
+featured: /public/images/tripometer_promo.png
+featured_hero: true
+summary: Trip O Meter started out as a simple idea to know how much fuel would be needed when making a trip. I just wanted to make sure there was sufficient amount of fuel while planning.
 category: Project
 tags: [app, android]
 ---
-<div class="featured">
-  <img alt="Trip O Meter" src="/public/images/tripometer_promo.png" />
-</div>
 Hello dear reader. I welcome 2017 with a new Android app announcement. 
 
 ## Trip O Meter

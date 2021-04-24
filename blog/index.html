@@ -16,7 +16,7 @@ subtitle: Random Thoughts!
       <img src="{{ post.featured }}" alt="featured" />
     {% endif %}
 
-    <p>
+    <div>
       {% if post.summary %}
         <!-- Use the summary if it exists -->
         {{ post.summary }}
@@ -39,7 +39,7 @@ subtitle: Random Thoughts!
           {{ post.content }}
         {% endif %}
       {% endif %}
-    </p>
+    </div>
 
     <div class="is-divider" data-content="&middot;"></div>
   </div>

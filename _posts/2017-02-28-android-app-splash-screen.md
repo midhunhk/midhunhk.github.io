@@ -2,6 +2,7 @@
 layout: post
 title: Splash Screen
 category: Dev
+summary: From my research, there are multiple ways to create a Splash Screen ranging from new Activity for splash which is displayed for a fixed time to the simple approach detailed below.
 tags: [app, android]
 ---
 <div class="custom-post-header gulf-stream">

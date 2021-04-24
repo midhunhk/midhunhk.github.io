@@ -2,6 +2,8 @@
 layout: post
 title: Project codenamed MoonShine
 category: Project
+featured: /public/images/moonshine_sample.png
+summary: I like to visualize data! Its easier to understand and relate that way. Its a good way to memorize key points.
 tags: [app, html]
 ---
 ![randomcontact](/public/images/moonshine_sample.png)

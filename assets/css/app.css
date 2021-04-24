@@ -13579,4 +13579,38 @@ div.highlight {
 body {
   background: #f6f6f6;
 }
+
+p {
+  padding: 0.8em 0;
+}
+
+ul {
+  list-style: disc;
+}
+
+ul li {
+  margin-left: 1.2em;
+}
+
+ol li {
+  margin-left: 1.2em;
+  padding-left: 0.8em;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+table, th, td {
+  border: 1px solid #999;
+}
+
+table tr th, table tr td, th tr th, th tr td, td tr th, td tr td {
+  padding: 0.4em;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #93c5fd;
+}
 /*# sourceMappingURL=app.css.map */
