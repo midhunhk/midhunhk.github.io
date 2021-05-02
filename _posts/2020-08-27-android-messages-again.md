@@ -30,6 +30,12 @@ There are a few fictional characters with connections to "trees"
 | 7.4     | [Katsura](https://en.wikipedia.org/wiki/Cercidiphyllum) |
 | 7.5     | [Lotus](https://en.wikipedia.org/wiki/Lotus_tree) |
 | 7.6     | [Maple](https://en.wikipedia.org/wiki/Maple) |
+| 7.7     | [Neem](https://en.wikipedia.org/wiki/Neem) |
+| 7.8     | [Oak](https://en.wikipedia.org/wiki/Oak) |
+| 7.9     | [Pine](https://en.wikipedia.org/wiki/Pine) |
 
 
 Check back often to see an update.
+
+# Reference
+ - [Messages on APK Mirror](https://www.apkmirror.com/apk/google-inc/messenger-google-inc/)
