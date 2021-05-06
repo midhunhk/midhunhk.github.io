@@ -4,11 +4,6 @@ title: Message Counter 3.2
 category: Dev
 tags: [app, android]
 ---
-<div class="custom-post-header teal">
-  <div class="custom-post-title">
-    <img src="https://raw.githubusercontent.com/midhunhk/artwork/master/MessageCounter/exports/app-icon/codenamed/icon_unicorn.png" style="display: inline-block;"/>
-  </div>
-</div>
 We have released the latest version of Message Counter developed with codename **Unicorn**  this week.
 
 <!-- more -->
