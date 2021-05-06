@@ -31,3 +31,5 @@ We walked through Broadway and Ernakulam Market as well as Broadway Synagogue, S
 ![Views from GDD India 2017](/public/images/local_guides_collage_02.jpg)
 
 By around 6 PM, we arrived at the Kettuvallam Bridge near Marine Drive where we watched the Sunset and had casual discussions before saying goodbyes.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B32lVEkIdmg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
