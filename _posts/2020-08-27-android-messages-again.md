@@ -33,7 +33,9 @@ There are a few fictional characters with connections to "trees"
 | 7.7     | [Neem](https://en.wikipedia.org/wiki/Neem) |
 | 7.8     | [Oak](https://en.wikipedia.org/wiki/Oak) |
 | 7.9     | [Pine](https://en.wikipedia.org/wiki/Pine) |
-
+| 8.0     | [Quiver](https://en.wikipedia.org/wiki/Aloidendron_dichotomum) |
+| 8.1     | [Rowan](https://en.wikipedia.org/wiki/Rowan) |
+| 8.2     | [Sequoia](https://en.wikipedia.org/wiki/Sequoia_(genus)) |
 
 Check back often to see an update.
 
