@@ -15,7 +15,11 @@ subtitle: Random Thoughts!
   <div class="content">
 
     {% if post.featured %}
-      <img src="{{ post.featured }}" alt="featured" />
+      <a href="{{ post.url }}">
+        <figure class="image">
+          <img src="{{ post.featured }}" alt="featured"/>
+        </figure>
+      </a>
     {% endif %}
 
     <div>
