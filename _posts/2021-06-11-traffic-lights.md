@@ -11,7 +11,8 @@ tags: [personal, photography]
 I was thinking of the possibility to capture a traffic light with all the lights illuminated on it for a long time.
 <!-- more -->  
 <br/>
-The image at the top of the page is one of the first photos from my poor choice of location. Basically we need to find an appropriate location to place the camera on a tripod and do a very long exposure to capture the light from all the traffic lights as they turn on. As this traffic light was at a busy intersection, it was "Green" for most of the time. And I doubt the Orange light was on for much during my 55 second exposure.
+![Traffic Lights](/public/images/2021/06/11/header.jpg)
+The image above is one of the first photos from my poor choice of location. Basically we need to find an appropriate location to place the camera on a tripod and do a very long exposure to capture the light from all the traffic lights as they turn on. As this traffic light was at a busy intersection, it was "Green" for most of the time. And I doubt the Orange light was on for much during my 55 second exposure.
 
 ![Gear](/public/images/2021/06/11/gear.jpg)
 The camera settings need to be fully manual as we need to control all the factors including Manual focus (as autofocus might mot find what object to lock on if using a wide focal length), Low ISO, Bulb mode and remote shutter, maximum aperture. A sturdy tripod is a must, and an ND filter is handy.
