@@ -36,6 +36,9 @@ There are a few fictional characters with connections to "trees"
 | 8.0     | [Quiver](https://en.wikipedia.org/wiki/Aloidendron_dichotomum) |
 | 8.1     | [Rowan](https://en.wikipedia.org/wiki/Rowan) |
 | 8.2     | [Sequoia](https://en.wikipedia.org/wiki/Sequoia_(genus)) |
+| 8.3     | [Teak](https://en.wikipedia.org/wiki/Teak) |
+| 8.4     | [Upas](https://en.wikipedia.org/wiki/Antiaris) |
+| 8.5     | [Vitex](https://en.wikipedia.org/wiki/Vitex) |
 
 Check back often to see an update.
 
