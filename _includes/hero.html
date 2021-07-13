@@ -2,9 +2,11 @@
     <div class="hero-body {% if page.hero_darken %} hero-darken {% endif %}">
         <div class="container {% if page.hero_content_align == 'right' %} has-text-right {% endif %}">
             <h1 class="title is-2 is-family-secondary">{{ page.title }}</h1>
-            <p class="subtitle is-3">{{ page.subtitle }}</p>
+            {% if page.subtitle %}
+                <p class="subtitle is-3">{{ page.subtitle }}</p>
+            {% endif %}
             {% if page.hero_link %}
-                <a href="{{ page.hero_link | relative_url }}" class="button is-info is-large">{{ page.hero_link_text }}</a>
+                <a href="{{ page.hero_link | relative_url }}" class="button is-success is-medium">{{ page.hero_link_text }}</a>
             {% endif %}
         </div>
     </div>

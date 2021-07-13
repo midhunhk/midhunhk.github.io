@@ -86,3 +86,15 @@
     letter-spacing: .5px;
     margin: 25px 0;
 }
+
+iframe{
+    width: 93vw;
+    height: calc(93vw/1.77);
+}
+
+@media (min-width: 768px) {
+    iframe{
+        width: 60vw;
+        height: calc(60vw/1.77);
+    }
+}

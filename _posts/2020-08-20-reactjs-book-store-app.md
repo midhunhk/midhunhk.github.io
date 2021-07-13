@@ -3,6 +3,8 @@ layout: post
 title: ReactJS Book Store application
 category: Dev
 comments: true
+hero_link: https://tresdale-book-store.herokuapp.com/
+hero_link_text: View Demo
 featured: /public/images/2020/08/book-store-design.png
 summary: I want to note down how I created a simple ReactJS app in two nights time, from scratch to deploying on the cloud.
 tags: [web, development, reactjs]
@@ -31,7 +33,7 @@ Oh, was I wrong in this case. I had to do a lot of searching and came across mul
  
 Essentially I felt like most of my time was spent with deploying the app and customizing the theme as per my design in Adobe XD.
 
-### References
+## References
 1. [Book Store App](https://tresdale-book-store.herokuapp.com/)
 2. [Github Project](https://github.com/midhunhk/react-book-store)
 3. [Sample REST Service](https://github.com/midhunhk/sample-rest-api)
