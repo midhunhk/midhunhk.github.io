@@ -10,6 +10,7 @@ hero_link_text: View Tutorials
 tags: [tutorial, technology]
 ---
 Creating technical and design tutorials has been one of the things I have been interested for a long time. It is a method to document my learning as well as enable others to learn and understand.<br/><br/> 
+![First Tutorials website](/public/images/2021/07/12/video_tutorial.jpg)
 While I mostly note these down on my blog once in a while, at one point in time I used to painstakingly create and upload tutorials way back in 2006.
 <!-- more -->  
 
