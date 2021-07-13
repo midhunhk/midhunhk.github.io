@@ -21,9 +21,13 @@ I still remember having to upload each and every single file over dial up connec
 ## Video Tutorials
 Having used video tutorials to increase my knowledge in many areas, I always thought it is an excellent medium to learn things compared to going over long articles. 
 <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/kp-JVtnETWI?controls=0" title="YouTube video player" width="100%"></iframe>
-So I decided to try my hand and create a few tutorials and host them on my Youtube channel. Little did I know the amount of preparation, time management, hard work and editing that is involved for this. Especially doing this for the first time with very little hands on knowledge on vide editing and related things. I wolld literally spend an entire evening to create a 15 minute video.
+So I decided to try my hand and create a few tutorials and host them on my Youtube channel. Little did I know the amount of preparation, time management, hard work and editing that is involved for this. 
 
-## References
+Especially doing this for the first time with very little hands on knowledge on vide editing and related things. I wolld literally spend an entire evening to create a 15 minute video. I have been able to do around 7 videos on UI Design, Web Development and Android basics. 
+
+Hoping these would be useful to someone in some form.
+
+## Further Reading
 1. [Mhkonline2 Tutorials](https://web.archive.org/web/20091027123852/http://geocities.com/mhkonline2/tutorials/index.html)
 2. [The Tech Edge](https://midhunhk.blogspot.com/)
 3. [Tuorials under ae](https://ae-app-labs.github.io/tutorials/)
