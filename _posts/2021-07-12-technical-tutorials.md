@@ -10,13 +10,12 @@ hero_link_text: View Tutorials
 tags: [tutorial, technology]
 ---
 Creating technical and design tutorials has been one of the things I have been interested for a long time. It is a method to document my learning as well as enable others to learn and understand.<br/><br/> 
-![First Tutorials website](/public/images/2021/07/12/video_tutorial.jpg)
 While I mostly note these down on my blog once in a while, at one point in time I used to painstakingly create and upload tutorials way back in 2006.
 <!-- more -->  
 
 ## Mhkonline2 tutorials
 My first attempt at tutorials was hosted on my website over on [geocities](https://en.wikipedia.org/wiki/Yahoo!_GeoCities). This was back in 2006-2009 before geocities was shutdown. Tutorials in article form are good when they are short and simple.
-![First Tutorials website](/public/images/2021/07/12/mhkonline2_tutorials.jpg)
+![First Tutorials website](/public/images/2021/07/12/video_tutorial.jpg)
 I still remember having to upload each and every single file over dial up connection. These tutorials were mostly very basic ones.
 
 ## Video Tutorials
