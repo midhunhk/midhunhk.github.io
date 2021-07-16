@@ -171,8 +171,40 @@ title: Home
 
     <div class="social has-text-centered animate__animated animate__fadeIn animate__delay-2s animate__fast">
         <h2 class="title is-2 is-family-secondary is-uppercase mb-4 has-text-black-bis">Contact Me</h2>
-        <div class="p-2 has-text-black">
-            <span><b>Email</b> </span> midhunhk[at]gmail.com
+        
+        <div class="py-2">
+            <div class="columns is-centered">
+                <div class="column is-4 has-text-left">
+                    <div class="box has-background-link-dark">    
+                        <form class="form" action="https://formspree.io/f/xoqynlgy" method="POST">
+                            <input type="hidden" name="_subject" value="Contact request from personal website" />
+
+                            <div class="field">
+                                <label class="label has-text-white-ter" for="_replyto">Your Email</label>
+                                <div class="control has-icons-left">
+                                    <input class="input" type="email" name="_replyto" placeholder="Email input" value="hello@">
+                                    <span class="icon is-small is-left">
+                                    <i class="fas fa-envelope"></i>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label class="label has-text-white-ter">Message</label>
+                                <div class="control">
+                                <textarea name="message" class="textarea" placeholder="Type your message" required></textarea>
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <div class="control has-text-centered">
+                                    <button type="submit" class="button is-success">Send message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
         <div>
             <span class="icon is-large"><a target="_blank" title="GitHub" href="https://github.com/midhunhk"><i class="fab fa-2x fa-github pr-2 has-text-black"></i></a></span>
