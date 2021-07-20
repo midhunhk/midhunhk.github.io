@@ -6,7 +6,10 @@
                 <p class="subtitle is-3">{{ page.subtitle }}</p>
             {% endif %}
             {% if page.hero_link %}
-                <a href="{{ page.hero_link | relative_url }}" class="button is-success is-medium">{{ page.hero_link_text }}</a>
+                <a href="{{ page.hero_link | relative_url }}" class="button is-success is-medium" target="_blank" title="{{ page.hero_link_text }} (Opens in new tab)">
+                    {{ page.hero_link_text }}&nbsp;
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
             {% endif %}
         </div>
     </div>
