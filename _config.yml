@@ -24,12 +24,12 @@ author:
   email:             midhunhk at gmail.com
 
 # Custom vars
-version:             2.0.6
+version:             2.0.7
 github:
   repo:              https://github.com/midhunhk/midhunhk.github.io
 
 # Google services
-google_analytics: UA-54193565-1
+google_analytics: G-BERWJ12310
 
 header_pages:
   - blog/index.html
