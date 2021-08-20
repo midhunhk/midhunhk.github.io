@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AndroidX migration and ConstraintLayout
-category: Dev
+category: Learning
 comments: true
 tags: [android, development, small-post]
 ---
