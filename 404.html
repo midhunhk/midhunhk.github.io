@@ -1,19 +1,22 @@
 ---
 layout: default
-title: "404"
-subtitle: "Page not found"
+title: "Page not Found"
 permalink: 404.html
-featured: /public/images/banner.png
-featured_hero: true
+hero_height: is-small
 ---
 
-<div class="columns is-vcentered">
-  <div class="column is-half">
-    <p class="lead">Sorry, it seems we've misplaced that URL or it's pointing to something that doesn't exist.</p>
-    <br />
-    <p>Go to the <a href="{{ site.baseurl }}/" class="btn">Homepage</a></p>
+<div class="columns is-vcentered is-centered">
+  <div class="column is-one-third">
+    <img src="/public/images/not_found.png" alt="Not Found">
   </div>
   <div class="column is-half">
-    <img src="/public/images/not_found.png" alt="Not Found">
+    <h1 class="is-size-1">Oops!</h1>
+    <p class="is-size-3">Sorry, it seems we've misplaced that link.</p>
+    <p class="is-size-4 mt-4">Maybe you can checkout these links?</p>
+    <div class="buttons">
+      <a class="button is-rounded is-primary" href="{{ site.baseurl }}/">Home</a>
+      <a class="button is-rounded is-info" href="{{ site.baseurl }}/blog">Blog</a>
+      <a class="button is-rounded is-success" href="{{ site.baseurl }}/#contact">Contact</a>
+    </div>
   </div>
 </div>

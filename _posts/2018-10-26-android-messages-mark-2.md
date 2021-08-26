@@ -3,7 +3,7 @@ layout: post
 title: Android Messages Codenames, Part 2
 category: Review
 comments: true
-tags: [app]
+tags: [app, code-names]
 ---
 
 This is a followup post to my earlier [post](http://midhunhk.github.io/review/2018/09/06/android-messages-codenames/) which listed the internal codenames

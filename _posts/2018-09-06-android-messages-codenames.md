@@ -3,7 +3,7 @@ layout: post
 title: Android Messages Codenames, Part 1
 category: Review
 comments: true
-tags: [app]
+tags: [app, code-names]
 ---
 The latest release of **Android Messages** app from Google had just hit the playstore featuring Material Theme. I was able to trace back 
 the internal codenames of the app.
