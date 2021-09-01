@@ -17,6 +17,7 @@ This post will likely be updated with this series of codenames, which look like 
 |:---------:|:----------|
 | 9.1     | [Atlantis](https://en.wikipedia.org/wiki/Atlantis) |
 | 9.2     | [Ba Sing Se](https://avatar.fandom.com/wiki/Ba_Sing_Se) |
+| 9.3     | [Camelot](https://en.wikipedia.org/wiki/Camelot) |
 
 Check back often to see an update.
 
