@@ -140,6 +140,10 @@ title: Home
                                 <a href="{{ post.url }}">
                                     <img src="{{ post.featured }}" alt="featured image"/>
                                 </a>
+                            {% else %}
+                                <div class="has-background-link-dark">
+                                    <img src="/public/images/default_banner.png" alt="">
+                                </div>
                             {% endif %}
                         </div>
                         <div class="card-content">
