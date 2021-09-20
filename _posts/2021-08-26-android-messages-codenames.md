@@ -19,6 +19,8 @@ This post will likely be updated with this series of codenames, which look like 
 | 9.2     | [BaSingSe](https://avatar.fandom.com/wiki/Ba_Sing_Se) |
 | 9.3     | [Camelot](https://en.wikipedia.org/wiki/Camelot) |
 | 9.4     | [Dimmsdale](https://fairlyoddparents.fandom.com/wiki/Dimmsdale) |
+| 9.5     | [Emerald City](https://en.wikipedia.org/wiki/Emerald_City) |
+| 9.6     | [Florin](https://princessbride.fandom.com/wiki/Florin_City) |
 
 Check back often to see an update.
 
