@@ -22,6 +22,7 @@ This post will likely be updated with this series of codenames, which look like 
 | 9.5     | [Emerald City](https://en.wikipedia.org/wiki/Emerald_City) |
 | 9.6     | [Florin](https://princessbride.fandom.com/wiki/Florin_City) |
 | 9.7     | [Gotham](https://en.wikipedia.org/wiki/Gotham_City) |
+| 9.8     | [Hyrule](https://zelda.fandom.com/wiki/Hyrule) |
 
 Check back often to see an update.
 
