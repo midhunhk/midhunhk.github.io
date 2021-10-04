@@ -100,3 +100,31 @@ iframe{
         height: calc(60vw/1.77);
     }
 }
+
+.custom-shape-divider-top-1633316398 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1633316398 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 70px;
+}
+
+.custom-shape-divider-top-1633316398 .shape-fill {
+    fill: #1371DD;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-top-1633316398 svg {
+        width: calc(100% + 1.3px);
+        height: 84px;
+    }
+}
