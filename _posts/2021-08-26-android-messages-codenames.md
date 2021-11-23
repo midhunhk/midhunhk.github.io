@@ -25,6 +25,9 @@ This post will likely be updated with this series of codenames, which look like 
 | 9.8     | [Hyrule](https://zelda.fandom.com/wiki/Hyrule) |
 | 10.0    | [Isengard](https://lotr.fandom.com/wiki/Isengard) |
 | 10.1    | [Jumanji](https://en.wikipedia.org/wiki/Jumanji_(franchise)) |
+| 10.2    | [Kanto](https://en.wikipedia.org/wiki/Pok%C3%A9mon_universe#Kanto) |
+
+Looks like Google are on to my blog, and stopped giving out the code names from version 10.3 onwards. Too bad!
 
 Check back often to see an update.
 
