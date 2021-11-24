@@ -25,9 +25,9 @@ I always wanted to summarize the different iterations, and been able to dig up s
 
 | Version         | Language    |  Algorithm   | Comment  | Repo |
 |-----------------|-------------|--------------|----------|------|
-| CryptX 1 (2006) |  C          | Simple       | Text mode|NA    |    
-| CryptX 2 (2006  |  C & JS     | Simple       | Text and Bin |NA   |    
-| CryptX 3 (2006) |  C & JS     | Simple       |          |NA   |    
+| CryptX 1 (2006) |  C          | Simple       | Text mode| Source code lost |    
+| CryptX 2 (2006  |  C & JS     | Simple       | Text and Binary | Source code lost |    
+| CryptX 3 (2006) |  C & JS     | Simple       | Extra settings file | Source code lost |    
 | CryptX 4 (2007) |  C & JS     | MD5 for Password |HTA UI|[Repo](https://github.com/midhunhk/cryptx-v4) |
 | CryptX 5 (2008) |  C++ & JS   | 128 bit AES  | HTA UI   |[Repo](https://github.com/midhunhk/cryptx-v5) |
 | CryptX 6 (2011) | ActionScript| 128 bit AES  |Green Threads|[Repo](https://github.com/midhunhk/cryptx) |
@@ -40,5 +40,9 @@ layer for invoking the application. I would have to create a future post about H
 Developing the CryptX Web took just half a day, owing to the use of SveletJS framework and Bulma CSS for styling. 
 More time went into final polish and researching on using CryptoJS library.
 
+There were a few reasons for choosing [Svelte](https://svelte.dev/), which includes faster development and the Svelete compiler 
+that compiles to vanilla javascript. And finally due to this, the code executes on the client browser and no data is sent back 
+through the network.
+
 ## Tutorial
-I have plan to do a tutorial for the web version of this project sometime in the future.
+I do have a plan to make a tutorial for the web version of this project sometime in the future.
