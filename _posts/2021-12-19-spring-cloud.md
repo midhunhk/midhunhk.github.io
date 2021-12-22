@@ -6,7 +6,7 @@ comments: true
 tags: [technology]
 ---
 Last year I had learnt Spring Cloud and the various components in it, and also had some written notes. So this year, when I came across them I decided to persist it in digital form. <br/><br/>
-Being a Java developer and having used Spring MVC and Spring Boot for most of my enterprise projects, it was vey easy to be onboard with Spring Cloud for microservices. Spring Cloud provides tools to quickly build some of the common patterns in distributed systems.
+Being a Java developer and having used Spring frameowrk and Spring Boot for most of my enterprise projects, it was vey easy to be work with Spring Cloud for microservices. Spring Cloud provides tools to quickly build some of the common patterns in distributed systems.
 <!-- more -->  
 
 ## Features
@@ -14,7 +14,11 @@ Let's take a look at some of the features provided by Spring Cloud.
 
 ### Service Discovery
 Register into a service discovery and easily discover other services available in the ecosystem.
-e.g; Spring Cloud Netflix Eureka, Hashicop Consul
+e.g; Netflix Eureka, Hashicop Consul
+
+### Router and Filter
+An API Gateway service that provides dynamic routing, monitoring, resiliency etc.
+e.g; Netflix Zuul
 
 ### Distributed Configuration
 A centralized external configuration management backed by a git repository. The Config Server has a central place to manage external properties for applications across all environments.
@@ -40,4 +44,4 @@ It provides support for Oauth2 server and resource service by use of few annotat
 
 ## References
 1. [Spring Cloud](https://spring.io/projects/spring-cloud)
-2. [spring cloud learning](https://github.com/ae-app-labs/spring-cloud-learning)
+2. [Spring Cloud Learning](https://github.com/ae-app-labs/spring-cloud-learning)
