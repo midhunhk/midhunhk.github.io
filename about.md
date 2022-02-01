@@ -8,7 +8,7 @@ hero_height: is-small
   "No one told you when to run, you missed the starting gun" - Time by Pink Floyd from The Dark Side of The Moon (1973)
 </blockquote>
 
-I am a Software enthusiast, Android application developer, technical writer and open source contributor. I mainly listen to [Progressive and Alternative rock](https://open.spotify.com/user/ot6rqwy1bx1yfubp08uvx264k), watch all types of [movies](https://letterboxd.com/midhunhk/), read fiction (often) and loves [Photography](https://www.instagram.com/midhunhk). Visit my [Bio](https://midhunhk.github.io/bio/).
+I am a Software enthusiast, Android application developer, technical writer and open source contributor. I mainly listen to [Progressive and Alternative rock](https://open.spotify.com/user/ot6rqwy1bx1yfubp08uvx264k), watch all types of [movies](https://letterboxd.com/midhunhk/), read fiction (often) and loves [Photography](https://www.instagram.com/midhunhk).
 
 Having learnt programming with **C and C++**, I have a strong understanding of various Data Structures and Design Patterns.
 
