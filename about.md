@@ -21,10 +21,11 @@ I keep myself updated with the latest technologies, design and UX in my spare ti
 ### Certifications
 * Developing Applications with Google Cloud Platform Specialization 
 * Google Cloud Platform Fundamentals: Core Infrastructure by Google Cloud on Coursera
-* Getting Started With Application Development
-* Securing and Integrating Components of your Application
-* App Deployment, Debugging, and Performance
+* Google Cloud Platform Fundamentals: Getting Started With Application Development
+* Google Cloud Platform Fundamentals: Securing and Integrating Components of your Application
+* Google Cloud Platform Fundamentals: App Deployment, Debugging, and Performance
 * [Android Associate Developer Kotlin](https://app.pluralsight.com/roleiq/roles/817e0f34-7ca3-46ed-879a-680884acd3fe)
+* [Microsoft Certified: Azure AI Fundamentals](https://www.credly.com/badges/a0c4589d-3089-4133-b82b-f0f806a24384)
 
 <a href="https://stackexchange.com/users/290461">
   <img src="https://stackexchange.com/users/flair/290461.png" width="208" height="58" alt="profile for midhunhk on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for midhunhk on Stack Exchange, a network of free, community-driven Q&amp;A sites">
