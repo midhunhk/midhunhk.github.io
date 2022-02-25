@@ -184,7 +184,7 @@ title: Home
 </section>
 
 <section id="contact" class="section has-background-link">
-
+    
     <div class="social has-text-centered animate__animated animate__fadeIn animate__delay-2s animate__fast">
         <h2 class="title is-2 is-family-secondary is-uppercase mb-4 has-text-black-bis">Contact Me</h2>
         
@@ -192,26 +192,26 @@ title: Home
             <div class="columns is-centered">
                 <div class="column is-4 has-text-left">
                     <div class="box has-background-link-dark">    
-                        <form class="form" action="https://formspree.io/f/xoqynlgy" method="POST">
+                        <form class="form" id="contactForm" onsubmit="event.preventDefault();" method="GET">
                             <input type="hidden" name="_subject" value="Contact request from personal website" />
-
+                            
                             <div class="field">
                                 <label class="label has-text-white-ter" for="_replyto">Your Email</label>
                                 <div class="control has-icons-left">
                                     <input class="input" type="email" name="_replyto" placeholder="Type your Email">
                                     <span class="icon is-small is-left">
-                                    <i class="fas fa-envelope"></i>
+                                        <i class="fas fa-envelope"></i>
                                     </span>
                                 </div>
                             </div>
-
+                            
                             <div class="field">
                                 <label class="label has-text-white-ter" for="message">Message</label>
                                 <div class="control">
-                                <textarea name="message" class="textarea" placeholder="Type your message" required></textarea>
+                                    <textarea name="message" class="textarea" placeholder="Type your message" required></textarea>
                                 </div>
                             </div>
-
+                            
                             <div class="field">
                                 <div class="control has-text-centered">
                                     <button type="submit" class="button is-success">Send message</button>
@@ -231,5 +231,7 @@ title: Home
             <span class="icon is-large"><a target="_blank" title="Instagram" href="https://www.instagram.com/midhunhk"><i class="fab fa-2x fa-instagram pr-2 has-text-black"></i></a></span>            
         </div>
     </div>
-
+    
+    <script src="/assets/js/contact_form.js" cookie-consent=""strictly-necessary> </script>
 </section>
+
