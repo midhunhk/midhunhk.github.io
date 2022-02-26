@@ -198,7 +198,7 @@ title: Home
                             <div class="field">
                                 <label class="label has-text-white-ter" for="_replyto">Your Email</label>
                                 <div class="control has-icons-left">
-                                    <input class="input" type="email" name="_replyto" placeholder="Type your Email">
+                                    <input class="input" type="email" name="_replyto" placeholder="">
                                     <span class="icon is-small is-left">
                                         <i class="fas fa-envelope"></i>
                                     </span>
@@ -208,13 +208,16 @@ title: Home
                             <div class="field">
                                 <label class="label has-text-white-ter" for="message">Message</label>
                                 <div class="control">
-                                    <textarea name="message" class="textarea" placeholder="Type your message" required></textarea>
+                                    <textarea name="message" class="textarea" placeholder="" required></textarea>
                                 </div>
                             </div>
                             
                             <div class="field">
                                 <div class="control has-text-centered">
                                     <button type="submit" class="button is-success">Send message</button>
+                                    <p id="messageSuccess" class="is-hidden">
+                                        <span class="tag is-success">Message sent, Thank you!</span>
+                                    </p>
                                 </div>
                             </div>
                         </form>

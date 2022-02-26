@@ -16,7 +16,15 @@
     
         fetch(request)
             .then(resp => resp.json())
-            .then(data => console.log(data))
+            .then(data => {
+                console.log(data)
+
+                contactForm._replyto.value = ""
+                contactForm.message.value = ""
+
+                const messageSuccess = document.querySelector("#messageSuccess")
+                messageSuccess.classList.remove('is-hidden')
+            })
 
         return false;
     }
