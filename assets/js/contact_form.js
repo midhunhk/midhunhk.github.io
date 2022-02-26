@@ -9,7 +9,7 @@
         const encodedData = encodeURI(JSON.stringify({
             name: contactForm._replyto.value,
             email: contactForm._replyto.value,
-            subject: "midhunhk_com contact form",
+            subject: `midhunhk_com contact form ${contactForm._replyto.value}`,
             message: contactForm.message.value,
         }))
         const request = `${uri}?data=${encodedData}`
