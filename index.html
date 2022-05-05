@@ -4,7 +4,7 @@ title: Home
 ---
 <div class="wrap mb-6">
     
-    <section class="section pb-5 pt-0">
+    <section class="section pb-5 pt-0 home-bg">
         <div class="container">
             <div class="columns is-vcentered is-centered">
                 <!-- Empty colum to balance for social links column on the right-->
@@ -25,7 +25,7 @@ title: Home
                         <div class="animate__animated animate__fadeIn animate__delay-1s animate__fast">
                             <p class="py-2 has-text-weight-semibold has-text-centered">Full Stack Developer</p>
                             <p class="has-text-centered has-text-left-mobile py-2">
-                                I am a software developer based out of Toronto, ON, with more than 12 years of professional experience in UI/UX design and all aspects of software development.
+                                I am a software developer based out of Toronto, ON, with more than 13 years of professional experience in UI/UX design and all aspects of software development for Web, Mobile and backends.
                             </p>
                             
                             <div class="has-text-centered">
@@ -135,9 +135,9 @@ title: Home
     <div class="container">
         <h2 class="is-size-2 title is-family-secondary is-uppercase">Blog Posts</h2>
         
-        <div id="items" class="columns ">
+        <div id="items" class="columns">
             {% for post in site.posts limit:3 %}
-                <div class="column is-one-third">
+                <div class="column is-4">
                     <div class="card is-shadowless animate__fadeIn animate__delay-2s animate__fast">
                         <div class="card-image">
                             {% if post.featured %}

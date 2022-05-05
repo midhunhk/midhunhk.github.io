@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spring Cloud
+title: Exploring Spring Cloud
 category: Learning
 comments: true
 tags: [technology]

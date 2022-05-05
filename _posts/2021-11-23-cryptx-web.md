@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CryptX Web
+title: CryptX Web Version
 category: Project
 comments: true
 featured: /public/images/2021/11/23/cryptx_web.jpg
