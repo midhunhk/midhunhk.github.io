@@ -34,9 +34,6 @@
 /* Title */
 #share-bar h4 { margin-bottom: 10px;font-weight: 500; }
 
-/* All buttons */
-.share-buttons {}
-
 /* Each button */
 .share-button {
     margin: 0px;
@@ -122,8 +119,16 @@ iframe{
     fill: #1371DD;
 }
 
-.home-bg{
-    background: url('/public/images/bg.jpg') center no-repeat;
+@media only screen and (max-width: 768px) {
+    .home-hero{
+        background-color: #1371DD;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .home-hero{
+        /* alt 2nd color #b5db1e */
+        background: linear-gradient(90deg, #1371DD 67%, #ccff00 33%);
+    }
 }
 
 /** For mobile devices **/
