@@ -143,7 +143,7 @@ title: Home
 
 <section class="section pt-0 pb-0 accent-bg">
     <div class="container py-4 my-4">
-        <h2 class="is-size-2 title has-text-white is-family-secondary is-uppercase pt-4">Personal Projects</h2>
+        <h2 class="is-size-2 title has-text-white is-family-secondary pt-4">Personal Projects</h2>
         <!-- Start row 1-->
         <div class="columns is-vcentered">
             <div class="column is-4">
@@ -158,9 +158,11 @@ title: Home
                     <div class="card-content has-background-white-ter">
                         <div class="content">
                             <p class="has-text-weight-bold">Message Counter</p>
-                            <a href="https://github.com/midhunhk/message-counter/">
-                                <i class="fab fa-github pr-2 has-text-black" aria-hidden="true"></i>
-                                See Project
+                            <a class="button is-rounded" href="https://github.com/midhunhk/message-counter/">
+                                <span class="icon">
+                                    <i class="fab fa-github pr-2 has-text-black" aria-hidden="true"></i>
+                                </span>
+                                <span>See Project</span>
                             </a>
                         </div>
                     </div>
@@ -179,9 +181,11 @@ title: Home
                     <div class="card-content has-background-white-ter">
                         <div class="content">
                             <p class="has-text-weight-bold">Triton Player</p>
-                            <a href="https://github.com/midhunhk/triton-player">
-                                <i class="fab fa-github pr-2 has-text-black" aria-hidden="true"></i>
-                                See Project
+                            <a class="button is-rounded" href="https://github.com/midhunhk/triton-player">
+                                <span class="icon">
+                                    <i class="fab fa-github pr-2 has-text-black" aria-hidden="true"></i>
+                                </span>
+                                <span>See Project</span>
                             </a>
                         </div>
                     </div>
@@ -200,9 +204,11 @@ title: Home
                     <div class="card-content has-background-white-ter">
                         <div class="content">
                             <p class="has-text-weight-bold">Random Contact</p>
-                            <a href="https://ae-app-labs.github.io/case-studies/random-contact">
-                                <i class="fas fa-external-link-alt has-text-black"></i>
-                                Case Study
+                            <a class="button is-rounded" href="https://ae-app-labs.github.io/case-studies/random-contact">
+                                <span class="icon">
+                                    <i class="far fa-clipboard has-text-black"></i>
+                                </span>
+                                <span>Case Study</span>
                             </a>
                         </div>
                     </div>
@@ -224,9 +230,11 @@ title: Home
                     <div class="card-content has-background-white-ter">
                         <div class="content">
                             <p class="has-text-weight-bold">Cryptx</p>
-                            <a href="https://github.com/midhunhk/cryptx">
-                                <i class="fab fa-github pr-2 has-text-black" aria-hidden="true"></i>
-                                See Project
+                            <a class="button is-rounded" href="https://github.com/midhunhk/cryptx">
+                                <span class="icon">
+                                    <i class="fab fa-github pr-2 has-text-black" aria-hidden="true"></i>
+                                </span>
+                                <span>See Project</span>
                             </a>
                         </div>
                     </div>
@@ -244,9 +252,11 @@ title: Home
                     <div class="card-content has-background-white-ter">
                         <div class="content">
                             <p class="has-text-weight-bold">The Lotus Foundation</p>
-                            <a href="https://ae-app-labs.github.io/case-studies/tlf">
-                                <i class="fas fa-external-link-alt has-text-black"></i>
-                                Case Study
+                            <a class="button is-rounded" href="https://ae-app-labs.github.io/case-studies/tlf">
+                                <span class="icon">
+                                    <i class="far fa-clipboard has-text-black"></i>
+                                </span>
+                                <span>Case Study</span>
                             </a>
                         </div>
                     </div>
@@ -264,9 +274,11 @@ title: Home
                     <div class="card-content has-background-warning">
                         <div class="content">
                             <p class="has-text-weight-bold has-text-black">Ae App Labs</p>
-                            <a href="https://ae-app-labs.github.io" target="_blank">
-                                <i class="fas fa-external-link-alt has-text-black"></i>
-                                Learn More
+                            <a class="button is-success is-rounded" href="https://ae-app-labs.github.io" target="_blank">
+                                <span class="icon">
+                                    <i class="fas fa-external-link-alt has-text-black"></i>
+                                </span>
+                                <span>Learn More</span>
                             </a>
                         </div>
                     </div>
@@ -279,7 +291,7 @@ title: Home
 
 <section class="section">
     <div class="container">
-        <h2 class="is-size-2 title is-family-secondary is-uppercase">Latest Blog Posts</h2>
+        <h2 class="is-size-2 title is-family-secondary">Latest Blog Posts</h2>
         
         <div id="items" class="columns">
             {% for post in site.posts limit:4 %}
@@ -310,7 +322,10 @@ title: Home
                                     {% endif %}
                                 </p>
                                 <p>
-                                    <a class='button is-success is-rounded' href="{{ post.url }}">Read More</a>
+                                    <a class='button is-rounded' href="{{ post.url }}">
+                                        <span>Read More</span> 
+                                        <i class="fa fa-arrow-right ml-2"></i>
+                                    </a>
                                 </p>
                             </div>
                         </div>
@@ -321,9 +336,53 @@ title: Home
     </div>
 </section>
 
+<!-- Tutorials List -->
 <section class="section">
     <div class="container">
-        <!-- Temporary placement for review -->
+        <h2 class="is-size-2 title is-family-secondary">Featured Tutorials</h2>
+        <div class="columns">
+            <div class="column is-half px-4">
+                <a href="https://www.youtube.com/watch?v=rAvU5qBP_ws" target="_blank">
+                    <figure>
+                        <img src="public/images/site/tutorials/tutorial_cover_001.png" alt="">
+                    </figure>
+                    <div class="py-4">
+                        <span>Portfolio Landing Page Design with Adobe XD</span>
+                    </div>
+                    <span class="tag is-danger mr-2">YouTube</span>
+                    <span class="tag is-link mr-2">Video</span>
+                    <span class="tag is-warning mr-2">Free</span>
+                </a>
+                <p>A video tutorial on portfolio landing page design with Adobe XD.</p>
+            </div>
+            <div class="column is-half">
+                <a href="https://www.youtube.com/watch?v=BfvvOsIuTP8" target="_blank">
+                    <figure>
+                        <img src="public/images/site/tutorials/tutorial_cover_004.png" alt="">
+                    </figure>
+                    <div class="py-4">
+                        <span>Camping Website Development</span>
+                    </div>
+                    <span class="tag is-danger mr-2">YouTube</span>
+                    <span class="tag is-link mr-2">Video</span>
+                    <span class="tag is-warning mr-2">Free</span>
+                </a>
+                <p>A tutorial on basic website development with HTML and SASS from an Adobe XD design.</p>
+            </div>
+        </div>
+
+        <div>
+            <a class='button is-rounded' href="https://ae-app-labs.github.io/tutorials">
+                <span>All Tutorials</span>
+                <i class="fa fa-arrow-right ml-2"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Ad here, not proud of myself on keeping this here. Adding a clear identification -->
+<section class="section">
+    <div class="container">
         <span class="tag is-success mb-2">Advertisement</span>
         <script cookie-consent="targeting" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8380411311279528"
             crossorigin="anonymous"></script>
@@ -340,10 +399,10 @@ title: Home
     </div>
 </section>
 
+<!-- Contact -->
 <section id="contact" class="section has-background-link">
-    
     <div class="social has-text-centered animate__animated animate__fadeIn animate__delay-2s animate__fast">
-        <h2 class="title is-2 is-family-secondary is-uppercase mb-4 has-text-black-bis">Drop Me a note</h2>
+        <h2 class="title is-2 is-family-secondary mb-4 has-text-black-bis">Drop Me a note</h2>
         
         <div class="p-2">
             <div class="columns is-centered">
