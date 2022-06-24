@@ -15,8 +15,8 @@
   <meta property="og:url" content="{{ page.url }}"/>
 
   {% if page.featured %}
-    <meta name="twitter:image" content="{{ page.featured }}" />
-    <meta name="og:image" content="{{ page.featured }}" />
+    <meta name="twitter:image" content="{{ site.url | append: page.featured }}" />
+    <meta name="og:image" content="{{ site.url | append: page.featured }}" />
   {% endif %}
   {% if page.featured_alt_text %}
     <meta name="twitter:image:alt" content="{{ page.featured_alt_text }}" />
@@ -31,6 +31,7 @@
     <meta property="og:title" content="{{ page.title }}"/>
     {% if page.description %}
       <meta name="description" content="{{ page.description }}">
+      <meta name="twitter:description" content="{{ page.description }}" />
       <meta name="og:description" content="{{ page.description }}">
     {% endif %}
   {% endif %}
