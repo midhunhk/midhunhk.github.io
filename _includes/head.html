@@ -10,16 +10,19 @@
   <meta name="author" content="Midhun Harikumar">
   
   <!-- SEO -->
-  <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@midhunhk" />
+  <meta name="twitter:creator" content="@midhunhk" />
   <meta property="og:url" content="{{ page.url }}"/>
 
   {% if page.featured %}
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="{{ site.url | append: page.featured }}" />
     <meta name="og:image" content="{{ site.url | append: page.featured }}" />
-  {% endif %}
-  {% if page.featured_alt_text %}
-    <meta name="twitter:image:alt" content="{{ page.featured_alt_text }}" />
+    {% if page.featured_alt_text %}
+      <meta name="twitter:image:alt" content="{{ page.featured_alt_text }}" />
+    {% endif %}
+  {% else %}
+    <meta name="twitter:card" content="summary" />
   {% endif %}
 
   {% if page.title == "Home" %}
