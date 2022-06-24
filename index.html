@@ -294,15 +294,21 @@ title: Home
         <h2 class="is-size-2 title is-family-secondary">Latest Blog Posts</h2>
         
         <div id="items" class="columns">
-            {% for post in site.posts limit:4 %}
-                <div class="column is-3">
+            {% for post in site.posts limit:3 %}
+                <div class="column is-4">
                     <div class="card is-shadowless animate__fadeIn animate__delay-2s animate__fast">
                         <div class="card-image">
                             <a href="{{ post.url }}">
                             {% if post.featured %}
-                                    <img src="{{ post.featured }}" alt="featured image"/>
+                                <figure class="image">
+                                    {% if post.featured_thumb %}
+                                        <img src="{{ post.featured_thumb }}" alt="featured"/>
+                                    {% else %}
+                                        <img src="{{ post.featured }}" alt="featured"/>
+                                    {% endif %}
+                                </figure>
                             {% else %}
-                            <div class="has-background-link-dark">
+                            <div class="has-background-primary-dark">
                                 <img src="/public/images/default_banner.png" alt="">
                             </div>
                             {% endif %}

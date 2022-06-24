@@ -3,7 +3,8 @@ layout: post
 title: CryptX Web Version
 category: Project
 comments: true
-featured: /public/images/2021/11/23/cryptx_web.jpg
+featured: /public/images/2021/11/23/cryptx_web_featured.png
+featured_thumb: /public/images/2021/11/23/cryptx_web_thumb.png
 featured_hero: true
 hero_link: https://www.midhunhk.com/cryptx-web/
 hero_link_text: View Web App
