@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Year 2021 in Review
+description: The yearly review of notable learnings from the year
 category: Personal
 featured: /public/images/2021/12/winter_2021.jpg
+featured_alt_text: A walkway covered in snow at a Scarborough park in Winter
 featured_hero: true
 tags: [year-in-review]
 ---
