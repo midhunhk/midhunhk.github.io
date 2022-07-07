@@ -3,7 +3,7 @@ layout: post
 title: First DSLR
 category: Photography
 summary: I finally made transition from a Point & Shoot camera to a DSLR. It was made possible with the Canon 700D and 18-55 and 55-250 lenses.
-featured: /public/images/canon_lens.jpg
+featured: /public/images/2016/12/canon_lens.jpg
 featured_hero: true
 tags: [personal, photography, dslr]
 ---
@@ -19,4 +19,5 @@ Personally it seems that I would prefer to have a 50mm prime and a 70-300 or 55-
 
 You can sample my best clicks by following the link below.
 
-[https://500px.com/midhunharikumar](https://500px.com/midhunharikumar)
+[https://500px.com/midhunharikumar](https://500px.com/midhunharikumar)  
+[https://www.instagram.com/midhunhk/](https://www.instagram.com/midhunhk/)

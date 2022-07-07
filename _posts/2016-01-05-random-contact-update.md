@@ -2,7 +2,7 @@
 layout: post
 title: Random Contact Update
 category: Project
-featured: /public/images/random_contact_2_3_feature.png
+featured: /public/images/2016/01/random_contact_2_3_feature.png
 featured_hero: true
 summary: I like to visualize data! Its easier to understand and relate that way. Its a good way to memorize key points.
 tags: [app, android]

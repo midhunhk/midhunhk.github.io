@@ -3,7 +3,8 @@ layout: post
 title: Current Page URL in SvelteKit and SEO Tags
 description: Let's explore the method to get the current page url in a SveletKit app, and additionally Twitter and Open Graph tags for SEO
 category: Learning
-featured_hero: false
+featured: /public/images/site/bg/mesh_01.jpg
+featured_hero: true
 tags: [technology, development, small-post]
 ---
 Having recently updated the [ae app labs org website](https://ae-app-labs.github.io/) to use SvelteKit, I came across some SEO optimizations that can be done to improve how articles are previewed on Twitter, Linked In etc.
