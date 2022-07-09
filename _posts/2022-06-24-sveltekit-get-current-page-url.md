@@ -3,6 +3,7 @@ layout: post
 title: Current Page URL in SvelteKit and SEO Tags
 description: Let's explore the method to get the current page url in a SveletKit app, and additionally Twitter and Open Graph tags for SEO
 category: Learning
+comments: true
 featured: /public/images/site/bg/mesh_01.jpg
 featured_hero: true
 tags: [technology, development, small-post]

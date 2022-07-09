@@ -3,6 +3,7 @@ layout: post
 title: How I almost got hacked
 description: Recounting a security incident of an attempted hack of my instagram account
 category: Personal
+comments: true
 featured: /public/images/site/bg/mesh_01.jpg
 featured_alt_text: A bluish mesh gradient
 featured_hero: true

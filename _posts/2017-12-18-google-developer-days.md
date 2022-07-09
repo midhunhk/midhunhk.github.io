@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Google Developer Days India 2017
-featured_image: '/public/images/gdd_india.jpg'
+featured_image: '/public/images/2017/12/gdd_india.jpg'
 category: Dev
 tags: [google, gdd, india]
 ---
 <div class="featured">
-  <img src="/public/images/gdd_india.jpg" alt="GDD India 2017" />
+  <img src="/public/images/2017/12/gdd_india.jpg" alt="GDD India 2017" />
 </div>
 
 I was fortunate to get an invitation to attend the first ever Google Developer Days event in India. We need to register on the google Developers site.I was surprised and excited when I received an email confirming my participation. Travel plans and stay arrangements were made and the long wait to Dec started.
@@ -17,7 +17,7 @@ The event was hosted at the Bangalore International Convention Centre on Dec 1 a
 The main theme for the event was "Develop for the next Billion users" who are going to use technology. I think Google needs
 developers from India and other developing countries who understand third world problems to make apps that solve those very issues. I cannot think  of any other explanation for them to host this huge event, provide food for all the attendees, fly in all the Googlers and goodies. Definetley the next billion users would be using an Android device of some make in the future!
 
-![Views from GDD India 2017](/public/images/gdd_collage.jpg)
+![Views from GDD India 2017](/public/images/2017/12/gdd_collage.jpg)
 
 There were sessions on Android, Firebase, Progressive Web Apps, Design, Tensor Flow etc. Most of the sessions were overlapping, so I had
 to pick and choose to attend them. Most of the sessions were recorded and are available in YouTube as a [playlist](https://www.youtube.com/playlist?list=PLlyCyjh2pUe_Xyqy9K6sBxwr0L8QaU7dq).

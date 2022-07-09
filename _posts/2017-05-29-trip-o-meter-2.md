@@ -5,7 +5,7 @@ category: Dev
 tags: [app, android]
 ---
 <div class="featured">
-  <img src="/public/images/tripometer_promo2.png" alt="Trip O Meter" />
+  <img src="/public/images/2017/01/tripometer_promo2.png" alt="Trip O Meter" />
 </div>
 
 A huge update for Trip O Meter was completed last month. A quick glance over the change log as follows.

@@ -2,6 +2,7 @@
 layout: post
 title: Observe Content Provider in Android
 category: Dev
+comments: true
 tags: [java, development, kotlin]
 ---
 Message Counter was using a background service to start an SMS Content Observer. While upgrading the app to target 

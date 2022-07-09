@@ -3,11 +3,10 @@ layout: post
 title: Message Counter Icon Evolution
 category: Project
 tags: [app, android]
+comments: true
+featured: /public/images/2018/09/message_counter_icons.png
+featured_hero: true
 ---
-<div class="featured">
-  <img src="/public/images/message_counter_icons.png" alt="Message Counter Icons" />
-</div>
-
 With Version 4.0 of Message Counter around the corner, lets take a look at the history of the icons for the app.
 
 <!-- more -->

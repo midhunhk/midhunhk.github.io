@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introducing Trip O Meter
-featured: /public/images/tripometer_promo.png
+featured: /public/images/2017/01/tripometer_promo.png
 featured_hero: true
 summary: Trip O Meter started out as a simple idea to know how much fuel would be needed when making a trip. I just wanted to make sure there was sufficient amount of fuel while planning.
 category: Project
