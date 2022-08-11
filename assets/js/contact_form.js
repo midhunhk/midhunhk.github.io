@@ -5,13 +5,22 @@
 
         const apiId = "AKfycbwj4hvut-et1gj3JZCZNcDgx6LBDnsnrCxddfrT3fmF5wG9VQUS2Zi6qkkzfhpf69_MKQ"
         const uri = `https://script.google.com/macros/s/${apiId}/exec`
+        const message = contactForm.message.value
 
         const encodedData = encodeURI(JSON.stringify({
             name: contactForm._replyto.value,
             email: contactForm._replyto.value,
             subject: `midhunhk_com contact form ${contactForm._replyto.value}`,
-            message: contactForm.message.value,
+            message: message,
         }))
+
+        const messageError = document.querySelector("#messageError")
+        
+        if(message.length < 10){
+            messageError.classList.remove('is-hidden')
+            return false;
+        }
+
         const request = `${uri}?data=${encodedData}`
     
         fetch(request)
@@ -24,6 +33,7 @@
 
                 const messageSuccess = document.querySelector("#messageSuccess")
                 messageSuccess.classList.remove('is-hidden')
+                messageError.classList.add('is-hidden')
             })
 
         return false;
