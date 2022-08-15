@@ -16,7 +16,8 @@
 
         const messageError = document.querySelector("#messageError")
         
-        if(message.length < 10){
+        if(message.length 
+            && (message.length < 12 || message.split(' ').length < 2) ){
             messageError.classList.remove('is-hidden')
             return false;
         }
