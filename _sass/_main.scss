@@ -1,13 +1,13 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Noto+Sans+Display:wght@400&display=swap');
 
-// Ukraine flag colors, String Azure and Yellow
-$primary: #0057b7 !default;
-$success: #ffd700;
+// Special Theme: Ukraine flag colors, String Azure and Yellow
+// $primary: #0057b7 !default;
+// $success: #ffd700;
 
 // Default Color themes
-// $primary: #1371DD !default;
-// $success: #ccff00;
+$primary: #1371DD !default;
+$success: #ccff00;
 $warning: #00d1b2;
 $background: #f6f6f6;
 $family-sans-serif: 'Noto Sans Display', sans-serif;
