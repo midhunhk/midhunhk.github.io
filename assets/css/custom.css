@@ -121,15 +121,15 @@ iframe{
 
 @media only screen and (max-width: 768px) {
     .home-hero{
-        /*background-color: #1371DD; */
-        background-color: #0057b7;
+        background-color: #1371DD;
+        /* background-color: #0057b7; */
     }
 }
 @media only screen and (min-width: 768px) {
     .home-hero{
         /* alt 2nd color #b5db1e */
-        /* background: linear-gradient(90deg, #1371DD 67%, #ccff00 33%); */
-        background: linear-gradient(180deg, #0057b7 50%, #ffd700 50%);
+        background: linear-gradient(90deg, #1371DD 67%, #ccff00 33%);
+        /* background: linear-gradient(180deg, #0057b7 50%, #ffd700 50%); */
     }
 }
 
