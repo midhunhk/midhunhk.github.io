@@ -13743,6 +13743,11 @@ ol li {
   padding-left: 0.8em;
 }
 
+h1 {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
 h2 {
   font-size: 1.4rem;
   font-weight: bold;
