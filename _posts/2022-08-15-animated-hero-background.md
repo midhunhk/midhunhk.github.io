@@ -10,8 +10,11 @@ tags: [tutorial, technology]
 ---
 When the org website for [ae app labs](https://ae-app-labs.github.io) was redesigned and upgraded to use SvelteKit, I added an animated background for the hero section. I had that idea for a long time and wanted to change the boring and simple background from the last redesign.
 
-It is basically a vertically stacked set of waves using Scalable Vector Graphics (SVG) that are animated using CSS3.
 <!-- more -->  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KwI1sZFaj1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+It is basically a vertically stacked set of waves using Scalable Vector Graphics (SVG) that are animated using CSS3.
+
 ![Ae App Labs Redesign](/public/images/2022/08/15/ae_app_labs_home.png)
 Above is the current landing page for the org website, and the wavy background layers move up and down with different intervals.
 
@@ -54,7 +57,6 @@ To get the staggered effect, we would need to override the animation duration fo
 
 That is all to get this effect. I've got all this documented as a video tutorial, see below.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KwI1sZFaj1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br />
 
 ## References
