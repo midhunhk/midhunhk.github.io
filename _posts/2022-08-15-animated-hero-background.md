@@ -55,9 +55,7 @@ This is achieved with the `@keyframes` directive where we just specify the start
 
 To get the staggered effect, we would need to override the animation duration for each of the layers in the html. This can be achived by adding the attribute `style="animation-duration:4s"` and chanding the value for each layer.
 
-That is all to get this effect. I've got all this documented as a video tutorial, see below.
-
-<br />
+That is all to get this effect.
 
 ## References
 1. [Haikei.app](https://app.haikei.app/)
