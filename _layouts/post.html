@@ -14,16 +14,9 @@ layout: default
       {% endfor %}
     </div>
     {% include social_share.html %}
-    <div class="mt-4">
-      <p class="has-text-weight-bold is-uppercase">Recent Posts</p> 
-      {% assign posts = site.posts | where_exp:"post","post.url != page.url" %}
-      <ul>
-        {% for post in posts limit:3 %}
-          <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </li>
-        {% endfor %}
-      </ul>
+    <div class="mt-4 is-hidden-mobile">
+      <!-- Recent Posts are hidden on mobile screen size -->
+      {% include recent_posts.html %}
     </div>
   </div>
 

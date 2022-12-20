@@ -1,6 +1,6 @@
 {
   "name": "midhunhk.github.io",
-  "version": "2.1.12",
+  "version": "2.1.13",
   "description": "Personal Portfolio and Blog",
   "dependencies": {
     "bulma": "^0.9.4",
