@@ -10,7 +10,7 @@ hero_darken: true
 featured_alt_text: An AI generated image of pancakes with maple syrup on a brown background
 featured_hero: true
 hero_content_align: right
-tags: [technology, ai]
+tags: [technology, ai, image-generation, tool]
 ---
 Although advanced experiments in Artificial Intelligence (AI) have been around for a long time, for the common people it was usually portayed in a futuristic science fiction movies. Virtual assistants like Google Assistant and Siri etc. that are able to understand natural language queries have been helping us for some time.
 <!-- more -->
