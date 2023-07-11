@@ -140,3 +140,31 @@ iframe{
         height: 84px;
     }
 }
+
+.animate-vertical-move {
+    animation: animVertical 10s linear infinite;
+    position: absolute;
+    top: 0;
+}
+
+@keyframes animVertical {
+    0%, 100% {
+        top: 0;
+    }
+    50% {
+        top: -50px;
+    }
+}
+
+.animate-spin{
+    animation: animSpin 5s linear infinite;
+}
+
+@keyframes animSpin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
