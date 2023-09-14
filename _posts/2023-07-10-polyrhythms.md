@@ -9,7 +9,7 @@ featured_hero: true
 hero_darken: true
 hero_link: https://ae-app-labs.github.io/web-polyrhythms/
 hero_link_text: Try It
-summary: 
+summary: In this article, I note down an interesting usage of Canvas API.
 tags: [javascript, canvas]
 ---
 Have you seen polyrthmics animation before? If not check this video first.
