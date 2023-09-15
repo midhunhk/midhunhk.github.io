@@ -13,14 +13,14 @@ tags: [android, app]
 Have you heard of Unicorn, Valkyrie, Wyvern or Xingtian? Surely you would have come across the **Yeti**. These are all code names for various development versions of an Open Source Android App, simply called **Message Counter**.
 
 ## Introduction
-**Message Counter** was one of the first Android apps that I made on my own and published to the Play Store. It's an app that basically counts the number of sent messages (sms/text) on the device. As well as a sorted count of messages received from contacts.
-
-![message counter version history](/public/images/2023/09/15/version-history.png)
+**Message Counter** was one of the first Android apps that I made on my own and published to the Play Store. It's an app that basically counts the number of messages (sms/text) on the device. As well as a sorted count of messages received from contacts.
 
 ## History
-Over the years it was iterated upon to add more features like set custom cycles, notifications when the limit is crossed and even widgets. Even dynamically update the counts including if the app was running and a message is received. There is a feature to ignore certain numbers from contributing the limit like a free number like the service provider and such.
+![message counter version history](/public/images/2023/09/15/version-history.png)
 
-Lot of features were suggested by the users in app reviews or directly via support emails. Some people even reached out for support and quirky issues on their devices. The Android ecosystem is so vast that there are thousands of hardware and software combinations. There was one issue reported which only happens on certain **LG** devices, where the app crashes on the press of back button. The logs were available on Google Play and a code fix was made.
+Over the years it was iterated upon to add more features like setting custom cycles, notifications when the limit is crossed and even widgets. It can also dynamically update the message counts even if the app is in a running state and a message is received. There is a feature to ignore certain numbers from contributing the limit like a toll free number like the service provider and such.
+
+Lot of features were suggested by the users in app reviews or directly via support emails. Some people even reached out for help and quirky issues on their devices. The Android ecosystem is so vast that there are thousands of hardware and software combinations. There was [one issue](https://github.com/midhunhk/message-counter/issues/6) reported which only happens on certain **LG** devices, where the app crashes on the press of back button. The logs were available on Google Play and a code fix was made.
 
 ## Android SMS API
 Development of this app was a foray into the `SMS API` of Android, and how it is structured and finally how we can get data from it. It also requires an interface with the `Contacts API` to cross link the contact details and the message.
@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
 }
 ```
 
-Note that we need to request the necessary permissions in the config file to access SMS messages, specifically the **READ_SMS** permission. 
+Note that we need to request the necessary permissions from the Android Runtime in the config file to access SMS messages, specifically the **READ_SMS** permission. 
 ```xml
 <uses-permission android:name="android.permission.READ_SMS"/>
 ``` 
@@ -68,13 +68,14 @@ For an app with surprisingly simple concept and functionality, it has been downl
 
 
 ## Google Play Policy Update
-Since there was a [Google Play Policy Update](https://support.google.com/googleplay/android-developer/answer/10208820?hl=en) that restricts the usage of apps with the **READ_SMS** permission, the app was no longer compliant to function as such and was unpublished. Although I requested Google Play to reinstate the app since **READ_SMS** is a core functionality of the app, it was rejected.
+Not soon after the Version 4 rewrite and redesign, there was a [Google Play Policy Update](https://support.google.com/googleplay/android-developer/answer/10208820?hl=en) that restricts the usage of apps with the **READ_SMS** permission. And the app was no longer compliant to be listed on the Play Store and was unpublished. Although I requested Google Play to reinstate the app through the developer portal since **READ_SMS** is a core functionality of the app, it was rejected.
 
-The app functions as it was, but cannot be uploaded to Google Play. As a backup it is available on other Android App Stores, but not necessarily updated. Power users can build the app from the source code and install directly on their device.
+The app functions as it was, but cannot be uploaded to Google Play. As a backup it is available on other Android App Stores, but not necessarily updated to use updated libraries or frameworks. Power users can build the app from the source code and install directly on their device.
 
 ## Closing thoughts
-Probably this is fine when it comes to privacy as it is very easy to inspect the contents of the messages and infer data for malicious purposes. Google taking the Apple route of protecting its users, but had came after many years since the release of the platform.
+Probably this is fine when it comes to privacy as it is very easy to inspect the contents of the messages and infer data for malicious purposes. Google is finally taking the Apple route of protecting its users on it's platform from themselves, but this should have come many years ago.
 
 ### References
 1. [Message Counter App Source Code](https://github.com/midhunhk/message-counter)
 2. [Google Play Policy Update](https://support.google.com/googleplay/android-developer/answer/10208820?hl=en)
+3. [Message Counter Codenames](https://github.com/midhunhk/message-counter/wiki/Codenames)
