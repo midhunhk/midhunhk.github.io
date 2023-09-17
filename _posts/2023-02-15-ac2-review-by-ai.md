@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Assassins Creed 2 Review by AI
+title: AI Reviews Assassins Creed 2
 category: Review
 comments: true
 comments: true

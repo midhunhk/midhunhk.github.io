@@ -7,14 +7,10 @@
 .custom-post-header{ height: 200px; margin: 10px 0; border-radius: 5px; text-align: center;}
 .custom-post-title{ padding-top: 80px; vertical-align: middle; font-family: 'Merriweather', serif; font-size: 1.8rem; color: #ffffff;}
 .featured{ margin: 10px 0;}
-.post-tag{ margin-bottom: 1em;}
-.post-title{ color: #1371DD; font-size: 2rem; font-weight:bold; line-height: 1.25; margin-bottom: 0.5rem;}
-.post-date{
-    display: block;
-    margin-top: -.5rem;
-    margin-bottom: 1rem;
-    color: #717070;
-}
+.post-tag{ margin-bottom: 1em; }
+.post-title{ color: #1371DD; font-size: 1.9rem !important; font-weight:bold; line-height: 1.2;}
+.post-date{ display: inline;}
+.post-metadata { border-radius: 0.6em; background-color: #cad1f2;}
 .post-content img{ margin: 1.5em auto; }
 .post-content div div.is-8 p:first-child img{ margin-top: 0px !important;}
 .is-serif-font{font-family: 'Merriweather'}

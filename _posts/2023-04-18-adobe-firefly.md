@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Future of AI Image Generation
+title: AI Image Generation
 category: Review
 comments: true
 featured: /public/images/2023/04/18/tuxedo-cake.jpg

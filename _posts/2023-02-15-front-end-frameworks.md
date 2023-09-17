@@ -8,7 +8,7 @@ featured: /public/images/2023/02/17/web-development.jpg
 featured_alt_text: AI generated image of computer monitors showing web pages like screens
 featured_hero: true
 hero_darken: true
-summary: A comparison of front end frameworks created with the help of AI Tools.
+summary: A comparison of modern front end frameworks created with the help of AI Tools. (Mostly Chat GPT).
 tags: [technology]
 ---
 <div>&nbsp;</div>

@@ -8,10 +8,6 @@ subtitle: Random Thoughts!
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-  <h1 class="post-title is-family-secondary"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-  <p class="author">
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-  </p>
   <div class="content">
 
     {% if post.featured %}
@@ -22,29 +18,36 @@ subtitle: Random Thoughts!
       </a>
     {% endif %}
 
-    <div>
-      {% if post.summary %}
-        <!-- Use the summary if it exists -->
-        {{ post.summary }}
-      {% else %}
-        {% if post.content contains "<!-- more -->" %}
-          <!-- For a long post, only show the excerpt -->
-          {{ post.content | split:"<!-- more -->" | first }}
-          
-          <div class="has-text-right mt-2 mb-2">
-            <a class="button is-success is-rounded" href="{{ post.url }}">
-              <span>Read More</span>
-              <span class="icon">
-                <i class="fas fa-arrow-right"></i>
-              </span>
-            </a>
-          </div>
-
-        {% else %}
-          <!-- Short post without an excerpt -->
-          {{ post.content }}
-        {% endif %}
-      {% endif %}
+    <div class="columns m-0 py-2">
+      <div class="column is-4 post-metadata">
+        <h1 class="post-title is-family-secondary">
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </h1>
+        <p class="author">
+          <span class="icon">
+            <i class="fa fa-calendar"></i>
+          </span>
+          <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+        </p>
+      </div>
+      <div class="column is-8">
+        <article>
+          {% if post.summary %}
+            <!-- Use the summary if it exists -->
+            {{ post.summary }}
+            {% include post_read_more.html %}
+          {% else %}
+            {% if post.content contains "<!-- more -->" %}
+              <!-- For a long post, only show the excerpt -->
+              {{ post.content | split:"<!-- more -->" | first }}
+              {% include post_read_more.html %}
+            {% else %}
+              <!-- Short post without an excerpt -->
+              {{ post.content }}
+            {% endif %}
+          {% endif %}
+        </article>
+      </div>
     </div>
 
     <div class="is-divider" data-content="&middot;"></div>
