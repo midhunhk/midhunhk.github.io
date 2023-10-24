@@ -1,21 +1,20 @@
-<head>
-  <meta charset="UTF-8">
-  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <head>
+    <meta charset="UTF-8">
+    <link href="http://gmpg.org/xfn/11" rel="profile">
 
-  <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta name="theme-color" content={{ site.theme_color | default: '#1371DD' }}>
-  <meta name="keywords" content="HTML,CSS,XML,JavaScript,Android,Apps,Photography,midhunhk,Midhun,Midhun Harikumar,Message Counter,Open Source">
-  <meta name="author" content="Midhun Harikumar">
-  <meta property="og:type" content="Article">
-  
-  <!-- SEO -->
-  <meta name="twitter:site" content="@midhunhk" />
-  <meta name="twitter:creator" content="@midhunhk" />
-  <meta property="og:url" content="{{ page.url }}"/>
-  <meta name="publish_date" property="og:publish_date" content='{{ page.date | date: "%b %-d, %Y" }}''>
-
+    <meta name="theme-color" content={{ site.theme_color | default: '#1371DD' }}>
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript,Android,Apps,Photography,midhunhk,Midhun,Midhun Harikumar,Message Counter,Open Source">
+    <meta name="author" content="Midhun Harikumar">
+    <meta property="og:type" content="Article">
+    
+    <!-- SEO -->
+    <meta name="twitter:site" content="@midhunhk" />
+    <meta name="twitter:creator" content="@midhunhk" />
+    <meta property="og:url" content="{{ page.url }}"/>
+    <meta name="publish_date" property="og:publish_date" content='{{ page.date | date: "%b %-d, %Y" }}'>
   {% if page.featured %}
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="{{ site.url | append: page.featured }}" />
@@ -25,7 +24,6 @@
   {% else %}
     <meta name="twitter:card" content="summary" />
   {% endif %}
-
   {% if page.title == "Home" %}
     <meta name="description" content="Personal blog of Midhun Harikumar (midhunhk)">
     <meta name="twitter:title" content="{{ site.title }}" />
@@ -40,38 +38,34 @@
     <meta property="og:description" content="{{ page.description }}"/>
     {% endif %}
   {% endif %}
+    <title>
+      {% if page.title == "Home" %}
+        {{ site.title }}
+      {% else %}
+        {{ page.title }} &middot; {{ site.title }}
+      {% endif %}
+    </title>
 
-  <title>
-    {% if page.title == "Home" %}
-      {{ site.title }}
-    {% else %}
-      {{ page.title }} &middot; {{ site.title }}
-    {% endif %}
-  </title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
+    
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
-  
-  <!-- Icons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-
-  <!-- Atom Feed -->
-  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-{% unless site.hide_share_buttons %}
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
-{% endunless %}
-  
-  <script src="https://kit.fontawesome.com/c01311720b.js" cookie-consent="strictly-necessary" crossorigin="anonymous"></script>
-
-  <!-- Connecting to adsense, For reviewing the site -->
-  <script cookie-consent="targeting" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8380411311279528"
-     crossorigin="anonymous"></script>
-
-</head>
+    <!-- Atom Feed -->
+    <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  {% unless site.hide_share_buttons %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+  {% endunless %}
+    
+    <script src="https://kit.fontawesome.com/c01311720b.js" cookie-consent="strictly-necessary" crossorigin="anonymous"></script>
+    <!-- Connecting to adsense, For reviewing the site -->
+    <script cookie-consent="targeting" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8380411311279528"
+      crossorigin="anonymous"></script>
+  </head>
