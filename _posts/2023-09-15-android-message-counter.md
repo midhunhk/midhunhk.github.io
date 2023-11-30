@@ -4,7 +4,7 @@ title: Message Counter (Android)
 category: Learning
 comments: true 
 featured: /public/images/2023/09/15/message-counter-banner.png
-featured_alt_text: An screenshot of webpage showing concentric arcs and circles on them.
+featured_alt_text: An image with a mobile phone displaying the landing page of an app and other assets.
 featured_hero: true
 hero_darken: true
 summary: A quick look into how we can count the number of messages (sms/text) on an Android device. As well as an Android app that I published to the Play Store.

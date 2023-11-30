@@ -4,7 +4,6 @@ title: Updating Android Apps
 category: Learning
 comments: true 
 featured: /public/images/site/bg/mesh_01.jpg
-featured_alt_text: An screenshot of webpage showing concentric arcs and circles on them.
 featured_hero: true
 hero_darken: true
 summary: I had been procrastinating with the update of my Android apps that were published to the Play Store for a few years now. It finally caught up to me as Google Play gave me a deadline of Aug 31, 2023 to update them to target the latest Android API version or be delisted from the store.
