@@ -10,7 +10,7 @@
 .post-tag{ margin-bottom: 1em; }
 .post-title{ color: #1371DD; font-size: 1.9rem !important; font-weight:bold; line-height: 1.2;}
 .post-date{ display: inline;}
-.post-content img{ margin: 1.5em auto; }
+.post-content img{ margin: 1em auto; }
 .post-content div div.is-8 p:first-child img{ margin-top: 0px !important;}
 .is-serif-font{font-family: 'Merriweather'}
 /* Some Colorful backgrounds for the header*/
@@ -80,6 +80,14 @@
     font-weight: 600;
     letter-spacing: .5px;
     margin: 25px 0;
+}
+
+p em {
+    display: block-inline;
+    font-size: .8em;
+    background-color: #eaeaea;
+    padding: .5em;
+    border-radius: .5em;
 }
 
 iframe{
