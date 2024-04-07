@@ -94,6 +94,70 @@ iframe{
     width: 93vw;
     height: calc(93vw/1.77);
 }
+p{
+    padding: 0.8em 0; 
+}
+
+ul{
+    list-style: disc;
+    li {
+        margin-left: 1.2em;
+    }
+}
+
+ol{
+    li{
+        margin-left: 1.2em;
+        padding-left: 0.8em;
+    }
+}
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+h2{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+table, th, td{
+    border: 1px solid #999;
+    tr{
+        th, td{
+            padding: 0.4em;
+        }
+    }
+}
+
+tbody{
+    tr:nth-child(odd) {background-color: #93c5fd;}
+}
+
+div.highlight {
+    margin-bottom: 1rem;
+}
+.contents {
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.content {
+    figure {
+        margin: 0;
+    }
+}
+
+.callout {
+    &-icon {
+        width: 4rem;
+        height: 4rem;
+        margin-bottom: 0.75rem;
+    }
+}
+
+.hero-darken {
+    background-color: rgba(54, 54, 54, 0.5);
+}
 
 @media (min-width: 768px) {
     iframe{

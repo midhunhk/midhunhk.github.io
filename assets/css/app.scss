@@ -1,41 +1,47 @@
-// Import Main CSS file from theme
-@import "../../_sass/main";
+@charset "utf-8";
 
-p{
-    padding: 0.8em 0; 
-}
+$brand-blue: #1371DD;
+$brand-yellow: #ccff00;
+$brand-green: #00d1b2;
+$page-background: #f6f6f6;
+$gap:56px;
 
-ul{
-    list-style: disc;
-    li{
-        margin-left: 1.2em;
-    }
-}
+@use "bulma/sass" with (
 
-ol{
-    li{
-        margin-left: 1.2em;
-        padding-left: 0.8em;
-    }
-}
-h1{
-    font-size: 1.6rem;
-    font-weight: bold;
-}
-h2{
-    font-size: 1.4rem;
-    font-weight: bold;
-}
+  $family-sans-serif: '"Noto Sans Display", sans-serif',
+  $family-secondary: 'Merriweather',
+  $body-font-size: 1.4em,
+  $body-line-height: 1.4,
 
-table, th, td{
-    border: 1px solid #999;
-    tr{
-        th, td{
-            padding: 0.4em;
-        }
-    }
-}
+  $background: $page-background,
+  $primary: $brand-blue,
+  $success: $brand-yellow,
+  $warning: $brand-green,
 
-tbody{
-    tr:nth-child(odd) {background-color: #93c5fd;}
+  $modal-content-width: 800px,
+  $widescreen-enabled: true,
+  $fullhd-enabled: true,
+  $gap:56px,
+
+  // Font Sizes
+  $size-1: 4rem,
+  $size-2: 3.5rem,
+  $size-3: 3rem,
+  $size-4: 2.5rem,
+  $size-5: 1.25rem,
+  $size-6: 1rem,
+  $size-7: 0.75rem,
+
+  $tabs-link-active-color: $brand-blue,
+  $tabs-link-active-border-bottom-color: $brand-blue,
+);
+
+@use "syntax";
+// @use "../node_modules/bulma-block-list/src/block-list.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Noto+Sans+Display:wght@400&display=swap');
+
+
+body{
+  background: $page-background;
 }
