@@ -8,7 +8,7 @@ subtitle: Random Thoughts!
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-  <div class="content">
+  <div class="content box is-shadowless">
 
     {% if post.featured %}
       <a href="{{ post.url }}">
@@ -18,8 +18,8 @@ subtitle: Random Thoughts!
       </a>
     {% endif %}
 
-    <div class="columns m-0 py-2">
-      <div class="column is-4 box is-shadowless p-5">
+    <div class="columns m-0 p-0">
+      <div class="column is-4 p-5">
         <h1 class="post-title is-family-secondary">
           <a href="{{ post.url }}">{{ post.title }}</a>
         </h1>
