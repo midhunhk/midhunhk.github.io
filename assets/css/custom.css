@@ -8,7 +8,7 @@
 .custom-post-title{ padding-top: 80px; vertical-align: middle; font-family: 'Merriweather', serif; font-size: 1.8rem; color: #ffffff;}
 .featured{ margin: 10px 0;}
 .post-tag{ margin-bottom: 1em; }
-.post-title{ color: #1371DD; font-size: 1.9rem !important; font-weight:bold; line-height: 1.2;}
+.post-title{ color: #1371DD; font-size: 1.9rem !important; font-weight:bold; line-height: 1.3 !important;}
 .post-date{ display: inline;}
 .post-content img{ margin: 1em auto; }
 .post-content div div.is-8 p:first-child img{ margin-top: 0px !important;}
