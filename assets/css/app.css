@@ -1474,8 +1474,8 @@ a.box:active {
 }
 .button.is-loading::after {
   position: absolute;
-  left: calc(50% - (1em * 0.5));
-  top: calc(50% - (1em * 0.5));
+  left: calc(50% - 1em * 0.5);
+  top: calc(50% - 1em * 0.5);
   position: absolute !important;
 }
 .button.is-static {
@@ -10284,6 +10284,62 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   padding: 3rem 1.5rem 6rem;
 }
 
+p {
+  padding: 0.8em 0;
+}
+
+ul {
+  list-style: disc;
+}
+ul li {
+  margin-left: 1.2em;
+}
+
+ol li {
+  margin-left: 1.2em;
+  padding-left: 0.8em;
+}
+
+h1 {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+table, th, td {
+  border: 1px solid #999;
+}
+table tr th, table tr td, th tr th, th tr td, td tr th, td tr td {
+  padding: 0.4em;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #93c5fd;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  font-size: 0.8em;
+  font-style: italic;
+  line-height: 1.5em;
+  quotes: "“" "”" "‘" "’";
+}
+blockquote p {
+  display: inline;
+}
+
 div.highlight {
   margin-bottom: 1rem;
 }
@@ -10924,41 +10980,4 @@ div.highlight {
 
 body {
   background: #f6f6f6;
-}
-
-p {
-  padding: 0.8em 0;
-}
-
-ul {
-  list-style: disc;
-}
-ul li {
-  margin-left: 1.2em;
-}
-
-ol li {
-  margin-left: 1.2em;
-  padding-left: 0.8em;
-}
-
-h1 {
-  font-size: 1.6rem;
-  font-weight: bold;
-}
-
-h2 {
-  font-size: 1.4rem;
-  font-weight: bold;
-}
-
-table, th, td {
-  border: 1px solid #999;
-}
-table tr th, table tr td, th tr th, th tr td, td tr th, td tr td {
-  padding: 0.4em;
-}
-
-tbody tr:nth-child(odd) {
-  background-color: #93c5fd;
 }/*# sourceMappingURL=app.css.map */

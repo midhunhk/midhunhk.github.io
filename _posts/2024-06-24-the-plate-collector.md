@@ -3,15 +3,11 @@ layout: post
 title: The Plate Collector
 category: Learning
 comments: true
+sidenote: The content for this article was created with the help of AI tools like ChatGPT.
 tags: [personal]
 ---
 A creative re-enactment of a real life incident that happened back in 2009 when I was attending a training with my colleagues. 
 Since I am not creative enough to retell it in such a way to convey it across, it was natural to get some help, er.. all the help.
-<article class="message is-success my-1">
-  <div class="message-body">
-    The content for this article was created with the help of AI tools like ChatGPT.
-  </div>
-</article>
 <!-- more -->  
 Once upon a time in the whimsical town of Nonsenseville, there lived two best friends, Tina and Maya. 
 Every morning, they would meet at the cozy little café, Breakfast Bliss, to share a hearty meal and exchange their latest gossip.

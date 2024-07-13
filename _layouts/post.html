@@ -8,11 +8,21 @@ layout: default
         <span class="has-text-weight-bold is-uppercase">Published</span> 
         {{ page.date | date: "%b %-d, %Y" }}
     </p>
+
+    {% if page.sidenote %}
+    <article class="message is-success my-1">
+      <div class="message-body">
+        {{ page.sidenote }}
+      </div>
+    </article>
+    {% endif %}
+    
     <div class="tags mt-4">
       {% for tag in page.tags %}
         {% include tag.html tag=tag %}
       {% endfor %}
     </div>
+
     {% include social_share.html %}
     <div class="mt-4 is-hidden-mobile">
       <!-- Recent Posts are hidden on mobile screen size -->

@@ -9,16 +9,11 @@ featured_hero: true
 hero_darken: true
 hero_link: https://www.youtube.com/watch?v=lx5FuJE3pJk
 hero_link_text: Video Review
+sidenote: The content for this article was created with the help of AI tools like ChatGPT and Adobe Firefly.
 summary: Adobe recently unveiled a suite of AI Image generation tools under the name Firefly. I got access to Beta test this product and thought of writing down some notes as I had done in recently.
 tags: [technology, ai, image-generation, tool]
 ---
 <div>&nbsp;</div>
-<article class="message is-success my-1">
-  <div class="message-body">
-    The content for this article was created with the help of AI tools like ChatGPT and Adobe Firefly.
-  </div>
-</article>
-
 Adobe recently unveiled a suite of AI Image generation tools under the name Firefly. I got access to Beta test this product and thought of writing down some notes as I had done for similar tools. They claim it is the future of AI image generation, but essentially it is one product among many similar tools out there. I feel it is more polished and presents itself as a usable product.
 
 Adobe Firefly is an AI-powered platform that helps to create stunning, unique images based on text inputs. It provides a clean User Interface with easy to use customization capabilities to refine the generated images until they are just right. This is in contrast to the chat interface of MidJjourney and us having to provide options like commands.
