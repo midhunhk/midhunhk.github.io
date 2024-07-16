@@ -4,9 +4,6 @@ title: Fig and Camelot
 category: Dev
 tags: [app, android]
 ---
-<div class="custom-post-header midnight-blue">
-<div class="custom-post-title">Fig & Camelot</div>
-</div>
 Fig and Camelot are release code names for below Projects. This is the first time, we are having multiple releases in the same month.
 Detailed change logs and release information are available in the respective GitHub repos.
 <ul>
@@ -14,6 +11,7 @@ Detailed change logs and release information are available in the respective Git
   <li> <a href="https://github.com/midhunhk/trip-o-meter">Camelot - Trip O Meter</a> </li>
 </ul>
 <!-- more -->
+
 # AeAppsLib (Fig Release)
 Another fruity flavored release for AeAppsLib which doesn't include any new features but includes the below updates
 

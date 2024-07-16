@@ -1,37 +1,40 @@
 ---
 layout: default
-title: Blog
-featured: /public/images/site/bg/banner_2.jpg
-featured_hero: true
-subtitle: Random Thoughts!
+title: Blog - Random Thoughts
+hero_height: is-small
 ---
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-  <div class="content box is-shadowless">
-
-    {% if post.featured %}
-      <a href="{{ post.url }}">
-        <figure class="image">
-          <img src="{{ post.featured }}" alt="{{ post.featured_alt_text | featured}}"/>
-        </figure>
-      </a>
-    {% endif %}
+  <div class="content is-shadowless">
 
     <div class="columns m-0 p-0">
-      <div class="column is-4 p-5">
-        <h1 class="post-title is-family-secondary">
+      <!-- left column with banner image -->
+      <div class="column is-5">
+        <a href="{{ post.url }}">
+          <figure class="image">
+          {% if post.featured %}
+            <img src="{{ post.featured }}" alt="{{ post.featured_alt_text | featured}}"/>
+            {% else %}
+            <img src="/public/images/site/bg/default_banner.png" alt="default banner">
+            {% endif %}
+          </figure>
+        </a>
+      </div>
+
+      <!-- Right column with title, date and excerpt -->
+      <div class="column is-7">
+        <h1 class="post-title is-family-secondary pt-4 mb-0">
           <a href="{{ post.url }}">{{ post.title }}</a>
         </h1>
-        <p class="author">
+        <p class="author p-0">
           <span class="icon">
-            <i class="fa fa-calendar"></i>
+            <i class="fa fa-calendar is-size-6"></i>
           </span>
-          <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+          <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date is-size-6">{{ post.date | date_to_string }}</time>
         </p>
-      </div>
-      <div class="column is-8">
-        <article>
+
+        <article style="line-height:1.5em;">
           {% if post.summary %}
             <!-- Use the summary if it exists -->
             {{ post.summary }}
