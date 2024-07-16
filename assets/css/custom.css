@@ -171,3 +171,16 @@ iframe{
         transform:rotate(360deg);
     }
 }
+
+.animate-grow {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.animate-grow img {
+    display: block;
+    -webkit-transition: -webkit-transform .4s;
+    transition: -webkit-transform .4s;
+    transition: transform .4s;
+    transition: transform .4s, -webkit-transform .4s;
+}
