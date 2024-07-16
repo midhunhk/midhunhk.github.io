@@ -8,5 +8,8 @@ https://jekyllrb.com/docs/home/
 
 I am using the http://www.csrhymes.com/bulma-clean-theme/  
 
+## GitHub Pages Quickstart
+https://docs.github.com/en/pages/quickstart
+
 ## License
 Open sourced under the [MIT license](LICENSE.md).
