@@ -14,7 +14,35 @@ It was then that I came to know about "Functional Interfaces". Understanding the
 
 See below for examples with a custom interface and see how code with and without lambda expressions look.
 
-<script src="https://gist.github.com/midhunhk/8096ef74828732d5c9ab0a05453fcc63.js"></script>
+```java
+// This is a Functional Interface having only 1 abstract method
+interface UserInfo{
+	// Method that takes two inputs and returns nothing
+  	void printInfo(String name, Integer age);
+}
+
+public static void main(String[] args) {
+	// Example 1 - Using regular Java form, without the use of lambdas
+  	UserInfo userInfo = new UserInfo() {
+			
+			@Override
+			public void printInfo(String name, Integer age) {
+				System.out.println("Hello " + name + ", you are " + age + " old");
+			}
+	};
+		
+  	userInfo.printInfo("Adam", 28);
+  	userInfo.printInfo("Betty", 24);
+  	userInfo.printInfo("Charlie", 27);
+  
+  	// Example 2 - Using Java 8 Lambda expressions
+  	UserInfo info = (name, age) -> System.out.println("Hello " + name + ", you are " + age + " old");
+  
+  	info.printInfo("Adam", 28);
+  	info.printInfo("Betty", 24);
+  	info.printInfo("Charlie", 27);
+}
+```
 
 Lets see the how this lambda expression really works.
 
@@ -27,16 +55,35 @@ There is a steep learning curve when it comes to lambda expressions for experien
 ## Closures in JavaScript
 The below code is the above example written in javascript. Here the object `userInfo` is a function that can be invoked by passing parameters
 
-<script src="https://gist.github.com/midhunhk/dbbe1ff45823a44cb34b722265bb623c.js"></script>
+```javascript
+var userInfo = function (name, age) { console.log(`Hi ${name} your age is ${age}`)};
+userInfo("Jack", 28); // Hi Jack, your age is 28
+
+typeof(userInfo) // "function"
+```
 
 ## Predicates
 
 `Predicate` is a Functional Interface included in Java 8 which represents a boolean valued function. It has a `boolean test(T t)` method which accepts an object as parameter and returns a boolean result. Check the below example and see if you are able to figure how it works
 
-<script src="https://gist.github.com/midhunhk/6fd4c994de8708d7904c7a11c9da734b.js"></script>
+```java
+import java.util.function.Predicate;
+public class PredicateSample {
+
+	public static void main(String args[]) {
+		// Initialize a predicate object with an implementation
+		Predicate<String> predicate = name -> name.equals("Pink");
+
+		// Test the predicate with different data
+		System.out.println(predicate.test("Pink")); // true
+		System.out.println(predicate.test("Floyd")); // false
+	}
+}
+```
 
 ### Further Reading
-* <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/FunctionalInterface.html">Functional Interfaces</a>
+- [Functional Interfaces](https://docs.oracle.com/javase/8/docs/api/java/lang/FunctionalInterface.html)
+<br/><br/>
 
-#### Update
+### Update
 Using lambda expressions is performance and memory efficient than using Anonymous inner classes. When we create an anonymnous inner class, JVM has to create a new object, allocate memory, initialize static blocks, run the constructor methods etc. These are not required when creating a lambda expression.
