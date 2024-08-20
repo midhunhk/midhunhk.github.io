@@ -11,11 +11,26 @@ This week, while watching a session on Advanced Javascript, I came across some C
 
 After setting up Eclipse Neon and JDK8, the first thing I tried was to write an example Lambda expression. It was then that a colleague of mine, <a href="https://github.com/RaghuChandrasekaran">Raghu</a> directed me to a real life example for lambdas which was simple to understand.
 
-<script src="https://gist.github.com/midhunhk/ee0ca73ebed66c77eca4d155d7633fe5.js"></script>
+```java
+// Create a Runnable 
+Runnable runnable = () -> System.out.println("Hello Closure");
+    
+// Create a new thread to run this runnable
+new Thread(runnable).start(); 
+```
 
 Pre Java 8, this was acheived with an anonymous inner function like below.
 
-<script src="https://gist.github.com/midhunhk/70cab9d2987432e351d4d030a86f81cc.js"></script>
+```java
+// Create a new thread with an anonymous runnable implementation and start it
+new Thread(new Runnable() {
+	
+	@Override
+	public void run() {
+		System.out.println("Hello Thread");
+	}
+}).start();
+```
 
 Other than being less "looking like code", this does the same job. So thats that!
 
