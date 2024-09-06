@@ -15,7 +15,7 @@
   border-radius: 4px;
   box-shadow: none;
   display: inline-flex;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   height: 2.5em;
   justify-content: flex-start;
   line-height: 1.5;
@@ -1445,13 +1445,13 @@ a.box:active {
   color: #cc0f35;
 }
 .button.is-small {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .button.is-small:not(.is-rounded) {
   border-radius: 2px;
 }
 .button.is-normal {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 .button.is-medium {
   font-size: 1.75rem;
@@ -1511,7 +1511,7 @@ a.box:active {
   margin-bottom: 1rem;
 }
 .buttons.are-small .button:not(.is-normal):not(.is-medium):not(.is-large) {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .buttons.are-small .button:not(.is-normal):not(.is-medium):not(.is-large):not(.is-rounded) {
   border-radius: 2px;
@@ -1564,29 +1564,29 @@ a.box:active {
 
 @media screen and (max-width: 768px) {
   .button.is-responsive.is-small {
-    font-size: 0.75rem;
+    font-size: 0.825rem;
   }
   .button.is-responsive,
   .button.is-responsive.is-normal {
-    font-size: 0.875rem;
+    font-size: 0.9625rem;
   }
   .button.is-responsive.is-medium {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .button.is-responsive.is-large {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1071px) {
   .button.is-responsive.is-small {
-    font-size: 0.875rem;
+    font-size: 0.9625rem;
   }
   .button.is-responsive,
   .button.is-responsive.is-normal {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .button.is-responsive.is-medium {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .button.is-responsive.is-large {
     font-size: 1.75rem;
@@ -1787,10 +1787,10 @@ a.box:active {
   margin-top: 0;
 }
 .content.is-small {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .content.is-normal {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 .content.is-medium {
   font-size: 1.75rem;
@@ -2052,7 +2052,7 @@ div.icon-text {
   border: none;
   border-radius: 9999px;
   display: block;
-  height: 1.5rem;
+  height: 1.4rem;
   overflow: hidden;
   padding: 0;
   width: 100%;
@@ -2211,7 +2211,7 @@ div.icon-text {
   animation-name: none;
 }
 .progress.is-small {
-  height: 1rem;
+  height: 1.1rem;
 }
 .progress.is-medium {
   height: 1.75rem;
@@ -2415,7 +2415,7 @@ div.icon-text {
   margin-bottom: 1rem;
 }
 .tags.are-medium .tag:not(.is-normal):not(.is-large) {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 .tags.are-large .tag:not(.is-normal):not(.is-medium) {
   font-size: 1.75rem;
@@ -2455,7 +2455,7 @@ div.icon-text {
   border-radius: 4px;
   color: hsl(0, 0%, 29%);
   display: inline-flex;
-  font-size: 1rem;
+  font-size: 1.1rem;
   height: 2em;
   justify-content: center;
   line-height: 1.5;
@@ -2532,10 +2532,10 @@ div.icon-text {
   color: #cc0f35;
 }
 .tag:not(body).is-normal {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .tag:not(body).is-medium {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 .tag:not(body).is-large {
   font-size: 1.75rem;
@@ -2642,10 +2642,10 @@ a.tag:hover {
   font-size: 1.75rem;
 }
 .title.is-6 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 .title.is-7 {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .subtitle {
@@ -2677,10 +2677,10 @@ a.tag:hover {
   font-size: 1.75rem;
 }
 .subtitle.is-6 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 .subtitle.is-7 {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .heading {
@@ -2821,7 +2821,7 @@ a.tag:hover {
 }
 .is-small.textarea, .is-small.input {
   border-radius: 2px;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .is-medium.textarea, .is-medium.input {
   font-size: 1.75rem;
@@ -3058,7 +3058,7 @@ a.tag:hover {
 }
 .select.is-small {
   border-radius: 2px;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .select.is-medium {
   font-size: 1.75rem;
@@ -3084,7 +3084,7 @@ a.tag:hover {
   transform: none;
 }
 .select.is-loading.is-small:after {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .select.is-loading.is-medium:after {
   font-size: 1.75rem;
@@ -3300,10 +3300,10 @@ a.tag:hover {
   color: #fff;
 }
 .file.is-small {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .file.is-normal {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 .file.is-medium {
   font-size: 1.75rem;
@@ -3461,14 +3461,14 @@ a.tag:hover {
 .label {
   color: hsl(0, 0%, 21%);
   display: block;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 700;
 }
 .label:not(:last-child) {
   margin-bottom: 0.5em;
 }
 .label.is-small {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .label.is-medium {
   font-size: 1.75rem;
@@ -3479,7 +3479,7 @@ a.tag:hover {
 
 .help {
   display: block;
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-top: 0.25rem;
 }
 .help.is-white {
@@ -3639,7 +3639,7 @@ a.tag:hover {
     text-align: right;
   }
   .field-label.is-small {
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding-top: 0.375em;
   }
   .field-label.is-normal {
@@ -3682,7 +3682,7 @@ a.tag:hover {
 .control {
   box-sizing: border-box;
   clear: both;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   position: relative;
   text-align: inherit;
 }
@@ -3694,7 +3694,7 @@ a.tag:hover {
 .control.has-icons-left .input.is-small ~ .icon,
 .control.has-icons-left .select.is-small ~ .icon, .control.has-icons-right .input.is-small ~ .icon,
 .control.has-icons-right .select.is-small ~ .icon {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .control.has-icons-left .input.is-medium ~ .icon,
 .control.has-icons-left .select.is-medium ~ .icon, .control.has-icons-right .input.is-medium ~ .icon,
@@ -3736,7 +3736,7 @@ a.tag:hover {
   z-index: 4;
 }
 .control.is-loading.is-small:after {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .control.is-loading.is-medium:after {
   font-size: 1.75rem;
@@ -3747,7 +3747,7 @@ a.tag:hover {
 
 /* Bulma Components */
 .breadcrumb {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   white-space: nowrap;
 }
 .breadcrumb a {
@@ -3798,7 +3798,7 @@ a.tag:hover {
   justify-content: flex-end;
 }
 .breadcrumb.is-small {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .breadcrumb.is-medium {
   font-size: 1.75rem;
@@ -4146,10 +4146,10 @@ button.dropdown-item.is-active {
   }
 }
 .menu {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 .menu.is-small {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .menu.is-medium {
   font-size: 1.75rem;
@@ -4197,7 +4197,7 @@ button.dropdown-item.is-active {
 .message {
   background-color: #f6f6f6;
   border-radius: 4px;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 .message strong {
   color: currentColor;
@@ -4207,7 +4207,7 @@ button.dropdown-item.is-active {
   text-decoration: underline;
 }
 .message.is-small {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .message.is-medium {
   font-size: 1.75rem;
@@ -5451,11 +5451,11 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 }
 
 .pagination {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin: -0.25rem;
 }
 .pagination.is-small {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .pagination.is-medium {
   font-size: 1.75rem;
@@ -5616,7 +5616,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 .panel {
   border-radius: 6px;
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 .panel:not(:last-child) {
   margin-bottom: 1.5rem;
@@ -5819,7 +5819,7 @@ label.panel-block:hover {
   -webkit-overflow-scrolling: touch;
   align-items: stretch;
   display: flex;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   justify-content: space-between;
   overflow: hidden;
   overflow-x: auto;
@@ -5943,7 +5943,7 @@ label.panel-block:hover {
   padding-right: 1.25em;
 }
 .tabs.is-small {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .tabs.is-medium {
   font-size: 1.75rem;
@@ -8781,11 +8781,11 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 .is-size-6 {
-  font-size: 1.5rem !important;
+  font-size: 1.4rem !important;
 }
 
 .is-size-7 {
-  font-size: 1rem !important;
+  font-size: 1.1rem !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -8805,10 +8805,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     font-size: 1.75rem !important;
   }
   .is-size-6-mobile {
-    font-size: 1.5rem !important;
+    font-size: 1.4rem !important;
   }
   .is-size-7-mobile {
-    font-size: 1rem !important;
+    font-size: 1.1rem !important;
   }
 }
 @media screen and (min-width: 769px), print {
@@ -8828,10 +8828,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     font-size: 1.75rem !important;
   }
   .is-size-6-tablet {
-    font-size: 1.5rem !important;
+    font-size: 1.4rem !important;
   }
   .is-size-7-tablet {
-    font-size: 1rem !important;
+    font-size: 1.1rem !important;
   }
 }
 @media screen and (max-width: 1071px) {
@@ -8851,10 +8851,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     font-size: 1.75rem !important;
   }
   .is-size-6-touch {
-    font-size: 1.5rem !important;
+    font-size: 1.4rem !important;
   }
   .is-size-7-touch {
-    font-size: 1rem !important;
+    font-size: 1.1rem !important;
   }
 }
 @media screen and (min-width: 1072px) {
@@ -8874,10 +8874,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     font-size: 1.75rem !important;
   }
   .is-size-6-desktop {
-    font-size: 1.5rem !important;
+    font-size: 1.4rem !important;
   }
   .is-size-7-desktop {
-    font-size: 1rem !important;
+    font-size: 1.1rem !important;
   }
 }
 @media screen and (min-width: 1264px) {
@@ -8897,10 +8897,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     font-size: 1.75rem !important;
   }
   .is-size-6-widescreen {
-    font-size: 1.5rem !important;
+    font-size: 1.4rem !important;
   }
   .is-size-7-widescreen {
-    font-size: 1rem !important;
+    font-size: 1.1rem !important;
   }
 }
 @media screen and (min-width: 1456px) {
@@ -8920,10 +8920,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     font-size: 1.75rem !important;
   }
   .is-size-6-fullhd {
-    font-size: 1.5rem !important;
+    font-size: 1.4rem !important;
   }
   .is-size-7-fullhd {
-    font-size: 1rem !important;
+    font-size: 1.1rem !important;
   }
 }
 .has-text-centered {
