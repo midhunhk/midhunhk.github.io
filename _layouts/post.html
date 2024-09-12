@@ -5,8 +5,10 @@ layout: default
 <div class="columns reverse-row-order">
   <div class="column is-4">
     <p>
-        <span class="has-text-weight-bold is-uppercase">Published</span> 
-        {{ page.date | date: "%b %-d, %Y" }}
+        <span class="has-text-weight-bold is-uppercase">Published on </span>
+        <time datetime="{{ page.date | date_to_xmlschema }}">
+            {{ page.date | date_to_string }}
+        </time>
     </p>
 
     {% if page.sidenote %}
