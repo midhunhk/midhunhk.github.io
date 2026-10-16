@@ -1,11 +1,15 @@
   <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap">
+    <meta name="color-scheme" content="light">
     <link href="http://gmpg.org/xfn/11" rel="profile">
 
     <!-- Enable responsiveness on mobile devices-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="theme-color" content={{ site.theme_color | default: '#1371DD' }}>
+    <meta name="theme-color" content="{{ site.theme_color | default: '#1371DD' }}">
     <meta name="keywords" content="HTML,CSS,XML,JavaScript,Android,Apps,Photography,midhunhk,Midhun,Midhun Harikumar,Message Counter,Open Source">
     <meta name="author" content="Midhun Harikumar">
     <meta property="og:type" content="Article">
@@ -47,8 +51,11 @@
     </title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css?v={{ site.version }}">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css?v={{ site.version }}">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/modern.css?v={{ site.version }}">
+    <script>document.documentElement.classList.add('js')</script>
+    <script src="{{ site.baseurl }}/assets/js/site.js?v={{ site.version }}" defer></script>
     
     <!-- Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -60,9 +67,6 @@
     <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-  {% unless site.hide_share_buttons %}
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
-  {% endunless %}
     
     <script src="https://kit.fontawesome.com/c01311720b.js" cookie-consent="strictly-necessary" crossorigin="anonymous"></script>
     <!-- Connecting to adsense, For reviewing the site -->

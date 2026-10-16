@@ -1,64 +1,23 @@
-<nav class="navbar is-primary" role="navigation" aria-label="main navigation">
-    <div class="container">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="{{ site.url }}">
-          <h2 class="is-size-4 is-family-secondary">M</h2>
-        </a>
+<header class="mh-nav" id="mhNav">
+  <div class="mh-container mh-nav__inner">
+    <a class="mh-logo" href="{{ '/' | relative_url }}" aria-label="Midhun Harikumar - Home">
+      <span class="mh-logo__mark">M</span>
+      <span class="mh-logo__text">Midhun<span>.</span></span>
+    </a>
 
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
-    
-      <div id="navbarBasicExample" class="navbar-menu">
-        <div class="navbar-start">
-          <a class="navbar-item" href="{{ site.url }}">Home</a>
-          <a class="navbar-item" href="{{ site.url }}/blog">Blog</a>
-          <a class="navbar-item" href="{{ site.url }}/about">About</a>
+    <button class="mh-nav__toggle" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="mhMenu">
+      <span></span>
+      <span></span>
+    </button>
 
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link">
-              More
-            </a>
-    
-            <div class="navbar-dropdown">
-              <a class="navbar-item" href="{{ site.url }}/tags">Tags</a>
-              <a class="navbar-item" href="{{ site.url }}/categories">Categories</a>
-              <a class="navbar-item" href="https://github.com/midhunhk">Github</a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    
-  </nav>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-
-    // Get all "navbar-burger" elements
-    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
-    // Check if there are any navbar burgers
-    if ($navbarBurgers.length > 0) {
-
-      // Add a click event on each of them
-      $navbarBurgers.forEach( el => {
-        el.addEventListener('click', () => {
-
-          // Get the target from the "data-target" attribute
-          const target = el.dataset.target;
-          const $target = document.getElementById(target);
-
-          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-          el.classList.toggle('is-active');
-          $target.classList.toggle('is-active');
-
-        });
-      });
-    }
-
-    });
-  </script>
+    <nav class="mh-nav__menu" id="mhMenu" aria-label="Main navigation">
+      <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="is-active" aria-current="page"{% endif %}>Home</a>
+      <a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog' or page.layout == 'post' %}class="is-active" aria-current="page"{% endif %}>Blog</a>
+      <a href="{{ '/about/' | relative_url }}" {% if page.url contains '/about' %}class="is-active" aria-current="page"{% endif %}>About</a>
+      <a href="{{ '/tags/' | relative_url }}" {% if page.url contains '/tags' %}class="is-active" aria-current="page"{% endif %}>Tags</a>
+      <a href="{{ '/categories/' | relative_url }}" {% if page.url contains '/categories' %}class="is-active" aria-current="page"{% endif %}>Categories</a>
+      <a class="mh-nav__icon" href="https://github.com/midhunhk" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a class="mh-nav__cta" href="{{ '/#contact' | relative_url }}">Let's talk</a>
+    </nav>
+  </div>
+</header>

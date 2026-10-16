@@ -1,14 +1,48 @@
-<section class="section has-background-link-dark has-text-white-ter">
-    <div class="container has-text-centered">
-        <p class="is-size-6">
-            <a href="https://www.midhunhk.com/" class="has-text-success">Home</a> 
-            | <a href="https://ae-app-labs.github.io/privacy-policy/midhunhk-blog" target="_blank" class="has-text-success">Privacy Policy</a> 
-            | <a href="#" onclick="return false" id="open_preferences_center" class="has-text-success">Cookie Preferences</a>
-            | <a href="https://ae-app-labs.github.io" target="_blank" class="has-text-success">Ae App Labs</a> 
-        </p>
-        <p class="is-size-6 has-text-centered pt-0">
-            &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> 
-            Midhun Harikumar. All Rights Reserved.
-        </p>
+<footer class="mh-footer mh-reset">
+    <div class="mh-container">
+        <div class="mh-footer__grid">
+            <div>
+                <a class="mh-logo" href="{{ '/' | relative_url }}">
+                    <span class="mh-logo__mark">M</span>
+                    <span class="mh-logo__text">Midhun<span>.</span></span>
+                </a>
+                <p class="mh-footer__about">Full stack developer &amp; technical architect writing about Android, the web, design and the occasional random thought.</p>
+            </div>
+
+            <div>
+                <h4>Explore</h4>
+                <ul class="mh-footer__links">
+                    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                    <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+                    <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+                    <li><a href="{{ '/tags/' | relative_url }}">Tags</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>More</h4>
+                <ul class="mh-footer__links">
+                    <li><a href="https://ae-app-labs.github.io" target="_blank" rel="noopener">Ae App Labs</a></li>
+                    <li><a href="https://ae-app-labs.github.io/privacy-policy/midhunhk-blog" target="_blank" rel="noopener">Privacy Policy</a></li>
+                    <li><a href="#" onclick="return false" id="open_preferences_center">Cookie Preferences</a></li>
+                    <li><a href="{{ '/atom.xml' | relative_url }}">RSS Feed</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Connect</h4>
+                <div class="mh-socials">
+                    <a target="_blank" rel="noopener" title="GitHub" aria-label="GitHub" href="https://github.com/midhunhk"><i class="fab fa-github"></i></a>
+                    <a target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn" href="https://www.linkedin.com/in/midhunhk/"><i class="fab fa-linkedin-in"></i></a>
+                    <a target="_blank" rel="noopener" title="StackOverflow" aria-label="StackOverflow" href="https://stackoverflow.com/users/592025/midhunhk"><i class="fab fa-stack-overflow"></i></a>
+                    <a target="_blank" rel="noopener" title="Instagram" aria-label="Instagram" href="https://www.instagram.com/midhunhk/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mh-footer__bottom">
+            <p>&copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> Midhun Harikumar. All Rights Reserved.</p>
+            <p>Built with Jekyll &amp; hosted on GitHub Pages</p>
+        </div>
     </div>
-</section>
+</footer>

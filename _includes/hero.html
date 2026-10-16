@@ -1,13 +1,30 @@
-<section class="hero is-primary{% if page.hero_height %} {{ page.hero_height }} {% else %} is-medium {% endif %}" {% if page.featured_hero %} style="background: url('{{ page.featured }}') no-repeat center center; background-size: cover;" {% endif %}>
-    <div class="hero-body {% if page.hero_darken %} hero-darken {% endif %}">
-        <div class="container {% if page.hero_content_align == 'right' %} has-text-right {% endif %}">
-            <p class="is-size-3 py-0">{{ page.title }}</p>
-            {% if page.subtitle %}
-                <p class="subtitle is-3">{{ page.subtitle }}</p>
+{% assign hero_size = page.hero_height | default: 'is-medium' %}
+<section class="mh-hero mh-blue-bg {{ hero_size }}{% if page.featured_hero and page.featured %} has-image{% endif %}"
+    {% if page.featured_hero and page.featured %}style="--mh-hero-img: url('{{ page.featured }}');"{% endif %}>
+    <div class="mh-container">
+        <div class="mh-hero__inner{% if page.hero_content_align == 'right' %} is-right{% endif %}">
+            {% if page.layout == 'post' %}
+                <a class="mh-hero__back" href="{{ '/blog/' | relative_url }}"><i class="fas fa-arrow-left"></i> All articles</a>
             {% endif %}
+
+            <h1 class="mh-hero__title">{{ page.title }}</h1>
+
+            {% if page.subtitle %}
+                <p class="mh-hero__subtitle">{{ page.subtitle }}</p>
+            {% endif %}
+
+            {% if page.layout == 'post' %}
+                {% assign words = page.content | number_of_words %}
+                <div class="mh-hero__meta">
+                    <span><i class="far fa-calendar"></i><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></span>
+                    <span><i class="far fa-clock"></i>{{ words | divided_by: 200 | plus: 1 }} min read</span>
+                    {% if page.categories.size > 0 %}<span><i class="far fa-folder"></i>{{ page.categories | first }}</span>{% endif %}
+                </div>
+            {% endif %}
+
             {% if page.hero_link %}
-                <a href="{{ page.hero_link | relative_url }}" class="button is-success is-medium" target="_blank" title="{{ page.hero_link_text }} (Opens in new tab)">
-                    {{ page.hero_link_text }}&nbsp;
+                <a href="{{ page.hero_link | relative_url }}" class="mh-btn mh-btn--lime" target="_blank" rel="noopener" title="{{ page.hero_link_text }} (Opens in new tab)">
+                    {{ page.hero_link_text }}
                     <i class="fas fa-external-link-alt"></i>
                 </a>
             {% endif %}

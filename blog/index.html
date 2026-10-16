@@ -1,60 +1,58 @@
 ---
 layout: default
 title: Blog - Random Thoughts
-hero_height: is-small
+description: Articles by Midhun Harikumar on Android, web development, design, AI and the occasional year in review.
+hide_hero: true
+full_width: true
 ---
 
-<!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
-  <div class="content is-shadowless">
+{% comment %} Build a list of the most used tags, sorted by post count {% endcomment %}
+{% capture tag_counts %}{% for tag in site.tags %}{{ tag[1].size | prepend: '000' | slice: -3, 3 }}#{{ tag[0] }}|{% endfor %}{% endcapture %}
+{% assign top_tags = tag_counts | split: '|' | sort | reverse %}
+{% assign first_year = site.posts.last.date | date: '%Y' %}
 
-    <div class="columns m-0 p-0">
-      <!-- left column with banner image -->
-      <div class="column is-5">
-        <a href="{{ post.url }}">
-          <figure class="image">
-          {% if post.featured %}
-            <img src="{{ post.featured }}" alt="{{ post.featured_alt_text | featured}}"/>
-            {% else %}
-            <img src="/public/images/site/bg/default_banner.png" alt="default banner">
-            {% endif %}
-          </figure>
-        </a>
-      </div>
+<!-- Blog header -->
+<section class="mh-blog-head mh-blue-bg mh-reset">
+    <div class="mh-container">
+        <span class="mh-eyebrow reveal">The Blog</span>
+        <h1 class="reveal" style="--d:.06s">Random <em>Thoughts</em></h1>
+        <p class="mh-lead reveal" style="--d:.12s">Notes on Android, the web, design, AI and the occasional year in review &mdash; written since {{ first_year }}.</p>
 
-      <!-- Right column with title, date and excerpt -->
-      <div class="column is-7">
-        <h1 class="is-family-secondary pt-4 mb-1 is-size-3">
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </h1>
-        <p class="author py-1">
-          <span class="icon">
-            <i class="fa fa-calendar is-size-7"></i>
-          </span>
-          <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date py-1 is-size-7">{{ post.date | date_to_string }}</time>
-        </p>
+        <div class="mh-blog-head__stats reveal" style="--d:.18s">
+            <div><strong>{{ site.posts.size }}</strong><span>Articles</span></div>
+            <div><strong>{{ site.tags.size }}</strong><span>Topics</span></div>
+            <div><strong>{{ site.time | date: '%Y' | minus: first_year }}+</strong><span>Years writing</span></div>
+        </div>
 
-        <article style="line-height:1.5em;">
-          {% if post.summary %}
-            <!-- Use the summary if it exists -->
-            {{ post.summary }}
-            {% include post_read_more.html %}
-          {% else %}
-            {% if post.content contains "<!-- more -->" %}
-              <!-- For a long post, only show the excerpt -->
-              {{ post.content | split:"<!-- more -->" | first }}
-              {% include post_read_more.html %}
-            {% else %}
-              <!-- Short post without an excerpt -->
-              {{ post.content }}
-            {% endif %}
-          {% endif %}
-        </article>
-      </div>
+        <div class="mh-topics reveal" style="--d:.24s">
+            {% for entry in top_tags limit: 10 %}
+                {% assign parts = entry | split: '#' %}
+                <a href="{{ '/tags/' | relative_url }}#{{ parts[1] | slugify }}">#{{ parts[1] }} <small>{{ parts[0] | plus: 0 }}</small></a>
+            {% endfor %}
+        </div>
     </div>
+</section>
 
-    <div class="is-divider" data-content="&middot;"></div>
-  </div>
-{% endfor %}
+<!-- Posts -->
+<section class="mh-blog-body">
+    <div class="mh-container">
+        {% assign grid_posts = paginator.posts %}
 
-{% include pagination.html %}
+        {% if paginator.page == 1 %}
+            <div class="reveal">
+                {% include post_card.html post=paginator.posts.first featured=true %}
+            </div>
+            {% assign grid_posts = paginator.posts | slice: 1, paginator.posts.size %}
+        {% endif %}
+
+        <div class="mh-post-grid">
+            {% for post in grid_posts %}
+                <div class="reveal" style="--d:{{ forloop.index0 | modulo: 3 | times: 0.08 }}s; display:flex;">
+                    {% include post_card.html post=post %}
+                </div>
+            {% endfor %}
+        </div>
+
+        {% include pagination.html %}
+    </div>
+</section>

@@ -2,493 +2,308 @@
 layout: home
 title: Home
 ---
-<div class="wrap mb-4">
-    
-    <section class="section py-6 home-hero">
-        <div class="container is-fullhd">
-            <div class="columns is-vcentered">
-                <!-- Main hero column -->
-                <div class="column is-half pr-2">
-                    
-                    <div class="has-text-white">
-                        <p class="is-family-secondary has-text-success is-size-1 animate__animated animate__fadeInRight animate__delay-1s py-2">Midhun Harikumar</p>
 
-                        <div class="animate__animated animate__fadeIn animate__delay-2s animate__fast">
-                            <p class="py-2 is-size-4 has-text-weight-semibold has-text-black-bis">Full Stack Developer &amp; Technical Architect</p>
-                            <p class="py-2 pr-4 my-2 has-text-black-bis">
-                                I'm Midhun, a passionate individual with a diverse range of skills and experiences. I have a strong background in web development and design, and I love creating engaging and user-friendly apps and websites.
-                            </p>
-                            
-                            <div class="has-text-centered-mobile mt-4">
-                                <a class="is-success button is-medium is-rounded is-size-6" href="/blog">
-                                    <span class="mr-2">Check my blog</span>
-                                    <i class="fas fa-angle-right"></i>
-                                </a>
-                                <button class="button is-success is-outlined is-medium ml-2 is-rounded is-size-6" onclick="javascript:scrollToSection('contact')">Contact me</button>
-                            </div>
+<!-- Hero -->
+<section class="mh-home-hero mh-blue-bg mh-reset">
+    <div class="mh-container mh-home-hero__grid">
+        <div>
+            <span class="mh-pill reveal"><span class="mh-dot"></span> Full Stack Developer &amp; Technical Architect</span>
 
-                        </div>
-                        
-                    </div>
-                </div>
+            <h1 class="mh-display reveal" style="--d:.08s">
+                <span class="mh-display__hi">Hi there, I'm</span>
+                Midhun Harikumar<span class="mh-accent">.</span>
+            </h1>
 
-                <div class="column is-5">
-                    <div class="animate__animated animate__fadeIn mt-4 has-text-centered">
-                        <figure class="image is-inline-block">
-                            <img src="/public/images/profile/mhk_2021.jpg" alt="Midhun Harikumar" class="is-rounded"/>
-                        </figure>
-                    </div>
-                </div>
+            <div class="mh-rotator reveal" style="--d:.16s">
+                <span>I design &amp; build</span>
+                <span class="mh-rotator__words" aria-hidden="true">
+                    <span>web apps</span>
+                    <span>Android apps</span>
+                    <span>user interfaces</span>
+                    <span>scalable systems</span>
+                    <span>web apps</span>
+                </span>
+                <span class="is-sr-only">web apps, Android apps, user interfaces and scalable systems</span>
+            </div>
 
-                <!-- Social links column-->
-                 <div class="social pt-2 column is-1">
-                    <div id="profile" class="animate__animated animate__fadeInDown animate__delay-2s animate__fast has-text-centered-mobile">
-                        <span class="icon is-large m-2">
-                            <a target="_blank" title="GitHub" href="https://github.com/midhunhk"><i class="fab fa-2x fa-github pr-2 has-text-black"></i></a>
-                        </span>
-                        <span class="icon is-large m-2">
-                            <a target="_blank" title="StackOverflow" href="https://stackoverflow.com/users/592025/midhunhk"><i class="fab fa-2x fa-stack-overflow pr-2 has-text-black"></i></a>
-                        </span>
-                        <span class="icon is-large m-2">
-                            <a target="_blank" title="LinkedIn" href="https://www.linkedin.com/in/midhunhk/"><i class="fab fa-2x fa-linkedin pr-2 has-text-black"></i></a>
-                        </span>
-                        <span class="icon is-large m-2">
-                            <a target="_blank" title="Instagram" href="https://www.instagram.com/midhunhk/"><i class="fab fa-2x fa-instagram pr-2 has-text-black"></i></a>
-                        </span>            
-                    </div>
-                </div>
-                <!-- End socoal links column -->
-                
+            <p class="mh-home-hero__intro reveal" style="--d:.24s">
+                A passionate developer with a diverse range of skills and experiences. I have a strong background in web development and design, and I love creating engaging and user-friendly apps and websites.
+            </p>
+
+            <div class="mh-home-hero__actions reveal" style="--d:.32s">
+                <a class="mh-btn mh-btn--lime" href="{{ '/blog/' | relative_url }}">Read my blog <i class="fas fa-arrow-right"></i></a>
+                <a class="mh-btn mh-btn--ghost" href="#contact">Contact me</a>
+            </div>
+
+            <div class="mh-socials reveal" style="--d:.4s">
+                <a target="_blank" rel="noopener" title="GitHub" aria-label="GitHub" href="https://github.com/midhunhk"><i class="fab fa-github"></i></a>
+                <a target="_blank" rel="noopener" title="StackOverflow" aria-label="StackOverflow" href="https://stackoverflow.com/users/592025/midhunhk"><i class="fab fa-stack-overflow"></i></a>
+                <a target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn" href="https://www.linkedin.com/in/midhunhk/"><i class="fab fa-linkedin-in"></i></a>
+                <a target="_blank" rel="noopener" title="Instagram" aria-label="Instagram" href="https://www.instagram.com/midhunhk/"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
-    </section>
-</div> <!-- End wrap -->
 
-<!-- Start Separator Section-->
-<section class="section">
-    <div class="has-text-centered animate__animated animate__fadeIn animate__delay-3s">
-        <svg width="100" height="100">
-            <g>
-                <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
-                <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
-                </g>
-            </g>
-            <g>
-                <rect stroke="#000" transform="rotate(45 51.48514556884767,50.66014099121092) " 
-                height="40" width="40" y="20" x="20" fill-opacity="null" 
-                stroke-opacity="null" stroke-width="0" fill="#1371DD"/>
-            </g>
-            </svg>
+        <div class="mh-portrait reveal" style="--d:.2s">
+            <div class="mh-portrait__frame">
+                <img src="/public/images/profile/mhk_2021.jpg" alt="Midhun Harikumar" width="667" height="667">
+            </div>
+            <div class="mh-stat mh-stat--a">
+                <span class="mh-stat__icon"><i class="fas fa-code"></i></span>
+                <span><strong>20+ yrs</strong><small>Web development</small></span>
+            </div>
+            <div class="mh-stat mh-stat--b">
+                <span class="mh-stat__icon"><i class="fab fa-android"></i></span>
+                <span><strong>12 yrs</strong><small>Native Android</small></span>
+            </div>
+            <div class="mh-stat mh-stat--c">
+                <span class="mh-stat__icon"><i class="fas fa-download"></i></span>
+                <span><strong>100K+</strong><small>App downloads</small></span>
+            </div>
+        </div>
     </div>
 </section>
-<!-- End Separator Section -->
 
-<section class="section py-5">
-    <div class="container">
-        <div class="columns">
-            <div class="column is-4 p-4 animate__animated animate__fadeIn animate__delay-3s" style="border-left: 1px solid #7a7a7a33; border-top: 1px solid #7a7a7a33;">
-                <p class="title mb-0 pt-0">UI UX Design</p>
+<!-- Tech stack marquee -->
+<div class="mh-marquee" aria-label="Technologies I work with">
+    <div class="mh-marquee__track">
+        {% assign stack = "Java,Kotlin,JavaScript,Android,Spring Boot,Node.js,React,Svelte,Vue,Figma,Adobe XD,Google Cloud,Azure AI,Quantum Computing" | split: "," %}
+        {% for i in (1..2) %}
+            {% for tech in stack %}<span{% if i == 2 %} aria-hidden="true"{% endif %}>{{ tech }}</span>{% endfor %}
+        {% endfor %}
+    </div>
+</div>
+
+<!-- What I do -->
+<section class="mh-section mh-reset">
+    <div class="mh-container">
+        <div class="mh-section-head reveal">
+            <div>
+                <span class="mh-eyebrow">What I do</span>
+                <h2 class="mh-h2">Design, code &amp; <em>everything</em> in between</h2>
+            </div>
+            <a class="mh-link-arrow" href="{{ '/about/' | relative_url }}">More about me <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="mh-services">
+            <div class="mh-service reveal">
+                <span class="mh-service__num">01</span>
+                <div class="mh-service__icon"><i class="fas fa-pencil-ruler"></i></div>
+                <h3>UI UX Design</h3>
                 <p>My passion lies in exploring the potential of User Interfaces to enhance user experiences, and I have honed my skills over the years by designing interfaces using a variety of tools, including Flash, Flex, Adobe XD, and Figma.</p>
             </div>
 
-            <div class="column is-4 has-background-grey p-4 animate__animated animate__fadeIn animate__delay-4s">
-                <p class="title has-text-success mb-0 pt-0">Modern Web &amp; Mobile</p>
-                <p class="has-text-white-ter">With over 20 years of experience in web development,and 12 years of experience in Native Android development, I am well-versed in modern web frameworks and technologies. Additionally, I prioritize staying up-to-date with the latest frameworks and libraries by regularly updating my skills.</p>
+            <div class="mh-service mh-service--feature reveal" style="--d:.1s">
+                <span class="mh-service__num">02</span>
+                <div class="mh-service__icon"><i class="fas fa-mobile-alt"></i></div>
+                <h3>Modern Web &amp; Mobile</h3>
+                <p>With over 20 years of experience in web development, and 12 years of experience in Native Android development, I am well-versed in modern web frameworks and technologies. Additionally, I prioritize staying up-to-date with the latest frameworks and libraries by regularly updating my skills.</p>
             </div>
 
-            <div class="column is-4 p-4 animate__animated animate__fadeIn animate__delay-5s" style="border-right: 1px solid #7a7a7a33; border-top: 1px solid #7a7a7a33;">
-                <p class="title mb-0 pt-0">Software Development</p>
+            <div class="mh-service reveal" style="--d:.2s">
+                <span class="mh-service__num">03</span>
+                <div class="mh-service__icon"><i class="fas fa-code"></i></div>
+                <h3>Software Development</h3>
                 <p>With a degree in Computer Science and Engineering, I possess a natural curiosity to understand how things work, and have developed strong programming skills in Java, Kotlin, and JavaScript. I enjoy exploring the potential of AI and Quantum Computing to solve complex problems.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Start Separator Section-->
-<section class="section">
-    <div class="has-text-centered animate__animated animate__fadeIn animate__delay-3s">
-        <svg width="100" height="100">
-            <g>
-                <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
-                <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
-                </g>
-            </g>
-            <g>
-                <rect stroke="#000" transform="rotate(45 51.48514556884767,50.66014099121092) " 
-                height="40" width="40" y="20" x="20" fill-opacity="null" 
-                stroke-opacity="null" stroke-width="0" fill="#1371DD"/>
-            </g>
-            </svg>
-    </div>
-</section>
-<!-- End Separator Section -->
-
-<!-- Start featured projects -->
-<section class="section pt-0 pb-0 mt-4 accent-bg">
-    <div class="container py-4 my-4">
-        <!-- Section header + link -->
-        <div class="columns">
-            <div class="column">
-                <h2 class="is-size-2 title has-text-white is-family-secondary pt-4">Featured Projects</h2>
+<!-- Featured projects -->
+<section class="mh-section mh-dark mh-reset">
+    <div class="mh-container">
+        <div class="mh-section-head reveal">
+            <div>
+                <span class="mh-eyebrow">Selected work</span>
+                <h2 class="mh-h2">Featured <em>projects</em></h2>
+                <p class="mh-lead">Apps, sites and experiments I've designed and built over the years.</p>
             </div>
-            <div class="column has-text-right">
-                <div class="pt-4">
-                    <a class='button is-rounded' href="https://ae-app-labs.github.io/projects">
-                        <span>All Projects</span>
-                        <i class="fa fa-arrow-right ml-2"></i>
-                    </a>
-                </div>
-            </div>
+            <a class="mh-link-arrow" href="https://ae-app-labs.github.io/projects">All projects <i class="fas fa-arrow-right"></i></a>
         </div>
 
-        <!-- Start row 1-->
-        <div class="columns">
-            <div class="column is-4">
-                <div class="card">
-                    <div class="card-image has-text-centered py-4">
-                        <img src="https://ae-app-labs.github.io/img/portfolio/icons_svg/icon_message_counter.svg" alt="Message Counter">
-                        <p class="subtitle is-6 has-text-centered">
-                            <span class="tag is-link mr-2" style="transform: translate(0px, 0px); opacity: 1;">Android</span>
-                            <span class="tag is-danger mr-2" style="transform: translate(0px, 0px); opacity: 1;">Kotlin</span>
-                        </p>
-                    </div>
-                    <div class="card-content has-background-white-ter">
-                        <div class="content">
-                            <p class="has-text-weight-bold my-0 py-1">Message Counter</p>
-                            <p class="is-size-6 is-hidden-mobile">This contemporary Android application is capable of tracking the number of text messages sent by a user, and has achieved over 100,000 downloads while being translated into 5 different languages.</p>
-                            <a class="button is-rounded" href="https://github.com/midhunhk/message-counter/">
-                                <span class="icon">
-                                    <i class="fab fa-github pr-2 has-text-black" aria-hidden="true"></i>
-                                </span>
-                                <span>See Project</span>
-                            </a>
-                        </div>
-                    </div>
+        <div class="mh-projects">
+            <article class="mh-project reveal">
+                <div class="mh-project__top">
+                    <div class="mh-project__logo"><img src="https://ae-app-labs.github.io/img/portfolio/icons_svg/icon_message_counter.svg" alt="Message Counter" loading="lazy"></div>
+                    <div class="mh-project__tags"><span class="mh-chip mh-chip--dark">Android</span><span class="mh-chip mh-chip--dark">Kotlin</span></div>
                 </div>
-            </div>
+                <h3>Message Counter</h3>
+                <p>This contemporary Android application is capable of tracking the number of text messages sent by a user, and has achieved over 100,000 downloads while being translated into 5 different languages.</p>
+                <a class="mh-project__link" href="https://github.com/midhunhk/message-counter/"><i class="fab fa-github"></i> See project <i class="fas fa-arrow-right"></i></a>
+            </article>
 
-            <div class="column is-4">
-                <div class="card">
-                    <div class="card-image has-text-centered py-4">
-                        <img src="https://ae-app-labs.github.io/img/portfolio/icons_svg/icon_triton.svg" alt="Triton Player" width="96">
-                        <p class="subtitle is-6 has-text-centered">
-                            <span class="tag is-primary mr-2" style="transform: translate(0px, 0px); opacity: 1;">Adobe Air</span>
-                            <span class="tag is-link mr-2" style="transform: translate(0px, 0px); opacity: 1;">Flash Platform</span>
-                        </p>
-                    </div>
-                    <div class="card-content has-background-white-ter">
-                        <div class="content">
-                            <p class="has-text-weight-bold my-0 py-1">Triton Player</p>
-                            <p class="is-size-6 is-hidden-mobile">Triton Player is a cross platform MP3 player based on Adobe AIR platform for Desktop (Windows and Mac OS). This application is considered to be feature complete.</p>
-                            <a class="button is-rounded" href="https://github.com/midhunhk/triton-player">
-                                <span class="icon">
-                                    <i class="fab fa-github pr-2 has-text-black" aria-hidden="true"></i>
-                                </span>
-                                <span>See Project</span>
-                            </a>
-                        </div>
-                    </div>
+            <article class="mh-project reveal" style="--d:.08s">
+                <div class="mh-project__top">
+                    <div class="mh-project__logo"><img src="https://ae-app-labs.github.io/img/portfolio/icons_svg/icon_triton.svg" alt="Triton Player" loading="lazy"></div>
+                    <div class="mh-project__tags"><span class="mh-chip mh-chip--dark">Adobe Air</span><span class="mh-chip mh-chip--dark">Flash Platform</span></div>
                 </div>
-            </div>
-            
-            <div class="column is-4">
-                <div class="card">
-                    <div class="card-image has-text-centered py-4">
-                        <img src="https://ae-app-labs.github.io/img/portfolio/icons_svg/icon_random_contact_alt.svg" width="96px" alt="Random Contact">
-                        <p class="subtitle is-6 has-text-centered">
-                            <span class="tag is-warning mr-2" style="transform: translate(0px, 0px); opacity: 1;">Android</span>
-                            <span class="tag is-success mr-2" style="transform: translate(0px, 0px); opacity: 1;">Kotlin</span>
-                        </p>
-                    </div>
-                    <div class="card-content has-background-white-ter">
-                        <div class="content">
-                            <p class="has-text-weight-bold my-0 py-1">Random Contact</p>
-                            <p class="is-size-6 is-hidden-mobile">
-                                Random Contact is an Android app that shows the details of a random contact from the contacts list. This is an experimental, fun and personal project which is open source.
-                            </p>
-                            <a class="button is-rounded" href="https://ae-app-labs.github.io/case-studies/random-contact">
-                                <span class="icon">
-                                    <i class="far fa-clipboard has-text-black"></i>
-                                </span>
-                                <span>Case Study</span>
-                            </a>
-                        </div>
-                    </div>
+                <h3>Triton Player</h3>
+                <p>Triton Player is a cross platform MP3 player based on Adobe AIR platform for Desktop (Windows and Mac OS). This application is considered to be feature complete.</p>
+                <a class="mh-project__link" href="https://github.com/midhunhk/triton-player"><i class="fab fa-github"></i> See project <i class="fas fa-arrow-right"></i></a>
+            </article>
+
+            <article class="mh-project reveal" style="--d:.16s">
+                <div class="mh-project__top">
+                    <div class="mh-project__logo"><img src="https://ae-app-labs.github.io/img/portfolio/icons_svg/icon_random_contact_alt.svg" alt="Random Contact" loading="lazy"></div>
+                    <div class="mh-project__tags"><span class="mh-chip mh-chip--dark">Android</span><span class="mh-chip mh-chip--dark">Kotlin</span></div>
                 </div>
-            </div>
+                <h3>Random Contact</h3>
+                <p>Random Contact is an Android app that shows the details of a random contact from the contacts list. This is an experimental, fun and personal project which is open source.</p>
+                <a class="mh-project__link" href="https://ae-app-labs.github.io/case-studies/random-contact"><i class="far fa-clipboard"></i> Case study <i class="fas fa-arrow-right"></i></a>
+            </article>
 
-        </div>
-        <!-- End Row 1 -->
-
-        <div class="columns mb-4">
-
-            <div class="column is-4">
-                <div class="card">
-                    <div class="card-image has-text-centered py-4">
-                        <img src="https://raw.githubusercontent.com/midhunhk/artwork/master/icons/export/tlf/v2/tlf_logo_new.png" alt="TLF" style="width: 92px;">
-                        <p class="subtitle is-6 has-text-centered">
-                            <span class="tag is-info mr-2" style="transform: translate(0px, 0px); opacity: 1;">Wordpress</span>
-                        </p>
-                    </div>
-                    <div class="card-content has-background-white-ter">
-                        <div class="content">
-                            <p class="has-text-weight-bold my-0 py-1">The Lotus Foundation</p>
-                            <p class="is-size-6 is-hidden-mobile">Designed and developed the website for a non profit organization based on Ontario, Canada. The project was designed with Adobe XD and developed using wordpress and a custom theme engine.</p>
-                            <a class="button is-rounded" href="https://ae-app-labs.github.io/case-studies/tlf">
-                                <span class="icon">
-                                    <i class="far fa-clipboard has-text-black"></i>
-                                </span>
-                                <span>Case Study</span>
-                            </a>
-                        </div>
-                    </div>
+            <article class="mh-project reveal">
+                <div class="mh-project__top">
+                    <div class="mh-project__logo"><img src="https://raw.githubusercontent.com/midhunhk/artwork/master/icons/export/tlf/v2/tlf_logo_new.png" alt="The Lotus Foundation" loading="lazy"></div>
+                    <div class="mh-project__tags"><span class="mh-chip mh-chip--dark">Wordpress</span></div>
                 </div>
-            </div>
-            <div class="column is-4">
-                <div class="card">
-                    <div class="card-image has-text-centered py-4">
-                        <img src="https://ae-app-labs.github.io/img/portfolio/icons_svg/icon_cryptx_web.svg" alt="Cryptx web logo" style="width: 92px;">
-                        <p class="subtitle is-6 has-text-centered">
-                            <span class="tag is-info mr-2" style="transform: translate(0px, 0px); opacity: 1;">Svelte</span>
-                        </p>
-                    </div>
-                    <div class="card-content has-background-white-ter">
-                        <div class="content">
-                            <p class="has-text-weight-bold my-0 py-1">CryptX Web</p>
-                            <p class="is-size-6 is-hidden-mobile">A quick and simple web app built with Svelte and Bulma to encrypt and decrypt text messages using AES algorithm.</p>
-                            <a class="button is-rounded" href="https://www.midhunhk.com/cryptx-web/">
-                                <span class="icon">
-                                    <i class="fas fa-external-link-alt has-text-black"></i>
-                                </span>
-                                <span>Visit Webapp</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                <h3>The Lotus Foundation</h3>
+                <p>Designed and developed the website for a non profit organization based on Ontario, Canada. The project was designed with Adobe XD and developed using wordpress and a custom theme engine.</p>
+                <a class="mh-project__link" href="https://ae-app-labs.github.io/case-studies/tlf"><i class="far fa-clipboard"></i> Case study <i class="fas fa-arrow-right"></i></a>
+            </article>
 
-            <div class="column is-4">
-                <div class="card">
-                    <div class="card-image has-text-centered py-4">
-                        <img src="https://ae-app-labs.github.io/img/portfolio/icons_svg/icon_ae_labs.svg" alt="ae" style="width: 92px;">
-                        <p class="subtitle is-6 has-text-centered">
-                            <span class="tag is-primary mr-2" style="transform: translate(0px, 0px); opacity: 1;">SvelteKit</span>
-                        </p>
-                    </div>
-                    <div class="card-content has-background-warning">
-                        <div class="content">
-                            <p class="has-text-weight-bold has-text-black my-0 py-1">Ae App Labs</p>
-                            <p class="is-size-6 is-hidden-mobile">Org website recently redesigned and re-written with SvelteKit, under which tutorials and other services are provided.</p>
-                            <a class="button is-success is-rounded" href="https://ae-app-labs.github.io" target="_blank">
-                                <span class="icon">
-                                    <i class="fas fa-external-link-alt has-text-black"></i>
-                                </span>
-                                <span>Learn More</span>
-                            </a>
-                        </div>
-                    </div>
+            <article class="mh-project reveal" style="--d:.08s">
+                <div class="mh-project__top">
+                    <div class="mh-project__logo"><img src="https://ae-app-labs.github.io/img/portfolio/icons_svg/icon_cryptx_web.svg" alt="CryptX Web" loading="lazy"></div>
+                    <div class="mh-project__tags"><span class="mh-chip mh-chip--dark">Svelte</span></div>
                 </div>
-            </div>
+                <h3>CryptX Web</h3>
+                <p>A quick and simple web app built with Svelte and Bulma to encrypt and decrypt text messages using AES algorithm.</p>
+                <a class="mh-project__link" href="https://www.midhunhk.com/cryptx-web/"><i class="fas fa-external-link-alt"></i> Visit webapp <i class="fas fa-arrow-right"></i></a>
+            </article>
 
+            <article class="mh-project mh-project--highlight reveal" style="--d:.16s">
+                <div class="mh-project__top">
+                    <div class="mh-project__logo"><img src="https://ae-app-labs.github.io/img/portfolio/icons_svg/icon_ae_labs.svg" alt="Ae App Labs" loading="lazy"></div>
+                    <div class="mh-project__tags"><span class="mh-chip mh-chip--dark">SvelteKit</span></div>
+                </div>
+                <h3>Ae App Labs</h3>
+                <p>Org website recently redesigned and re-written with SvelteKit, under which tutorials and other services are provided.</p>
+                <a class="mh-project__link" href="https://ae-app-labs.github.io" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Learn more <i class="fas fa-arrow-right"></i></a>
+            </article>
         </div>
     </div>
 </section>
-<!-- end featured projects -->
 
-<!-- start latest blogs -->
-<section class="section">
-    <div class="container">
-        <!-- Section header + link -->
-        <div class="columns">
-            <div class="column">
-                <h2 class="is-size-2 title is-family-secondary">Latest Blog Posts</h2>
+<!-- Latest blog posts -->
+<section class="mh-section mh-reset">
+    <div class="mh-container">
+        <div class="mh-section-head reveal">
+            <div>
+                <span class="mh-eyebrow">From the blog</span>
+                <h2 class="mh-h2">Latest <em>random thoughts</em></h2>
             </div>
-            <div class="column has-text-right">
-                <div>
-                    <a class='button is-rounded' href="/blog">
-                        <span>All Blogs</span>
-                        <i class="fa fa-arrow-right ml-2"></i>
-                    </a>
-                </div>
-            </div>
+            <a class="mh-link-arrow" href="{{ '/blog/' | relative_url }}">All articles <i class="fas fa-arrow-right"></i></a>
         </div>
-        
-        <div id="items" class="columns">
+
+        <div class="mh-post-grid">
             {% for post in site.posts limit:3 %}
-                <div class="column is-4">
-                    <div class="card is-shadowless animate__fadeIn animate__delay-2s animate__fast">
-                        <div class="card-image">
-                            <a href="{{ post.url }}">
-                            {% if post.featured %}
-                                <figure class="image">
-                                    {% if post.featured_thumb %}
-                                        <img src="{{ post.featured_thumb }}" alt="featured"/>
-                                    {% else %}
-                                        <img src="{{ post.featured }}" alt="featured"/>
-                                    {% endif %}
-                                </figure>
-                            {% else %}
-                            <div class="has-background-primary-dark">
-                                <img src="/public/images/site/bg/default_banner.png" alt="">
-                            </div>
-                            {% endif %}
-                            </a>
-                        </div>
-                        <div class="card-content">
-                            <div class="content">
-                                <p class="mb-2 p-0 block is-size-6">{{ post.date | date_to_string }}</p>
-                                <a href="{{ post.url }}" class="mt-2 mb-2 pt-2">
-                                    <h2 class="title is-size-5 mb-2">{{ post.title }}</h2>
-                                </a>
-                                <p>
-                                    {% if post.summary %}
-                                        {{ post.summary }}
-                                    {% else %}
-                                        {{ post.excerpt | strip_html | truncatewords:20 }}
-                                    {% endif %}
-                                </p>
-                                <p>
-                                    <a class='button is-rounded' href="{{ post.url }}">
-                                        <span>Read More</span> 
-                                        <i class="fa fa-arrow-right ml-2"></i>
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="reveal" style="--d:{{ forloop.index0 | times: 0.08 }}s; display:flex;">
+                    {% include post_card.html post=post %}
                 </div>
             {% endfor %}
         </div>
     </div>
 </section>
 
-<!-- Tutorials List -->
-<section class="section">
-    <div class="container">
-        <!-- Section header + link -->
-        <div class="columns">
-            <div class="column">
-                <h2 class="is-size-2 title is-family-secondary">Featured Tutorials</h2>
+<!-- Featured tutorials -->
+<section class="mh-section mh-reset" style="padding-top:0">
+    <div class="mh-container">
+        <div class="mh-section-head reveal">
+            <div>
+                <span class="mh-eyebrow">Learn with me</span>
+                <h2 class="mh-h2">Featured <em>tutorials</em></h2>
             </div>
-            <div class="column has-text-right">
-                <div>
-                    <a class='button is-rounded' href="https://ae-app-labs.github.io/tutorials">
-                        <span>All Tutorials</span>
-                        <i class="fa fa-arrow-right ml-2"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <!-- section content -->
-        <div class="columns">
-            <div class="column is-half px-4">
-                <a href="https://www.youtube.com/watch?v=rAvU5qBP_ws" target="_blank">
-                    <figure>
-                        <img src="public/images/site/tutorials/tutorial_cover_001.png" alt="">
-                    </figure>
-                    <div class="py-4">
-                        <span>Portfolio Landing Page Design with Adobe XD</span>
-                    </div>
-                </a>
-                <span class="tag is-danger mr-2">YouTube</span>
-                <span class="tag is-link mr-2">Video</span>
-                <span class="tag is-warning mr-2">Free</span>
-                <p>A video tutorial on portfolio landing page design with Adobe XD.</p>
-            </div>
-            <div class="column is-half">
-                <a href="https://www.youtube.com/watch?v=BfvvOsIuTP8" target="_blank">
-                    <figure>
-                        <img src="public/images/site/tutorials/tutorial_cover_004.png" alt="">
-                    </figure>
-                    <div class="py-4">
-                        <span>Camping Website Development</span>
-                    </div>
-                </a>
-                <span class="tag is-danger mr-2">YouTube</span>
-                <span class="tag is-link mr-2">Video</span>
-                <span class="tag is-warning mr-2">Free</span>
-                <p>A tutorial on basic website development with HTML and SASS from an Adobe XD design.</p>
-            </div>
+            <a class="mh-link-arrow" href="https://ae-app-labs.github.io/tutorials">All tutorials <i class="fas fa-arrow-right"></i></a>
         </div>
 
+        <div class="mh-tutorials">
+            <article class="mh-tutorial reveal">
+                <div class="mh-tutorial__media">
+                    <img src="/public/images/site/tutorials/tutorial_cover_001.png" alt="" loading="lazy">
+                    <span class="mh-tutorial__play"><i class="fas fa-play"></i></span>
+                </div>
+                <div class="mh-tutorial__tags">
+                    <span class="mh-chip">YouTube</span><span class="mh-chip">Video</span><span class="mh-chip mh-chip--lime">Free</span>
+                </div>
+                <h3><a href="https://www.youtube.com/watch?v=rAvU5qBP_ws" target="_blank" rel="noopener">Portfolio Landing Page Design with Adobe XD</a></h3>
+                <p>A video tutorial on portfolio landing page design with Adobe XD.</p>
+            </article>
+
+            <article class="mh-tutorial reveal" style="--d:.1s">
+                <div class="mh-tutorial__media">
+                    <img src="/public/images/site/tutorials/tutorial_cover_004.png" alt="" loading="lazy">
+                    <span class="mh-tutorial__play"><i class="fas fa-play"></i></span>
+                </div>
+                <div class="mh-tutorial__tags">
+                    <span class="mh-chip">YouTube</span><span class="mh-chip">Video</span><span class="mh-chip mh-chip--lime">Free</span>
+                </div>
+                <h3><a href="https://www.youtube.com/watch?v=BfvvOsIuTP8" target="_blank" rel="noopener">Camping Website Development</a></h3>
+                <p>A tutorial on basic website development with HTML and SASS from an Adobe XD design.</p>
+            </article>
+        </div>
     </div>
 </section>
 
 <!-- Ad here, not proud of myself on keeping this here. Neverthless adding a clear identification -->
-<section class="section">
-    <div class="container">
-        <span class="tag is-success mb-2">Advertisement</span>
-        <script cookie-consent="targeting" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8380411311279528"
-            crossorigin="anonymous"></script>
-        <!-- midhunhk_com_display_ad_01 -->
-        <ins class="adsbygoogle"
-            style="display:block"
-            data-ad-client="ca-pub-8380411311279528"
-            data-ad-slot="5822873364"
-            data-ad-format="auto"
-            data-full-width-responsive="true"></ins>
-        <script cookie-consent="targeting">
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+<section class="mh-section--tight" style="padding-top:0">
+    <div class="mh-container">
+        <div class="mh-ad">
+            <span class="mh-ad__label">Advertisement</span>
+            <script cookie-consent="targeting" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8380411311279528"
+                crossorigin="anonymous"></script>
+            <!-- midhunhk_com_display_ad_01 -->
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-8380411311279528"
+                data-ad-slot="5822873364"
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
+            <script cookie-consent="targeting">
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
     </div>
 </section>
 
 <!-- Contact -->
-<section id="contact" class="section has-background-link">
-    <div class="container">
-        <div class="social has-text-centered animate__animated animate__fadeIn animate__delay-2s animate__fast">
-            <h2 class="title is-2 is-family-secondary mb-4 has-text-black-bis">Drop me a note</h2>
-            
-            <div class="p-2">
-                <div class="columns is-centered">
-                    <div class="column is-5 has-text-left">
-                        <div class="box has-background-link-dark">    
-                            <form class="form" id="contactForm" onsubmit="event.preventDefault();" method="GET">
-                                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                                
-                                <div class="field">
-                                    <label class="label has-text-white-ter" for="_replyto">Your Email</label>
-                                    <div class="control has-icons-left">
-                                        <input class="input is-rounded is-medium" type="email" name="_replyto" placeholder="">
-                                        <span class="icon is-small is-left">
-                                            <i class="fas fa-envelope"></i>
-                                        </span>
-                                    </div>
-                                </div>
-                                
-                                <div class="field">
-                                    <label class="label has-text-white-ter" for="message">Message</label>
-                                    <div class="control">
-                                        <textarea name="message" class="textarea is-rounded" placeholder="" required></textarea>
-                                    </div>
-                                </div>
-                                
-                                <div class="field">
-                                    <div class="control has-text-centered">
-                                        <button type="submit" class="button is-success is-rounded">Send message</button>
-                                        <p id="messageSuccess" class="is-hidden">
-                                            <span class="tag is-success">Message sent, Thank you!</span>
-                                        </p>
-                                        <p id="messageError" class="is-hidden">
-                                            <span class="tag is-error">Enter a longer message.</span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="mt-2">
-                <span class="icon is-large"><a target="_blank" title="GitHub" href="https://github.com/midhunhk"><i class="fab fa-2x fa-github pr-2 has-text-black"></i></a></span>
-                <span class="icon is-large"><a target="_blank" title="StackOverflow" href="https://stackoverflow.com/users/592025/midhunhk"><i class="fab fa-2x fa-stack-overflow pr-2 has-text-black"></i></a></span>
-                <span class="icon is-large"><a target="_blank" title="Play Store" href="https://play.google.com/store/apps/dev?id=6177347481993841752&hl=en_US"><i class="fab fa-google-play fa-2x pr-2 has-text-black"></i></a></span>
-                <span class="icon is-large"><a target="_blank" title="LinkedIn" href="https://www.linkedin.com/in/midhunhk/"><i class="fab fa-2x fa-linkedin pr-2 has-text-black"></i></a></span>
-                <span class="icon is-large"><a target="_blank" title="Twitter" href="https://twitter.com/midhunhk"><i class="fab fa-2x fa-twitter pr-2 has-text-black"></i></a></span>
-                <span class="icon is-large"><a target="_blank" title="Instagram" href="https://www.instagram.com/midhunhk"><i class="fab fa-2x fa-instagram pr-2 has-text-black"></i></a></span>            
+<section id="contact" class="mh-contact mh-blue-bg mh-reset">
+    <div class="mh-container mh-contact__grid">
+        <div class="reveal">
+            <span class="mh-eyebrow">Get in touch</span>
+            <h2 class="mh-h2">Have an idea?<br>Let's <em>talk</em>.</h2>
+            <p class="mh-lead">Whether it's a project, a question about one of my apps or just a hello &mdash; drop me a note and I'll get back to you.</p>
+            <div class="mh-socials">
+                <a target="_blank" rel="noopener" title="GitHub" aria-label="GitHub" href="https://github.com/midhunhk"><i class="fab fa-github"></i></a>
+                <a target="_blank" rel="noopener" title="StackOverflow" aria-label="StackOverflow" href="https://stackoverflow.com/users/592025/midhunhk"><i class="fab fa-stack-overflow"></i></a>
+                <a target="_blank" rel="noopener" title="Play Store" aria-label="Play Store" href="https://play.google.com/store/apps/dev?id=6177347481993841752&hl=en_US"><i class="fab fa-google-play"></i></a>
+                <a target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn" href="https://www.linkedin.com/in/midhunhk/"><i class="fab fa-linkedin-in"></i></a>
+                <a target="_blank" rel="noopener" title="Twitter" aria-label="Twitter" href="https://twitter.com/midhunhk"><i class="fab fa-twitter"></i></a>
+                <a target="_blank" rel="noopener" title="Instagram" aria-label="Instagram" href="https://www.instagram.com/midhunhk"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
+
+        <div class="reveal" style="--d:.12s">
+            <form class="mh-form" id="contactForm" onsubmit="event.preventDefault();" method="GET">
+                <h3>Drop me a note</h3>
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+
+                <div class="mh-field">
+                    <label for="_replyto">Your email</label>
+                    <input id="_replyto" type="email" name="_replyto" placeholder="you@example.com" autocomplete="email">
+                </div>
+
+                <div class="mh-field">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Tell me a little about what's on your mind..." required></textarea>
+                </div>
+
+                <button type="submit" class="mh-btn mh-btn--dark">Send message <i class="fas fa-paper-plane"></i></button>
+                <p id="messageSuccess" class="mh-form__status mh-form__status--ok is-hidden"><i class="fas fa-check-circle"></i> Message sent, thank you!</p>
+                <p id="messageError" class="mh-form__status mh-form__status--err is-hidden"><i class="fas fa-exclamation-circle"></i> Please enter a longer message.</p>
+            </form>
+        </div>
     </div>
-    
-    <script src="/assets/js/contact_form.js" cookie-consent=""strictly-necessary> </script>
+
+    <script src="/assets/js/contact_form.js" cookie-consent="strictly-necessary"></script>
 </section>

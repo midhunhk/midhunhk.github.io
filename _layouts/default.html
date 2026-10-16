@@ -1,28 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 {% include head.html %}
-  <body>
+  <body class="{% if page.nav_solid %}nav-solid{% endif %}">
     {% include main_navigation.html %}
 
     {% unless page.hide_hero %}
         {% include hero.html %}
     {% endunless %}
 
-    <section class="section">
-      <div class="container">
-        <div class="columns">
-
-            <div class="column is-12">
-              <div class="post-content">
-                {{ content }}
-              </div>
-            </div>
-
+    {% if page.full_width %}
+      <main>
+        {{ content }}
+      </main>
+    {% else %}
+      <main class="mh-page-body{% if page.layout == 'post' %} is-post{% endif %}">
+        <div class="mh-container">
+          <div class="mh-page-card post-content">
+            {{ content }}
+          </div>
         </div>
-      </div>
-    </section>
+      </main>
+    {% endif %}
 
     {% include footer.html %}
-    {% include cookie_consent.html %} 
+    {% include cookie_consent.html %}
   </body>
 </html>

@@ -1,23 +1,28 @@
-<nav class="pagination is-centered">
+{% if paginator.total_pages > 1 %}
+{% assign first_page_path = site.paginate_path | prepend: site.baseurl | replace: '//', '/' | split: '/' | pop | join: '/' | append: '/' %}
+<nav class="mh-pagination" aria-label="Blog pagination">
     {% if paginator.previous_page %}
-    <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="pagination-previous is-primary button">Previous</a>
+        <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="mh-pagination__step" rel="prev"><i class="fas fa-arrow-left"></i> Newer</a>
     {% else %}
-    <p class="pagination-previous" disabled>Previous</p>
+        <span class="mh-pagination__step is-disabled"><i class="fas fa-arrow-left"></i> Newer</span>
     {% endif %}
-    {% if paginator.next_page %}
-    <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="pagination-next is-primary button">Next</a>
-    {% else %}
-    <p class="pagination-next" disabled >Next</p>
-    {% endif %}
-    <ul class="pagination-list">
-        {% for page in (1..paginator.total_pages) %}
+
+    <div class="mh-pagination__pages">
+    {% for page in (1..paginator.total_pages) %}
         {% if page == paginator.page %}
-        <li><a class="pagination-link is-current">{{ page }}</a></li>
+            <span class="is-current" aria-current="page">{{ page }}</span>
         {% elsif page == 1 %}
-        <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | split: '/' | pop | join: '/' }}" class="pagination-link">{{ page }}</a></li>
+            <a href="{{ first_page_path }}">{{ page }}</a>
         {% else %}
-        <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="pagination-link">{{ page }}</a></li>
+            <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
         {% endif %}
-        {% endfor %}
-    </ul>
+    {% endfor %}
+    </div>
+
+    {% if paginator.next_page %}
+        <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="mh-pagination__step" rel="next">Older <i class="fas fa-arrow-right"></i></a>
+    {% else %}
+        <span class="mh-pagination__step is-disabled">Older <i class="fas fa-arrow-right"></i></span>
+    {% endif %}
 </nav>
+{% endif %}
