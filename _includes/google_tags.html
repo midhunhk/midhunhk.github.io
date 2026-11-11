@@ -1,0 +1,45 @@
+<!--
+  Google tags with consent handled by AdSense "Privacy & messaging" (Google's certified CMP).
+  The European regulations message is configured and published in the AdSense dashboard,
+  with consent mode enabled for advertising and analytics in its settings.
+  Google's CMP only updates consent for visitors it shows the message to (EEA, UK, Switzerland),
+  so the defaults below must be set before any Google tag loads.
+-->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+
+  // Denied until the visitor makes a choice in the regions where Google's CMP asks for consent
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied',
+    'wait_for_update': 500,
+    'region': ['AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE',
+               'IT', 'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE',
+               'IS', 'LI', 'NO', 'GB', 'CH']
+  });
+
+  // Everywhere else
+  gtag('consent', 'default', {
+    'ad_storage': 'granted',
+    'ad_user_data': 'granted',
+    'ad_personalization': 'granted',
+    'analytics_storage': 'granted'
+  });
+
+  // Honour Do Not Track for analytics
+  window['ga-disable-{{ site.google_analytics }}'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+
+  gtag('js', new Date());
+  gtag('config', '{{ site.google_analytics }}');
+
+  // Queue for the Privacy & messaging API, used by the footer's privacy settings link
+  window.googlefc = window.googlefc || {};
+  window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+
+<!-- AdSense, which also serves the Privacy & messaging consent banner -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.google_adsense }}" crossorigin="anonymous"></script>

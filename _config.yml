@@ -31,6 +31,7 @@ github:
 
 # Google services
 google_analytics: G-BERWJ12310
+google_adsense: ca-pub-8380411311279528
 
 header_pages:
   - blog/index.html
