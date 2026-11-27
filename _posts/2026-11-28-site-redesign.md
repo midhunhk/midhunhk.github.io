@@ -1,15 +1,15 @@
 ---
 layout: post
-title: A Fresh Coat of Paint for midhunhk.com
+title: A Fresh Coat of Paint for midhunhk
 description: Redesigning this blog after a long break, upgrading to Bulma 1 and a few lessons learned along the way.
 category: Dev
 comments: true
 featured: /public/images/site/bg/mesh_02.jpg
 featured_thumb: /public/images/2026/11/10/home_after.jpg
-featured_alt_text: The redesigned home page of midhunhk.com
+featured_alt_text: The redesigned home page of midhunhk
 featured_hero: true
 hero_darken: true
-summary: It has been a while! The blog finally gets the redesign I kept putting off, along with an upgrade to Bulma 1 and a few lessons learned along the way.
+summary: It has been a while! The blog finally gets the redesign I kept putting off, along with an upgrade to Bulma v1 and a few lessons learned along the way.
 tags: [web, development, design, bulma]
 ---
 It has been almost two years since the last post here, and the theme of this site has been looking dated for even longer than that. Every time I thought about writing something new, I would look at the site and think "I should fix the design first". And then I would do neither.
@@ -19,7 +19,7 @@ So this time I did the redesign first, and the redesign is the post.
 
 ## What changed
 
-The goal was to make the home page and the blog page look modern and a bit more catchy, while keeping the identity of the site. The blue `#1371DD` and the lime `#ccff00`, the Space Grotesk and Noto Serif fonts and the images all stay. Everything else around them got rebuilt.
+The goal was to make the home page and the blog page look modern and a bit more catchy, while keeping the identity of the site. The blue `#1371DD` and the lime `#ccff00`, the Space Grotesk and Noto Serif fonts and the images all stay. Everything else around them got rebuilt with a modern take.
 
 ### Home page
 
@@ -105,7 +105,7 @@ The `backwards` fill mode is important here. It holds the starting frame during 
 
 ### Browsers hold on to old CSS
 
-After deploying the new stylesheet, the browser kept serving the old cached version. Adding the site version to the stylesheet URLs makes sure that returning visitors get the new styles after every release.
+After deploying the new stylesheet, the browser kept serving the old cached version. Adding the site version to the stylesheet URLs makes sure that returning visitors get the new styles after every release. An issue that I had encountered almost 20 years ago and still the same fix.
 
 {% raw %}
 ```html
@@ -115,7 +115,11 @@ After deploying the new stylesheet, the browser kept serving the old cached vers
 
 ## Working with an AI coding agent
 
-[TODO: Your own take here. For example how much of the redesign was done with an AI coding agent, what it did well, what you still had to catch yourself (like the hover issue) and whether you would work this way again. This could connect back to the post on [Beyond Automation](https://www.midhunhk.com/learning/2024/07/04/beyond-automation/).]
+It was earlier this year that I delved into Agentic programming and started making use of Google Antigravity to research, plan and guide for creating new web apps. Soon I was working with Claude Code to "ressurrect" some of my old apps (some that had last major work done 6 to 10 years ago). 
+
+Although I had handcoded the previous version of my website and blog, it was very ordinary and I hadn't made use of the full potential of modern web technologies, which I was not aware of. The AI Coding agent is very adept at anlyzing and suggesting what changes can be done and I need to guide it in the correct direction I envision for the website. There is a huge amount of time saving and avoidance of constant context window.
+
+The `lib-aeapps` project had its last major release in 2021 and been in a Beta form since 2024 and always in a never ending loop of getting completed. Within a span of weeks, I could release two major versions to release and a plan for the biggest API breaking re write that is planned for end of this year.
 
 ## What's next
 

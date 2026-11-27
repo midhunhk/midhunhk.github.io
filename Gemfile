@@ -23,3 +23,4 @@ gem 'activesupport', '~> 8.0'
 # gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 gem "rexml", ">= 3.3.4"
+gem "wdm", ">= 0.1.0"
