@@ -1,44 +1,73 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
-// Default Color themes
-$primary: #1371DD !default;
-$success: #ccff00;
-$warning: #00d1b2;
-$background: #f6f6f6;
-$family-sans-serif: 'Space Grotesk', sans-serif;
-$family-secondary: 'Noto Serif', serif;
-$body-font-size: 1.4em;
-$body-line-height: 1.4;
+// Bulma 1.x, compiled with Dart Sass (see `npm run build:css`).
+// Brand configuration is passed to Bulma's utilities before anything else loads them.
+@use "bulma/sass/utilities" with (
+  $primary: #1371DD,
+  $success: #ccff00,
+  $warning: #00d1b2,
+  $family-sans-serif: ('Space Grotesk', sans-serif),
+  $family-secondary: ('Noto Serif', serif),
+  $gap: 56px,
+  $widescreen-enabled: true,
+  $fullhd-enabled: true,
+  $size-1: 4rem,
+  $size-2: 3.5rem,
+  $size-3: 3rem,
+  $size-4: 2.5rem,
+  $size-5: 1.75rem,
+  $size-6: 1.4rem,
+  $size-7: 1.1rem
+);
 
-$tabs-link-active-color: $primary;
-$tabs-link-active-border-bottom-color: $primary;
+@use "bulma/sass/base/generic" with (
+  $body-font-size: 1.4em,
+  $body-line-height: 1.4
+);
 
-$modal-content-width: 800px;
-$widescreen-enabled: true;
-$fullhd-enabled: true;
-$gap:56px;
+// Light theme only. Bulma's default themes/_index also emits a dark theme for
+// `prefers-color-scheme: dark` and `[data-theme=dark]`; this site stays light,
+// so only the light theme is registered (see the :root block below).
+@use "bulma/sass/utilities/initial-variables" as iv;
+@use "bulma/sass/themes/light";
+@use "bulma/sass/themes/setup";
 
-// Font Sizes
-$size-1: 4rem;
-$size-2: 3.5rem;
-$size-3: 3rem;
-$size-4: 2.5rem;
-$size-5: 1.75rem;
-$size-6: 1.4rem;
-$size-7: 1.1rem;
+// Only the Bulma modules this site uses. Bulma 1 is large, so add a module
+// here if a post or layout starts using another Bulma component.
+@use "bulma/sass/base";
+@use "bulma/sass/elements/block";
+@use "bulma/sass/elements/button";
+@use "bulma/sass/elements/content";
+@use "bulma/sass/elements/icon";
+@use "bulma/sass/elements/image";
+@use "bulma/sass/elements/tag";
+@use "bulma/sass/elements/title";
+@use "bulma/sass/components/message";
+@use "bulma/sass/grid/columns";
+@use "bulma/sass/layout/container";
+@use "bulma/sass/layout/section";
+@use "bulma/sass/layout/hero";
+@use "bulma/sass/helpers/flexbox";
+@use "bulma/sass/helpers/spacing";
+@use "bulma/sass/helpers/typography";
+@use "bulma/sass/helpers/visibility";
 
-@import "../node_modules/bulma/bulma.sass";
+// Site partials
+@use "html" as site-html;
+@use "layout" as site-layout;
+@use "syntax" as site-syntax;
 
-$hero-darken: $dark !default;
-@import "html";
-@import "layout";
-@import "syntax";
-@import "showcase";
-@import "../node_modules/bulma-block-list/src/block-list.scss";
+// Light theme variables on :root only
+#{iv.$variables-host} {
+  @include light.light-theme;
+  @include setup.setup-theme;
+}
 
 
-body{
-  background: $background;
+:root {
+  color-scheme: light;
+}
+
+body {
+  background: #f6f6f6;
 }

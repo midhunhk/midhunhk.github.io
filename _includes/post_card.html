@@ -1,0 +1,26 @@
+{% comment %}
+  Card for a single blog post.
+  Params: post (required), featured (optional, renders the large horizontal variant)
+{% endcomment %}
+{% assign p = include.post %}
+{% assign card_img = p.featured_thumb | default: p.featured | default: '/public/images/site/bg/default_banner.png' %}
+{% assign card_words = p.content | number_of_words %}
+<article class="mh-post-card mh-reset{% if include.featured %} mh-post-card--featured{% endif %}">
+    <a class="mh-post-card__media" href="{{ p.url | relative_url }}" tabindex="-1" aria-hidden="true">
+        <img src="{{ card_img }}" alt="{{ p.featured_alt_text | default: '' }}" loading="lazy">
+    </a>
+    <div class="mh-post-card__body">
+        <div class="mh-post-card__meta">
+            {% if include.featured %}<span class="mh-badge-new"><i class="fas fa-bolt"></i> Latest</span>{% endif %}
+            {% if p.categories.size > 0 %}<span class="mh-chip">{{ p.categories | first }}</span>{% endif %}
+            <time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: "%b %-d, %Y" }}</time>
+            <span class="mh-sep"></span>
+            <span>{{ card_words | divided_by: 200 | plus: 1 }} min read</span>
+        </div>
+        <h3 class="mh-post-card__title"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h3>
+        <p class="mh-post-card__excerpt">
+            {% if p.summary %}{{ p.summary | strip_html }}{% else %}{{ p.excerpt | strip_html | truncatewords: 32 }}{% endif %}
+        </p>
+        <span class="mh-post-card__more">Read article <i class="fas fa-arrow-right"></i></span>
+    </div>
+</article>

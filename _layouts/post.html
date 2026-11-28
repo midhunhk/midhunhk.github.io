@@ -2,50 +2,77 @@
 layout: default
 ---
 
-<div class="columns reverse-row-order">
-  <div class="column is-4">
-    <p>
-        <span class="has-text-weight-bold is-uppercase">Published on </span>
-        <time datetime="{{ page.date | date_to_xmlschema }}">
-            {{ page.date | date_to_string }}
-        </time>
-    </p>
+<div class="mh-post-wrap">
+  <div class="columns">
+    <div class="column is-8">
+      <article class="blog-article-content">
+        {{ content }}
+      </article>
 
-    {% if page.sidenote %}
-    <article class="message is-success my-1">
-      <div class="message-body">
-        {{ page.sidenote }}
+      {% if page.previous or page.next %}
+      <nav class="mh-post-nav mh-reset" aria-label="More articles">
+        {% if page.previous %}
+          <a href="{{ page.previous.url | relative_url }}" class="is-prev">
+            <small><i class="fas fa-arrow-left"></i> Previous</small>
+            <strong>{{ page.previous.title }}</strong>
+          </a>
+        {% endif %}
+        {% if page.next %}
+          <a href="{{ page.next.url | relative_url }}" class="is-next">
+            <small>Next <i class="fas fa-arrow-right"></i></small>
+            <strong>{{ page.next.title }}</strong>
+          </a>
+        {% endif %}
+      </nav>
+      {% endif %}
+
+      <div class="mh-ad my-6">
+        <span class="mh-ad__label">Advertisement</span>
+        {% include advertisements.html %}
       </div>
-    </article>
-    {% endif %}
-    
-    <div class="tags mt-4">
-      {% for tag in page.tags %}
-        {% include tag.html tag=tag %}
-      {% endfor %}
+
+      {% if page.comments %}
+        {% include comments.html %}
+      {% endif %}
     </div>
 
-    {% include social_share.html %}
-    <div class="mt-4 is-hidden-mobile">
-      <!-- Recent Posts are hidden on mobile screen size -->
-      {% include recent_posts.html %}
+    <div class="column is-4">
+      <aside class="mh-aside mh-reset">
+        {% assign words = page.content | number_of_words %}
+        <div class="mh-aside-card">
+          <h4>About this article</h4>
+          <div class="mh-aside-meta">
+            <p><i class="far fa-calendar"></i> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
+            <p><i class="far fa-clock"></i> {{ words | divided_by: 200 | plus: 1 }} min read</p>
+          </div>
+        </div>
+
+        {% if page.sidenote %}
+        <div class="mh-aside-card mh-aside-note">
+          {{ page.sidenote }}
+        </div>
+        {% endif %}
+
+        {% if page.tags.size > 0 %}
+        <div class="mh-aside-card">
+          <h4>Tags</h4>
+          <div class="tags">
+            {% for tag in page.tags %}
+              {% include tag.html tag=tag %}
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %}
+
+        <div class="mh-aside-card">
+          {% include social_share.html %}
+        </div>
+
+        <div class="mh-aside-card is-hidden-mobile">
+          <!-- Recent Posts are hidden on mobile screen size -->
+          {% include recent_posts.html %}
+        </div>
+      </aside>
     </div>
-  </div>
-
-  <div class="column is-8">
-     <article class="blog-article-content has-background-white p-5">
-      {{ content }}
-     </article>
-
-     <div class="my-6">
-       <span class="tag is-success mb-2">Advertisement</span>
-      {% include advertisements.html %}
-     </div>
   </div>
 </div>
-
-{% include cookie_consent.html %}
-
-{% if page.comments %}
-	{% include comments.html %}
-{% endif %} 

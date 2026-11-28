@@ -25,12 +25,13 @@ author:
   email:             midhunhk at gmail.com
 
 # Custom vars
-version:             2.6.7
+version:             2.7.0
 github:
   repo:              https://github.com/midhunhk/midhunhk.github.io
 
 # Google services
 google_analytics: G-BERWJ12310
+google_adsense: ca-pub-8380411311279528
 
 header_pages:
   - blog/index.html

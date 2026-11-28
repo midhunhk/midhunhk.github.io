@@ -1,15 +1,15 @@
 {
   "name": "midhunhk.github.io",
-  "version": "2.6.7",
+  "version": "2.7.0",
   "description": "Personal Portfolio and Blog",
   "dependencies": {
-    "bulma": "^0.9.4",
-    "bulma-block-list": "^0.6.0"
+    "bulma": "^1.0.4"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "bundle exec jekyll serve --incremental"
+    "dev": "bundle exec jekyll serve --incremental",
+    "build:css": "sass --load-path=node_modules --style=compressed --no-source-map assets/css/app.scss assets/css/app.css",
+    "watch:css": "sass --load-path=node_modules --watch assets/css/app.scss assets/css/app.css"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/midhunhk/midhunhk.github.io/issues"
   },
-  "homepage": "https://www.midhunhk.com/"
+  "homepage": "https://www.midhunhk.com/",
+  "devDependencies": {
+    "sass": "^1.93.2"
+  }
 }
